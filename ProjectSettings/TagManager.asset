@@ -4,8 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - track1
-  - lose
+  - Floor
+  - Tile
+  - Wall
+  - FinishLine
   layers:
   - Default
   - TransparentFX
