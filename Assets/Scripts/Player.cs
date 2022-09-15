@@ -18,7 +18,6 @@ public class Player : MonoBehaviour
     /// Player's Motion Status
     /// </summary>
     [SerializeField] private bool isGrounded = false;
-    [SerializeField] private bool hitWall = false;
     
     /// <summary>
     /// Player Movement Inputs
@@ -32,7 +31,8 @@ public class Player : MonoBehaviour
     /// Player Attributes
     /// </summary>
     public Colors playerColor;
-    
+    public Rigidbody2D playerRigidbody;
+
     void Update()
     {
         // Always listen to keyboard inputs
@@ -41,53 +41,15 @@ public class Player : MonoBehaviour
         // When the player touches a ground it can land on, jump
         if (isGrounded)
         {
-            isGrounded = false;
             velocity = jumpForce;
+            isGrounded = false;
         }
-
-        // TODO: Implement a new way to handle wall hit in Update()
-        #region Temp stuff
-        if (transform.position.x > 0 && hitWall)
-        {
-            horizontal = horizontal > 0 ? 0 : horizontal;
-        }
-        if (transform.position.x < 0 && hitWall)
-        {
-            horizontal = horizontal < 0 ? 0 : horizontal;
-        }
-        
-        #endregion
-        
     }
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.CompareTag("Tile"))
-        {
-            // Player can only ground itself when it is falling and
-            // will land on a tile with the correct color.
-            Color tileColor = col.gameObject.GetComponent<SpriteRenderer>().color;
-            if (tileColor == playerColor.currentColor && velocity <= 0)
-            {
-                isGrounded = true;
-                // When grounded, change a new color
-                playerColor.ChangeColor();
-            }
-        }
-
-        // When the player lands on a solid floor, ground itself and change color
-        if (col.gameObject.CompareTag("Floor") && velocity <= 0)
-        {
-            isGrounded = true;
-            playerColor.ChangeColor();
-        }
-        
-        // TODO: Implement a new way(probably ray cast) to handle wall hit detection
-        // Temporary stuff
-        if (col.gameObject.CompareTag("Wall"))
-        {
-            hitWall = true;
-        }
+        // When the player collides with a ground it can land on, such as floors and tiles
+        HandleFloorAndTileCollision(col);
 
         // When the player collides with the FinishLine, end the game
         if (col.gameObject.CompareTag("FinishLine"))
@@ -96,35 +58,42 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D other)
+    private void HandleFloorAndTileCollision(Collision2D collision)
     {
-        // Temporary stuff
-        if (other.gameObject.CompareTag("Wall"))
+        // The player can ground itself only when it's not jumping (not going upwards)
+        if (velocity <= 0)
         {
-            hitWall = false;
+            if (collision.gameObject.CompareTag("Floor") || collision.gameObject.CompareTag("Tile"))
+            {
+                GroundSelf();
+            }
         }
     }
 
     private void FixedUpdate()
     {
-        // Get the current position
-        Vector2 position = transform.position;
+        // Get the current velocity
+        Vector2 playerRigidbodyVelocity = playerRigidbody.velocity;
         
-        // Handle horizontal movement
-        if (horizontal != 0)
-        {
-            position.x += moveSpeed * horizontal * Time.fixedDeltaTime;
-        }
+        // Handle horizontal movement, apply a horizontal velocity
+        playerRigidbodyVelocity.x = moveSpeed * horizontal;
 
-        // If the player is in air, update vertical position and vertical velocity
+        // Update player velocity, and handle tile collision
         if (!isGrounded)
         {
-            position.y += velocity * Time.fixedDeltaTime;
-            // Use gravity to pull the player towards the ground
+            // Update vertical velocity
+            playerRigidbodyVelocity.y = velocity;
+            // Decrease velocity by applying gravity
             velocity += gravity * Time.fixedDeltaTime;
         }
-
-        // Update position
-        transform.position = position;
+        
+        playerRigidbody.velocity = playerRigidbodyVelocity;
+    }
+    
+    private void GroundSelf()
+    {
+        // Ground self and change a new color, as well as the layer
+        isGrounded = true;
+        playerColor.ChangeColorAndLayer();
     }
 }
