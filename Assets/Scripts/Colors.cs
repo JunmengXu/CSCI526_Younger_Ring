@@ -33,12 +33,28 @@ public class Colors : MonoBehaviour
 
     /// <summary>
     /// Called when the player is grounded.
-    /// First, use nextColor to update the player's color, then generate a new nextColor
+    /// First, use nextColor to update the player's color, then switch the player to the
+    /// corresponding layer so it can collide with tiles with the same color, lastly
+    /// generate a new nextColor.
     /// </summary>
-    public void ChangeColor()
+    public void ChangeColorAndLayer()
     {
         sprite.color = nextColor;
         currentColor = sprite.color;
+
+        if (currentColor == Color.red)
+        {
+            gameObject.layer = LayerMask.NameToLayer("Red");
+        }
+        if (currentColor == Color.green)
+        {
+            gameObject.layer = LayerMask.NameToLayer("Green");
+        }
+        if (currentColor == Color.blue)
+        {
+            gameObject.layer = LayerMask.NameToLayer("Blue");
+        }
+        
         nextColor = NextColor();
     }
 
