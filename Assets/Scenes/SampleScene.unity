@@ -981,8 +981,8 @@ GameObject:
   - component: {fileID: 492917488}
   - component: {fileID: 492917491}
   - component: {fileID: 492917490}
-  - component: {fileID: 492917489}
-  m_Layer: 0
+  - component: {fileID: 492917493}
+  m_Layer: 7
   m_Name: Floor (2)
   m_TagString: Floor
   m_Icon: {fileID: 0}
@@ -1004,25 +1004,6 @@ Transform:
   m_Father: {fileID: 1156930488}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!251 &492917489
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492917487}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!61 &492917490
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1101,6 +1082,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &492917493
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492917487}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 111
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1367,8 +1367,8 @@ GameObject:
   - component: {fileID: 891182440}
   - component: {fileID: 891182443}
   - component: {fileID: 891182442}
-  - component: {fileID: 891182441}
-  m_Layer: 0
+  - component: {fileID: 891182445}
+  m_Layer: 7
   m_Name: Floor (1)
   m_TagString: Floor
   m_Icon: {fileID: 0}
@@ -1390,25 +1390,6 @@ Transform:
   m_Father: {fileID: 1156930488}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!251 &891182441
-PlatformEffector2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 891182439}
-  m_Enabled: 1
-  m_UseColliderMask: 1
-  m_ColliderMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RotationalOffset: 0
-  m_UseOneWay: 1
-  m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
-  m_UseSideFriction: 0
-  m_UseSideBounce: 0
-  m_SideArc: 1
 --- !u!61 &891182442
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1487,6 +1468,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!251 &891182445
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891182439}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 143.7
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 0
 --- !u!1001 &942108220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1897,9 +1897,9 @@ GameObject:
   - component: {fileID: 1129971320}
   - component: {fileID: 1129971319}
   - component: {fileID: 1129971317}
-  - component: {fileID: 1129971316}
   - component: {fileID: 1129971318}
   - component: {fileID: 1129971321}
+  - component: {fileID: 1129971322}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1907,27 +1907,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!50 &1129971316
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1129971315}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 1
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 0
-  m_CollisionDetection: 1
-  m_Constraints: 4
 --- !u!61 &1129971317
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1971,8 +1950,8 @@ MonoBehaviour:
   moveSpeed: 12
   gameover: 0
   isGrounded: 0
-  hitWall: 0
   playerColor: {fileID: 1129971321}
+  playerRigidbody: {fileID: 1129971322}
 --- !u!212 &1129971319
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2055,6 +2034,27 @@ MonoBehaviour:
   sprite: {fileID: 1129971319}
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   nextColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!50 &1129971322
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129971315}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: 3219dd2119b344290b4089a4a23361f5, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &1156930487
 GameObject:
   m_ObjectHideFlags: 0
@@ -2448,7 +2448,7 @@ GameObject:
   - component: {fileID: 1368889280}
   - component: {fileID: 1368889279}
   - component: {fileID: 1368889278}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Floor
   m_TagString: Floor
   m_Icon: {fileID: 0}
@@ -2555,10 +2555,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665340986}
     m_Modifications:
-    - target: {fileID: 1179853796409801642, guid: bc030562fbbc44e8cb402e44aac5938e, type: 3}
-      propertyPath: m_UseOneWayGrouping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3494750174513181228, guid: bc030562fbbc44e8cb402e44aac5938e, type: 3}
       propertyPath: m_Name
       value: RedTile
@@ -2569,7 +2565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: bc030562fbbc44e8cb402e44aac5938e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.8779283
+      value: 1.65
       objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: bc030562fbbc44e8cb402e44aac5938e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2616,10 +2612,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665340986}
     m_Modifications:
-    - target: {fileID: 3196089446254362729, guid: 926ab3507e3c14f78ba937d1dac5811c, type: 3}
-      propertyPath: m_UseOneWayGrouping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3494750174513181228, guid: 926ab3507e3c14f78ba937d1dac5811c, type: 3}
       propertyPath: m_Name
       value: GreenTile
@@ -3314,10 +3306,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 665340986}
     m_Modifications:
-    - target: {fileID: 2738780179088269768, guid: bd91f87da446b4978855eccfe434b27a, type: 3}
-      propertyPath: m_UseOneWayGrouping
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3494750174513181228, guid: bd91f87da446b4978855eccfe434b27a, type: 3}
       propertyPath: m_Name
       value: BlueTile

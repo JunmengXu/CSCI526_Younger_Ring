@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 6991466326917803963}
   - component: {fileID: 3854291720049845175}
   - component: {fileID: 6229186816796085925}
-  - component: {fileID: 1179853796409801642}
-  m_Layer: 0
+  - component: {fileID: 7829390926705532755}
+  m_Layer: 8
   m_Name: RedTile
   m_TagString: Tile
   m_Icon: {fileID: 0}
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!251 &1179853796409801642
+--- !u!251 &7829390926705532755
 PlatformEffector2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -123,11 +123,11 @@ PlatformEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 256
   m_RotationalOffset: 0
   m_UseOneWay: 1
   m_UseOneWayGrouping: 0
-  m_SurfaceArc: 180
+  m_SurfaceArc: 127
   m_UseSideFriction: 0
   m_UseSideBounce: 0
   m_SideArc: 1
