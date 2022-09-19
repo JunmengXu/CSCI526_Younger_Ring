@@ -39,13 +39,18 @@ Currently there is only one scene.
     │   └── ...
     └── Cameras                 # Cameras
 
+### Tweak Settings
+To change the player's jump speed, tweak "Jump Force" and "Gravity".
+![](https://github.com/MikeShuyang/misc/raw/main/player%20settings.jpg)
+
+To change the color set, tweak "Color Set".
+![](https://github.com/MikeShuyang/misc/raw/main/color%20set%20setting.jpg)
+
 ### Bugs
-1. Player can go inside or even fall through other objects when the vertical velocity is too high, because the current implementation doesn't utilize Unity's physics system.
-2. (A good glitch for players) When the player falls on the side wall of a "Floor" or a "Tile" with the correct color, the player will be treated as grounded hence will jump again immediately.
+1. ~~Player can go inside or even fall through other objects when the vertical velocity is too high, because the current implementation doesn't utilize Unity's physics system.~~
+2. ~~(A good glitch for players) When the player falls on the side wall of a "Floor" or a "Tile" with the correct color, the player will be treated as grounded hence will jump again immediately.~~
 
 ### Potential Next Steps
 * Implement a global game controller, lift some states up.
-* Use ray cast to handle collision.
-* Add a simple tutorial image at the start of the game.
-* Add horizontal levels (Need a new Ceiling prefab).
+* Add a simple tutorial gif at the start of the game.
 * Add collectable items.
