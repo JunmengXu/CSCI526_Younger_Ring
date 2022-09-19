@@ -43,7 +43,7 @@ Currently there is only one scene.
 To change the player's jump speed, tweak "Jump Force" and "Gravity".
 ![](https://github.com/MikeShuyang/misc/raw/main/player%20settings.jpg)
 
-To change the color set, tweak "Color Set".
+To change the color set, tweak "Color Set Selection".
 ![](https://github.com/MikeShuyang/misc/raw/main/color%20set%20setting.jpg)
 
 ### Bugs
