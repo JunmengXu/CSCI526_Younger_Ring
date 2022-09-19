@@ -17,13 +17,13 @@ TagManager:
   - UI
   - Tiles
   - Floor
+  - Wall
+  - Item
+  - White
+  - Black
   - Red
-  - Blue
   - Green
-  - 
-  - 
-  - 
-  - 
+  - Blue
   - 
   - 
   - 
