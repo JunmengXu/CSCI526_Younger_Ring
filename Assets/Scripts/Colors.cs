@@ -10,25 +10,59 @@ public class Colors : MonoBehaviour
     /// <summary>
     /// Player's color status
     /// </summary>
+    public ColorSet colorSet;
     public Color currentColor;
     public Color nextColor;
     
     // List of available colors
-    private List<Color> colors = new()
+    private List<Color> twoColors = new()
+    {
+        Color.black,
+        Color.white
+    };
+    private List<Color> threeColors = new()
     {
         Color.red,
         Color.green,
         Color.blue
     };
     private int numberOfColors = 0;
-    
+    private List<Color> currentColorSet;
+
+    private Dictionary<Color, string> colorDictionary = new()
+    {
+        { Color.black, "Black" },
+        { Color.white, "White" },
+        { Color.red, "Red"},
+        { Color.green, "Green" },
+        { Color.blue, "Blue"}
+    };
+
     void Start()
     {
-        numberOfColors = colors.Count;
+        // Initialize the variable "currentColorSet", get the quantity of the colors in the chosen set
+        InitColorSet();
+        numberOfColors = currentColorSet.Count;
         
         // Get player's current color, and generate the next color
         currentColor = sprite.color;
         nextColor = NextColor();
+    }
+    
+    private void InitColorSet()
+    {
+        switch (colorSet)
+        {
+            case ColorSet.BlackAndWhite:
+                currentColorSet = twoColors;
+                break;
+            case ColorSet.RGB:
+                currentColorSet = threeColors;
+                break;
+            default:
+                currentColorSet = twoColors;
+                break;
+        }
     }
 
     /// <summary>
@@ -42,19 +76,8 @@ public class Colors : MonoBehaviour
         sprite.color = nextColor;
         currentColor = sprite.color;
 
-        if (currentColor == Color.red)
-        {
-            gameObject.layer = LayerMask.NameToLayer("Red");
-        }
-        if (currentColor == Color.green)
-        {
-            gameObject.layer = LayerMask.NameToLayer("Green");
-        }
-        if (currentColor == Color.blue)
-        {
-            gameObject.layer = LayerMask.NameToLayer("Blue");
-        }
-        
+        gameObject.layer = LayerMask.NameToLayer(colorDictionary[currentColor]);
+
         nextColor = NextColor();
     }
 
@@ -63,14 +86,20 @@ public class Colors : MonoBehaviour
     /// </summary>
     private Color NextColor()
     {
-        // Get the index of the player's current color in the List<Color> colors
-        int currentColorIndex = colors.IndexOf(sprite.color);
+        // Get the index of the player's current color in the List<Color> currentColorSet
+        int currentColorIndex = currentColorSet.IndexOf(sprite.color);
         
         // Exclude the currentColorIndex and randomly pick one from the rest
         var colorIndexRange = Enumerable.Range(0, numberOfColors).Where(i => i != currentColorIndex);
         var random = new System.Random();
         int newColorIndex = colorIndexRange.ElementAt(random.Next(0, numberOfColors - 1));
         
-        return colors[newColorIndex];
+        return currentColorSet[newColorIndex];
     }
+    
+    public enum ColorSet
+    {
+        BlackAndWhite, 
+        RGB
+    };
 }
