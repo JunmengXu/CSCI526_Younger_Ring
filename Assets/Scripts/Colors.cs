@@ -10,24 +10,24 @@ public class Colors : MonoBehaviour
     /// <summary>
     /// Player's color status
     /// </summary>
-    public ColorSet colorSet;
+    public ColorSet colorSetSelection;
     public Color currentColor;
     public Color nextColor;
     
     // List of available colors
-    private List<Color> twoColors = new()
+    private List<Color> colorSetOne = new()
     {
         Color.black,
         Color.white
     };
-    private List<Color> threeColors = new()
+    private List<Color> colorSetTwo = new()
     {
         Color.red,
         Color.green,
         Color.blue
     };
     private int numberOfColors = 0;
-    private List<Color> currentColorSet;
+    private List<Color> selectedColorSet;
 
     private Dictionary<Color, string> colorDictionary = new()
     {
@@ -42,7 +42,7 @@ public class Colors : MonoBehaviour
     {
         // Initialize the variable "currentColorSet", get the quantity of the colors in the chosen set
         InitColorSet();
-        numberOfColors = currentColorSet.Count;
+        numberOfColors = selectedColorSet.Count;
         
         // Get player's current color, and generate the next color
         currentColor = sprite.color;
@@ -51,16 +51,16 @@ public class Colors : MonoBehaviour
     
     private void InitColorSet()
     {
-        switch (colorSet)
+        switch (colorSetSelection)
         {
             case ColorSet.BlackAndWhite:
-                currentColorSet = twoColors;
+                selectedColorSet = colorSetOne;
                 break;
             case ColorSet.RGB:
-                currentColorSet = threeColors;
+                selectedColorSet = colorSetTwo;
                 break;
             default:
-                currentColorSet = twoColors;
+                selectedColorSet = colorSetOne;
                 break;
         }
     }
@@ -87,14 +87,14 @@ public class Colors : MonoBehaviour
     private Color NextColor()
     {
         // Get the index of the player's current color in the List<Color> currentColorSet
-        int currentColorIndex = currentColorSet.IndexOf(sprite.color);
+        int currentColorIndex = selectedColorSet.IndexOf(sprite.color);
         
         // Exclude the currentColorIndex and randomly pick one from the rest
         var colorIndexRange = Enumerable.Range(0, numberOfColors).Where(i => i != currentColorIndex);
         var random = new System.Random();
         int newColorIndex = colorIndexRange.ElementAt(random.Next(0, numberOfColors - 1));
         
-        return currentColorSet[newColorIndex];
+        return selectedColorSet[newColorIndex];
     }
     
     public enum ColorSet
