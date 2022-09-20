@@ -19,11 +19,13 @@ public class AutomaticMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Vector3 tilePosition = transform.position;
+        
         // Automatically move the tile up and down
-        transform.position = new Vector2(
-            transform.position.x,
-            Mathf.PingPong(
-                Time.fixedTime * moveSpeed,
-                endHeight - startHeight ) + startHeight);
+        tilePosition.y = Mathf.PingPong(
+            Time.fixedTime * moveSpeed,
+            endHeight - startHeight) + startHeight;
+
+        transform.position = tilePosition;
     }
 }
