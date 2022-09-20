@@ -32,7 +32,7 @@ namespace UIController
     
         void ResetGame()
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         // Update is called once per frame
