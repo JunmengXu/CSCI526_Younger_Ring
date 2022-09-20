@@ -57,6 +57,16 @@ public class Player : MonoBehaviour
             gameover = true;
         }
     }
+    
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        // To detect collision with walls coming from the top.
+        if (col.gameObject.CompareTag("Wall"))
+        {
+            // Start to fall when bumping into a "ceiling"(Wall on top)
+            velocity = 0;
+        }
+    }
 
     private void HandleFloorAndTileCollision(Collision2D collision)
     {
