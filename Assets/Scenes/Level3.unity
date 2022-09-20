@@ -1368,6 +1368,7 @@ MonoBehaviour:
   initialYPosition: 5
   landscapeWidth: 7
   landscapeHeight: 10
+  leftEdgeOffset: 4.5
   mainCamera: {fileID: 2143518878}
 --- !u!4 &375461114
 Transform:

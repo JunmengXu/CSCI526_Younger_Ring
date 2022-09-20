@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
@@ -8,8 +9,11 @@ public class CameraController : MonoBehaviour
     /// <summary>
     /// Parameters of the main camera
     /// </summary>
-    public float initialPosition;
-    public float cameraHeight;
+    public float initialXPosition;
+    public float initialYPosition;
+    public float landscapeWidth;
+    public float landscapeHeight;
+    public float leftEdgeOffset;
     public Camera mainCamera;
 
     private void FixedUpdate()
@@ -18,8 +22,18 @@ public class CameraController : MonoBehaviour
         Transform cameraTransform = mainCamera.transform;
         Vector3 currentCameraPosition = cameraTransform.position;
         
-        // Move the main camera's position by the unit of cameraHeight according to the player's position
-        currentCameraPosition.y = initialPosition + (int)(player.transform.position.y / cameraHeight) * cameraHeight;
+        // Move the main camera's position by the unit of the landscape according to the player's position
+        Vector3 playerPosition = player.transform.position;
+        currentCameraPosition.x = 
+            initialXPosition + 
+            (int)((playerPosition.x - leftEdgeOffset) / landscapeWidth) * landscapeWidth;
+        if (playerPosition.x <= leftEdgeOffset)
+        {
+            currentCameraPosition.x = 
+                initialXPosition - landscapeWidth - 
+                (int)(MathF.Abs(playerPosition.x - leftEdgeOffset) / landscapeWidth) * landscapeWidth;
+        }
+        currentCameraPosition.y = initialYPosition + (int)(playerPosition.y / landscapeHeight) * landscapeHeight;
         cameraTransform.position = currentCameraPosition;
     }
 }
