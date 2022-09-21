@@ -33,6 +33,8 @@ public class Player : MonoBehaviour
     public Colors playerColor;
     public Rigidbody2D playerRigidbody;
 
+    public SendToGoogle playerSendToGoogle;
+
     void Update()
     {
         // Always listen to keyboard inputs
