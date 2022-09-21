@@ -1900,6 +1900,7 @@ GameObject:
   - component: {fileID: 1129971318}
   - component: {fileID: 1129971321}
   - component: {fileID: 1129971322}
+  - component: {fileID: 1129971323}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1952,6 +1953,7 @@ MonoBehaviour:
   isGrounded: 0
   playerColor: {fileID: 1129971321}
   playerRigidbody: {fileID: 1129971322}
+  playerSendToGoogle: {fileID: 0}
 --- !u!212 &1129971319
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2032,7 +2034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1129971319}
-  colorSet: 1
+  colorSetSelection: 0
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   nextColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!50 &1129971322
@@ -2056,6 +2058,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &1129971323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129971315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df40ac228dce54da5a672d32d8b58761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  URL: https://docs.google.com/forms/u/0/d/e/1FAIpQLScFCS1y7G75FnXM0PLnNMgHerX49ZXw12iMFBb9wjo-wDLPkw/formResponse
 --- !u!1 &1156930487
 GameObject:
   m_ObjectHideFlags: 0
