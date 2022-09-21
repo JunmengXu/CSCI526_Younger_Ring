@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Player : MonoBehaviour
 {
@@ -18,7 +19,9 @@ public class Player : MonoBehaviour
     /// Player's Motion Status
     /// </summary>
     [SerializeField] private bool isGrounded = false;
-    
+
+    public bool isSuperStatus = false;
+
     /// <summary>
     /// Player Movement Inputs
     /// </summary>
@@ -51,6 +54,9 @@ public class Player : MonoBehaviour
         // When the player collides with a ground it can land on, such as floors and tiles
         HandleFloorAndTileCollision(col);
 
+        // When the player collides with an item it can use, such as SuperItem
+        HandleItemCollision(col);
+
         // When the player collides with the FinishLine, end the game
         if (col.gameObject.CompareTag("FinishLine"))
         {
@@ -78,6 +84,17 @@ public class Player : MonoBehaviour
                 GroundSelf();
             }
         }
+    }
+
+    private void HandleItemCollision(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Item"))
+        {
+            collision.gameObject.SetActive(false);
+            isSuperStatus = true;
+            playerColor.HandleSuperItemColorAndLayer();
+        }
+        
     }
 
     private void FixedUpdate()
