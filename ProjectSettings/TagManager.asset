@@ -8,6 +8,7 @@ TagManager:
   - Tile
   - Wall
   - FinishLine
+  - Item
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Red
   - Green
   - Blue
-  - 
+  - AllColor
   - 
   - 
   - 
