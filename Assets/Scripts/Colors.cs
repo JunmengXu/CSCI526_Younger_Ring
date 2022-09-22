@@ -43,8 +43,8 @@ public class Colors : MonoBehaviour
         { Color.yellow, "AllColor"}
     };
 
-    private IEnumerator coroutine;
-    [SerializeField] private float itemDuration = 5.0f;
+    // private IEnumerator coroutine;
+    // [SerializeField] private float itemDuration = 5.0f;
 
     void Start()
     {
@@ -55,7 +55,6 @@ public class Colors : MonoBehaviour
         // Get player's current color, and generate the next color
         currentColor = sprite.color;
         nextColor = NextColor();
-        player = GetComponent<Player>();
     }
     
     private void InitColorSet()
@@ -82,13 +81,7 @@ public class Colors : MonoBehaviour
     /// </summary>
     public void ChangeColorAndLayer()
     {
-        if(player.isSuperStatus)
-        {
-            currentColor = nextColor;
-            nextColor = NextColor2();
-
-        }
-        else
+        if(!player.isSuperStatus)
         {
             sprite.color = nextColor;
             currentColor = sprite.color;
@@ -96,8 +89,6 @@ public class Colors : MonoBehaviour
             gameObject.layer = LayerMask.NameToLayer(colorDictionary[currentColor]);
             nextColor = NextColor();
         }
-        
-
     }
 
     /// <summary>
@@ -109,23 +100,16 @@ public class Colors : MonoBehaviour
     public void HandleSuperItemColorAndLayer()
     {
         sprite.color = Color.yellow;
-        currentColor = Color.yellow;
+        currentColor = sprite.color;
         
         gameObject.layer = LayerMask.NameToLayer(colorDictionary[currentColor]);
-
-        currentColor = nextColor;
         
-        nextColor = NextColor2();
-
-        coroutine = ItemEffect(itemDuration);
-        StartCoroutine(coroutine);
+        // coroutine = ItemEffect(itemDuration);
+        // StartCoroutine(coroutine);
     }
 
-    private IEnumerator ItemEffect(float waitTime)
+    public void ExitSuperItemEffect()
     {
-        yield return new WaitForSeconds(waitTime);
-
-        player.isSuperStatus = false;
         sprite.color = nextColor;
         currentColor = sprite.color;
 
@@ -147,22 +131,6 @@ public class Colors : MonoBehaviour
         var random = new System.Random();
         int newColorIndex = colorIndexRange.ElementAt(random.Next(0, numberOfColors - 1));
         
-        return selectedColorSet[newColorIndex];
-    }
-
-    /// <summary>
-    /// Get a random next color
-    /// </summary>
-    private Color NextColor2()
-    {
-        // Get the index of the player's current color in the List<Color> currentColorSet
-        int currentColorIndex = selectedColorSet.IndexOf(currentColor);
-
-        // Exclude the currentColorIndex and randomly pick one from the rest
-        var colorIndexRange = Enumerable.Range(0, numberOfColors).Where(i => i != currentColorIndex);
-        var random = new System.Random();
-        int newColorIndex = colorIndexRange.ElementAt(random.Next(0, numberOfColors - 1));
-
         return selectedColorSet[newColorIndex];
     }
 

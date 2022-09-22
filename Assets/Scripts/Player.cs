@@ -55,7 +55,7 @@ public class Player : MonoBehaviour
         HandleFloorAndTileCollision(col);
 
         // When the player collides with an item it can use, such as SuperItem
-        HandleItemCollision(col);
+        // HandleItemCollision(col);
 
         // When the player collides with the FinishLine, end the game
         if (col.gameObject.CompareTag("FinishLine"))
