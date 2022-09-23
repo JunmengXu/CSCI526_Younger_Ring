@@ -341,6 +341,7 @@ MonoBehaviour:
   retryButton: {fileID: 273796586}
   result: {fileID: 1029292363}
   timer: {fileID: 2048947531}
+  SendLevel1: {fileID: 0}
 --- !u!1 &261291510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,6 +1371,7 @@ MonoBehaviour:
   isGrounded: 0
   playerColor: {fileID: 1129971321}
   playerRigidbody: {fileID: 1129971322}
+  jumps: 0
 --- !u!212 &1129971319
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1483,6 +1485,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1156930488}
+  - component: {fileID: 1156930489}
   m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
@@ -1510,6 +1513,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1156930489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156930487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80f06699160c45cea858d937b47c7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1269902398
 GameObject:
   m_ObjectHideFlags: 0

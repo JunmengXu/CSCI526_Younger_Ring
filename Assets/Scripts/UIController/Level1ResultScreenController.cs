@@ -19,8 +19,10 @@ namespace UIController
         // Timer text on the top right
         public TMP_Text timer;
 
+        // Send to google instance
         public SendToGoogle SendLevel1;
 
+        // Only send once to Google
         private bool send;
 
         void Start()
@@ -50,6 +52,7 @@ namespace UIController
             if (player.gameover && send)
             {
                 // Send level 1 info to Goolge Form
+                SendLevel1.sessionID = GlobalVarStorage.globalSessionID;
                 SendLevel1.levelClearTime = timer.text;
                 SendLevel1.level = 1;
                 SendLevel1.numNumps = player.jumps;

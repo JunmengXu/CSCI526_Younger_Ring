@@ -52,6 +52,7 @@ namespace UIController
             if (player.gameover && send)
             {
                 // Send level 2 info to Goolge Form
+                SendLevel3.sessionID = GlobalVarStorage.globalSessionID;
                 SendLevel3.levelClearTime = timer.text;
                 SendLevel3.level = 3;
                 SendLevel3.numNumps = player.jumps;
