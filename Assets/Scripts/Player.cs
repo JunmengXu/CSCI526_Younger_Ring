@@ -96,4 +96,11 @@ public class Player : MonoBehaviour
         isGrounded = true;
         playerColor.ChangeColorAndLayer();
     }
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if (other.gameObject.layer == 15) {
+            Debug.Log("lol");
+            Destroy(other.gameObject);
+        }
+    }
 }

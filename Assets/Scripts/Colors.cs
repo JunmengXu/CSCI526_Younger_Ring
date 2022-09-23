@@ -14,6 +14,7 @@ public class Colors : MonoBehaviour
     public Color currentColor;
     public Color nextColor;
     
+    public int jumpTillNormal;
     // List of available colors
     private List<Color> colorSetOne = new()
     {
@@ -35,7 +36,8 @@ public class Colors : MonoBehaviour
         { Color.white, "White" },
         { Color.red, "Red"},
         { Color.green, "Green" },
-        { Color.blue, "Blue"}
+        { Color.blue, "Blue"}, 
+        { Color.gray, "Default"}
     };
 
     void Start()
@@ -102,4 +104,11 @@ public class Colors : MonoBehaviour
         BlackAndWhite, 
         RGB
     };
+
+    // public void invince() 
+    // {
+    //     sprite.color = color.gray;
+    //     currentColor = sprite.color;
+    //     gameObject.layer = LayerMask.NameToLayer(colorDictionary[currentColor]);
+    // }
 }
