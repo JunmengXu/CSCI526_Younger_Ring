@@ -33,7 +33,9 @@ public class Player : MonoBehaviour
     public Colors playerColor;
     public Rigidbody2D playerRigidbody;
 
-    public SendToGoogle playerSendToGoogle;
+    // Number of jumps
+    public int jumps = 0;
+
 
     void Update()
     {
@@ -97,5 +99,7 @@ public class Player : MonoBehaviour
         // Ground self and change a new color, as well as the layer
         isGrounded = true;
         playerColor.ChangeColorAndLayer();
+        // increment num of jumps
+        jumps++;
     }
 }

@@ -10,29 +10,30 @@ public class SendToGoogle : MonoBehaviour
 {
     [SerializeField] private string URL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLScFCS1y7G75FnXM0PLnNMgHerX49ZXw12iMFBb9wjo-wDLPkw/formResponse";
 
-    private long _sessionID;
-    private int _testInt;
+    public long sessionID;
+    public int level;
+    public string levelClearTime;
+    public int numNumps;
 
-    private void Awake()
+    //private void Awake()
+    //{
+    //    sessionID = DateTime.Now.Ticks;
+
+    //    Send();
+    //}
+
+    public void Send()
     {
-        _sessionID = DateTime.Now.Ticks;
-
-        Send();
+        StartCoroutine(Post(sessionID.ToString(), level.ToString(), levelClearTime.ToString(), numNumps.ToString()));
     }
 
-    private void Send()
-    {
-        Random r = new Random();
-        _testInt = r.Next(0, 20);
-
-        StartCoroutine(Post(_sessionID.ToString(), _testInt.ToString()));
-    }
-
-    private IEnumerator Post(string sessionID, string randInt)
+    private IEnumerator Post(string session, string numLevel, string levelTime, string jumps)
     {
         WWWForm form = new WWWForm();
-        form.AddField("entry.1775625545", sessionID);
-        form.AddField("entry.2061129056", randInt);
+        form.AddField("entry.1775625545", session); 
+        form.AddField("entry.2019722355", numLevel);
+        form.AddField("entry.2061129056", levelTime);
+        form.AddField("entry.519829308", jumps);
 
         using (UnityWebRequest www = UnityWebRequest.Post(URL, form))
         {
@@ -49,4 +50,5 @@ public class SendToGoogle : MonoBehaviour
         }
 
     }
+
 }
