@@ -42,7 +42,7 @@ namespace UIController
     
         void ResetGame()
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("FirstLevelScene");
         }
 
         // Update is called once per frame
