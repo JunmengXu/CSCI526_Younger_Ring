@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace UIController
 {
-    public class Level1ResultScreenController : MonoBehaviour
+    public class Level2ResultScreenController : MonoBehaviour
     {
         public GameObject resultScreen;
         
@@ -32,7 +32,7 @@ namespace UIController
     
         void ResetGame()
         {
-            SceneManager.LoadScene("SecondLevel");
+            SceneManager.LoadScene("SampleScene");
         }
 
         // Update is called once per frame
