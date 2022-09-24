@@ -376,6 +376,7 @@ MonoBehaviour:
   retryButton: {fileID: 273796586}
   result: {fileID: 1029292363}
   timer: {fileID: 2058227116}
+  SendLevel3: {fileID: 0}
 --- !u!114 &92907640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -889,8 +890,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1129971318}
-  initialPosition: 5
-  cameraHeight: 10
+  initialXPosition: 0
+  initialYPosition: 5
+  landscapeWidth: 0
+  landscapeHeight: 10
+  leftEdgeOffset: 0
   mainCamera: {fileID: 519420031}
 --- !u!4 &413743971
 Transform:
@@ -1950,8 +1954,10 @@ MonoBehaviour:
   moveSpeed: 8
   gameover: 0
   isGrounded: 0
+  isSuperStatus: 0
   playerColor: {fileID: 1129971321}
   playerRigidbody: {fileID: 1129971322}
+  jumps: 0
 --- !u!212 &1129971319
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2032,6 +2038,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1129971319}
+  player: {fileID: 1129971318}
   colorSetSelection: 1
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   nextColor: {r: 0, g: 0, b: 0, a: 0}
