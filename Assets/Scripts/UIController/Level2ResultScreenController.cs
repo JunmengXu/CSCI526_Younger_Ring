@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 namespace UIController
 {
-    public class ResultScreenController : MonoBehaviour
+    public class Level2ResultScreenController : MonoBehaviour
     {
         public GameObject resultScreen;
-        
+
         public Player player;
-    
+
         public Button retryButton;
 
         // "You used ...s" Text
@@ -20,7 +20,7 @@ namespace UIController
         public TMP_Text timer;
 
         // Send to google instance
-        public SendToGoogle SendLevel3;
+        public SendToGoogle SendLevel2;
 
         // Only send once to Google
         private bool send;
@@ -29,20 +29,20 @@ namespace UIController
         {
             // TODO: Move the Time setting to a new global controller
             Time.timeScale = 1;
-            
+
             // At the start, hide self
             resultScreen.SetActive(false);
-            
+
             retryButton.onClick.AddListener(ResetGame);
 
-            SendLevel3 = gameObject.AddComponent<SendToGoogle>();
+            SendLevel2 = gameObject.AddComponent<SendToGoogle>();
 
             send = true;
         }
-    
+
         void ResetGame()
         {
-            SceneManager.LoadScene("FirstLevelScene");
+            SceneManager.LoadScene("SampleScene");
         }
 
         // Update is called once per frame
@@ -52,11 +52,11 @@ namespace UIController
             if (player.gameover && send)
             {
                 // Send level 2 info to Goolge Form
-                SendLevel3.sessionID = GlobalVarStorage.globalSessionID;
-                SendLevel3.levelClearTime = timer.text;
-                SendLevel3.level = 3;
-                SendLevel3.numNumps = player.jumps;
-                SendLevel3.Send();
+                SendLevel2.sessionID = GlobalVarStorage.globalSessionID;
+                SendLevel2.levelClearTime = timer.text;
+                SendLevel2.level = 2;
+                SendLevel2.numNumps = player.jumps;
+                SendLevel2.Send();
 
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";
@@ -66,4 +66,5 @@ namespace UIController
             }
         }
     }
+
 }

@@ -36,6 +36,10 @@ public class Player : MonoBehaviour
     public Colors playerColor;
     public Rigidbody2D playerRigidbody;
 
+    // Number of jumps
+    public int jumps = 0;
+
+
     void Update()
     {
         // Always listen to keyboard inputs
@@ -122,5 +126,7 @@ public class Player : MonoBehaviour
         // Ground self and change a new color, as well as the layer
         isGrounded = true;
         playerColor.ChangeColorAndLayer();
+        // increment num of jumps
+        jumps++;
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace UIController
 {
-    public class ResultScreenController : MonoBehaviour
+    public class Level1ResultScreenController : MonoBehaviour
     {
         public GameObject resultScreen;
         
@@ -20,7 +20,7 @@ namespace UIController
         public TMP_Text timer;
 
         // Send to google instance
-        public SendToGoogle SendLevel3;
+        public SendToGoogle SendLevel1;
 
         // Only send once to Google
         private bool send;
@@ -35,14 +35,14 @@ namespace UIController
             
             retryButton.onClick.AddListener(ResetGame);
 
-            SendLevel3 = gameObject.AddComponent<SendToGoogle>();
+            SendLevel1 = gameObject.AddComponent<SendToGoogle>();
 
             send = true;
-        }
-    
+    }
+
         void ResetGame()
         {
-            SceneManager.LoadScene("FirstLevelScene");
+            SceneManager.LoadScene("SecondLevel");
         }
 
         // Update is called once per frame
@@ -51,12 +51,12 @@ namespace UIController
             // When the player gets to the finish line, pause the game and show resultScreen
             if (player.gameover && send)
             {
-                // Send level 2 info to Goolge Form
-                SendLevel3.sessionID = GlobalVarStorage.globalSessionID;
-                SendLevel3.levelClearTime = timer.text;
-                SendLevel3.level = 3;
-                SendLevel3.numNumps = player.jumps;
-                SendLevel3.Send();
+                // Send level 1 info to Goolge Form
+                SendLevel1.sessionID = GlobalVarStorage.globalSessionID;
+                SendLevel1.levelClearTime = timer.text;
+                SendLevel1.level = 1;
+                SendLevel1.numNumps = player.jumps;
+                SendLevel1.Send();
 
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";
