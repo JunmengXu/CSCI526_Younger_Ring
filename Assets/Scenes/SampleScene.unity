@@ -888,10 +888,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe59aca83524842528a9687fe7a9c60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1129971318}
-  initialPosition: 5
-  cameraHeight: 10
-  mainCamera: {fileID: 519420031}
+  playerTransform: {fileID: 1129971320}
+  mainCameraTransform: {fileID: 519420032}
+  cameraFollowTimeOffset: 3
 --- !u!4 &413743971
 Transform:
   m_ObjectHideFlags: 0
