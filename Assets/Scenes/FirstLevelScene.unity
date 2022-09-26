@@ -721,13 +721,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe59aca83524842528a9687fe7a9c60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1129971318}
-  initialXPosition: 0
-  initialYPosition: 5
-  landscapeWidth: 0
-  landscapeHeight: 10
-  leftEdgeOffset: 0
-  mainCamera: {fileID: 519420031}
+  playerTransform: {fileID: 1129971320}
+  mainCameraTransform: {fileID: 519420032}
+  cameraFollowTimeOffset: 3
 --- !u!4 &413743971
 Transform:
   m_ObjectHideFlags: 0
@@ -1540,7 +1536,6 @@ MonoBehaviour:
   moveSpeed: 8
   gameover: 0
   isGrounded: 0
-  isSuperStatus: 0
   playerColor: {fileID: 1129971321}
   playerRigidbody: {fileID: 1129971322}
   jumps: 0
@@ -1624,7 +1619,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1129971319}
-  player: {fileID: 0}
   colorSetSelection: 0
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   nextColor: {r: 0, g: 0, b: 0, a: 0}

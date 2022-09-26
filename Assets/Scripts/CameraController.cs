@@ -3,37 +3,33 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    // Used to get the player's current position
-    public Player player;
+    // Player transform
+    public Transform playerTransform;
+    // Main camera transform
+    public Transform mainCameraTransform;
+    
+    // The following lag between the player and the camera
+    public float cameraFollowTimeOffset = 3;
 
-    /// <summary>
-    /// Parameters of the main camera
-    /// </summary>
-    public float initialXPosition;
-    public float initialYPosition;
-    public float landscapeWidth;
-    public float landscapeHeight;
-    public float leftEdgeOffset;
-    public Camera mainCamera;
-
-    private void FixedUpdate()
+    private void Update()
     {
         // Get the main camera's current position
-        Transform cameraTransform = mainCamera.transform;
-        Vector3 currentCameraPosition = cameraTransform.position;
+        Vector3 cameraStartPosition = mainCameraTransform.position;
+        // Get the player's current position
+        Vector3 playerPosition = playerTransform.position;
+
+        // Create the target Vector3 position variable for the main camera to lerp
+        Vector3 targetCameraPosition = new Vector3(
+            playerPosition.x,
+            playerPosition.y,
+            cameraStartPosition.z
+        );
         
-        // Move the main camera's position by the unit of the landscape according to the player's position
-        Vector3 playerPosition = player.transform.position;
-        currentCameraPosition.x = 
-            initialXPosition + 
-            (int)((playerPosition.x - leftEdgeOffset) / landscapeWidth) * landscapeWidth;
-        if (playerPosition.x <= leftEdgeOffset)
-        {
-            currentCameraPosition.x = 
-                initialXPosition - landscapeWidth - 
-                (int)(MathF.Abs(playerPosition.x - leftEdgeOffset) / landscapeWidth) * landscapeWidth;
-        }
-        currentCameraPosition.y = initialYPosition + (int)(playerPosition.y / landscapeHeight) * landscapeHeight;
-        cameraTransform.position = currentCameraPosition;
+        // Lerp to gradually drag the camera's position towards the player
+        mainCameraTransform.position = Vector3.Lerp(
+            cameraStartPosition, 
+            targetCameraPosition, 
+            cameraFollowTimeOffset * Time.deltaTime
+        );
     }
 }
