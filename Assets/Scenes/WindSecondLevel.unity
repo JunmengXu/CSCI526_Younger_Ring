@@ -336,6 +336,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35d1d149360f04225a402765dbb14fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resultScreen: {fileID: 261291510}
+  player: {fileID: 1129971318}
+  retryButton: {fileID: 273796586}
+  result: {fileID: 1029292363}
+  timer: {fileID: 2048947531}
 --- !u!1 &261291510
 GameObject:
   m_ObjectHideFlags: 0
