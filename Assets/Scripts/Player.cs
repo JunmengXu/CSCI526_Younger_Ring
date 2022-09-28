@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
     /// Player Movement Inputs
     /// </summary>
     // Player's vertical velocity
-    private float velocity = 0;
+    public float velocity = 0;
     // User's keyboard inputs(Horizontal)
     private float horizontal = 0;
     
@@ -39,6 +39,13 @@ public class Player : MonoBehaviour
     // Number of jumps
     public int jumps = 0;
 
+    // Player's horizontal velocity
+    public float horizontalVelocity = 0;
+
+    public bool isHitByCatapult = false;
+    
+    // the value of horizontal gravity when player is hit by catapult. It is used to slow down the player
+    [SerializeField] private float horizontalGravityValue;
 
     void Update()
     {
@@ -98,7 +105,7 @@ public class Player : MonoBehaviour
             isSuperStatus = true;
             playerColor.HandleSuperItemColorAndLayer();
         }
-        
+
     }
 
     private void FixedUpdate()
@@ -116,6 +123,18 @@ public class Player : MonoBehaviour
             playerRigidbodyVelocity.y = velocity;
             // Decrease velocity by applying gravity
             velocity += gravity * Time.fixedDeltaTime;
+        }
+
+        if(isHitByCatapult)
+        {
+            playerRigidbodyVelocity.x = horizontalVelocity;
+            float horizontalGravityDir = horizontalVelocity > 0 ? -1 : 1;
+            
+            horizontalVelocity += horizontalGravityDir * horizontalGravityValue * Time.fixedDeltaTime;
+
+            float horizontalGravityDir2 = horizontalVelocity > 0 ? -1 : 1;
+            if (horizontalGravityDir != horizontalGravityDir2)
+                isHitByCatapult = false;
         }
         
         playerRigidbody.velocity = playerRigidbodyVelocity;

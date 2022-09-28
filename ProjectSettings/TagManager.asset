@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - FinishLine
   - Item
+  - Catapult
   layers:
   - Default
   - TransparentFX
