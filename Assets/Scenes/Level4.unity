@@ -3494,7 +3494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dedb8bcd489a4e989d8ea8ad977cd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 160845221}
+  playerColor: {fileID: 160845223}
   nextColorText: {fileID: 1349562503}
 --- !u!114 &2102437290
 MonoBehaviour:

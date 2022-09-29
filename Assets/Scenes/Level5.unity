@@ -2072,7 +2072,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dedb8bcd489a4e989d8ea8ad977cd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1280067579}
+  playerColor: {fileID: 1280067582}
   nextColorText: {fileID: 1450132709}
 --- !u!114 &954461158
 MonoBehaviour:
