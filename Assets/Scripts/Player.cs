@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class Player : MonoBehaviour
 {
@@ -18,12 +19,14 @@ public class Player : MonoBehaviour
     /// Player's Motion Status
     /// </summary>
     [SerializeField] private bool isGrounded = false;
-    
+
+    public bool isSuperStatus = false;
+
     /// <summary>
     /// Player Movement Inputs
     /// </summary>
     // Player's vertical velocity
-    private float velocity = 0;
+    public float velocity = 0;
     // User's keyboard inputs(Horizontal)
     private float horizontal = 0;
     
@@ -36,6 +39,13 @@ public class Player : MonoBehaviour
     // Number of jumps
     public int jumps = 0;
 
+    // Player's horizontal velocity
+    public float horizontalVelocity = 0;
+
+    public bool isHitByCatapult = false;
+    
+    // the value of horizontal gravity when player is hit by catapult. It is used to slow down the player
+    [SerializeField] private float horizontalGravityValue;
 
     void Update()
     {
@@ -74,6 +84,17 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void HandleItemCollision(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Item"))
+        {
+            collision.gameObject.SetActive(false);
+            isSuperStatus = true;
+            playerColor.HandleSuperItemColorAndLayer();
+        }
+
+    }
+
     private void FixedUpdate()
     {
         // Get the current velocity
@@ -90,6 +111,18 @@ public class Player : MonoBehaviour
             // Decrease velocity by applying gravity
             velocity += gravity * Time.fixedDeltaTime;
         }
+
+        if(isHitByCatapult)
+        {
+            playerRigidbodyVelocity.x = horizontalVelocity;
+            float horizontalGravityDir = horizontalVelocity > 0 ? -1 : 1;
+            
+            horizontalVelocity += horizontalGravityDir * horizontalGravityValue * Time.fixedDeltaTime;
+
+            float horizontalGravityDir2 = horizontalVelocity > 0 ? -1 : 1;
+            if (horizontalGravityDir != horizontalGravityDir2)
+                isHitByCatapult = false;
+        }
         
         playerRigidbody.velocity = playerRigidbodyVelocity;
     }
@@ -101,5 +134,22 @@ public class Player : MonoBehaviour
         playerColor.ChangeColorAndLayer();
         // increment num of jumps
         jumps++;
+    }
+
+    public void ChangeForceGravityAndMoveSpeed(float newJumpForce, float newGravity, float newMoveSpeed)
+    {
+        jumpForce = newJumpForce;
+        gravity = newGravity;
+        moveSpeed = newMoveSpeed;
+    }
+
+    public float GetVelocity()
+    {
+        return velocity;
+    }
+
+    public void SetVelocity(float newVelocity)
+    {
+        velocity = newVelocity;
     }
 }

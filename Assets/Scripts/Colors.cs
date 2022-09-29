@@ -1,12 +1,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using System.Collections;
 
 public class Colors : MonoBehaviour
 {
     // Player's SpriteRenderer component
     public SpriteRenderer sprite;
 
+    // Player's Instance
+    public Player player;
+    
     /// <summary>
     /// Player's color status
     /// </summary>
@@ -35,7 +39,8 @@ public class Colors : MonoBehaviour
         { Color.white, "White" },
         { Color.red, "Red"},
         { Color.green, "Green" },
-        { Color.blue, "Blue"}
+        { Color.blue, "Blue"},
+        { Color.yellow, "AllColor"}
     };
 
     void Start()
@@ -73,6 +78,35 @@ public class Colors : MonoBehaviour
     /// </summary>
     public void ChangeColorAndLayer()
     {
+        if(!player.isSuperStatus)
+        {
+            sprite.color = nextColor;
+            currentColor = sprite.color;
+
+            gameObject.layer = LayerMask.NameToLayer(colorDictionary[currentColor]);
+            nextColor = NextColor();
+        }
+    }
+
+    /// <summary>
+    /// Called when the player get the super item.
+    /// First, update the player's color to be yellow, then switch the player to the
+    /// AllColor layer so it can collide with tiles with all color, lastly
+    /// generate a new nextColor.
+    /// </summary>
+    public void HandleSuperItemColorAndLayer()
+    {
+        sprite.color = Color.yellow;
+        currentColor = sprite.color;
+        
+        gameObject.layer = LayerMask.NameToLayer(colorDictionary[currentColor]);
+        
+        // coroutine = ItemEffect(itemDuration);
+        // StartCoroutine(coroutine);
+    }
+
+    public void ExitSuperItemEffect()
+    {
         sprite.color = nextColor;
         currentColor = sprite.color;
 
@@ -96,7 +130,7 @@ public class Colors : MonoBehaviour
         
         return selectedColorSet[newColorIndex];
     }
-    
+
     public enum ColorSet
     {
         BlackAndWhite, 

@@ -389,7 +389,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dedb8bcd489a4e989d8ea8ad977cd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1129971315}
+  playerColor: {fileID: 1129971321}
   nextColorText: {fileID: 960426770}
 --- !u!114 &92907642
 MonoBehaviour:
@@ -408,6 +408,7 @@ MonoBehaviour:
   retryButton: {fileID: 273796586}
   result: {fileID: 1029292363}
   timer: {fileID: 2048947531}
+  SendLevel2: {fileID: 0}
 --- !u!4 &94667868 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6991466326917803963, guid: 6166aa644fc4240a69e187355b23c8a6, type: 3}
@@ -1647,8 +1648,14 @@ MonoBehaviour:
   moveSpeed: 8
   gameover: 0
   isGrounded: 0
+  isSuperStatus: 0
+  velocity: 0
   playerColor: {fileID: 1129971321}
   playerRigidbody: {fileID: 1129971322}
+  jumps: 0
+  horizontalVelocity: 0
+  isHitByCatapult: 0
+  horizontalGravityValue: 0
 --- !u!212 &1129971319
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1729,6 +1736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1129971319}
+  player: {fileID: 0}
   colorSetSelection: 0
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   nextColor: {r: 0, g: 0, b: 0, a: 0}
