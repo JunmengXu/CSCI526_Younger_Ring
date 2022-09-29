@@ -9,11 +9,8 @@ TagManager:
   - Wall
   - FinishLine
   - Item
-<<<<<<< Updated upstream
   - Catapult
-=======
   - NoColorTile
->>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
