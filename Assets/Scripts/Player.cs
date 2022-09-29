@@ -65,23 +65,10 @@ public class Player : MonoBehaviour
         // When the player collides with a ground it can land on, such as floors and tiles
         HandleFloorAndTileCollision(col);
 
-        // When the player collides with an item it can use, such as SuperItem
-        // HandleItemCollision(col);
-
         // When the player collides with the FinishLine, end the game
         if (col.gameObject.CompareTag("FinishLine"))
         {
             gameover = true;
-        }
-    }
-    
-    private void OnTriggerEnter2D(Collider2D col)
-    {
-        // To detect collision with walls coming from the top.
-        if (col.gameObject.CompareTag("Wall"))
-        {
-            // Start to fall when bumping into a "ceiling"(Wall on top)
-            velocity = 0;
         }
     }
 
@@ -147,5 +134,22 @@ public class Player : MonoBehaviour
         playerColor.ChangeColorAndLayer();
         // increment num of jumps
         jumps++;
+    }
+
+    public void ChangeForceGravityAndMoveSpeed(float newJumpForce, float newGravity, float newMoveSpeed)
+    {
+        jumpForce = newJumpForce;
+        gravity = newGravity;
+        moveSpeed = newMoveSpeed;
+    }
+
+    public float GetVelocity()
+    {
+        return velocity;
+    }
+
+    public void SetVelocity(float newVelocity)
+    {
+        velocity = newVelocity;
     }
 }
