@@ -43,9 +43,6 @@ public class Colors : MonoBehaviour
         { Color.yellow, "AllColor"}
     };
 
-    // private IEnumerator coroutine;
-    // [SerializeField] private float itemDuration = 5.0f;
-
     void Start()
     {
         // Initialize the variable "currentColorSet", get the quantity of the colors in the chosen set
