@@ -342,7 +342,7 @@ MonoBehaviour:
   selectLevelButton: {fileID: 1759410902}
   result: {fileID: 1029292363}
   timer: {fileID: 2048947531}
-  SendLevel4: {fileID: 0}
+  SendLevelOb1: {fileID: 0}
 --- !u!1 &124185828
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,7 +2082,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Next Level
+  m_text: Retry
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
