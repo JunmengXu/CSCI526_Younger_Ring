@@ -8,7 +8,9 @@ TagManager:
   - Tile
   - Wall
   - FinishLine
-  - ColorAdd
+  - Item
+  - Catapult
+  - NoColorTile
   layers:
   - Default
   - TransparentFX
@@ -25,10 +27,10 @@ TagManager:
   - Red
   - Green
   - Blue
-  - 
-  - 
-  - 
-  - 
+  - Obstacle
+  - Fragile
+  - AllColor
+  - NoColor
   - 
   - 
   - 

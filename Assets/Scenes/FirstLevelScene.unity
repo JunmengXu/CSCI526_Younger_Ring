@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dedb8bcd489a4e989d8ea8ad977cd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1129971315}
+  playerColor: {fileID: 1129971321}
   nextColorText: {fileID: 960426770}
 --- !u!114 &92907642
 MonoBehaviour:
@@ -1673,6 +1673,7 @@ MonoBehaviour:
   moveSpeed: 8
   gameover: 0
   isGrounded: 0
+  isSuperStatus: 0
   playerColor: {fileID: 1129971321}
   playerRigidbody: {fileID: 1129971322}
   jumps: 0
@@ -1756,7 +1757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1129971319}
-  colorSetSelection: 0
+  colorSetSelection: 1
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   nextColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!50 &1129971322
