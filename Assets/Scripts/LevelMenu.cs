@@ -9,6 +9,9 @@ public class LevelMenu : MonoBehaviour
     public string Level2;
     public string Level3;
     public string Obstacle1;
+    public string Fragile1;
+
+    public string Fragile2;
 
     // Start is called before the first frame update
     void Start()
@@ -40,5 +43,15 @@ public class LevelMenu : MonoBehaviour
     public void StartObstacle1()
     {
         SceneManager.LoadScene(Obstacle1);
+    }
+
+    public void StartFragile1()
+    {
+        SceneManager.LoadScene(Fragile1);
+    }
+
+    public void StartFragile2()
+    {
+        SceneManager.LoadScene(Fragile2);
     }
 }
