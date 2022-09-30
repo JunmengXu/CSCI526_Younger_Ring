@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level3.unity
     guid: dca53697a07c747caae5f1924a544870
+  - enabled: 1
+    path: Assets/Scenes/Catapult_1.unity
+    guid: 69b19cf79ccc5495fa2966fbf7843376
+  - enabled: 1
+    path: Assets/Scenes/Catapult_2.unity
+    guid: 5aff6ea182bfe46378786850e6674542
+  - enabled: 1
+    path: Assets/Scenes/Catapult_3.unity
+    guid: 13c433617569940d6975f9f6a9483c75
   m_configObjects: {}
