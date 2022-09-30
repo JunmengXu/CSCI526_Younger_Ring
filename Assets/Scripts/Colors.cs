@@ -19,6 +19,10 @@ public class Colors : MonoBehaviour
     public Color nextColor;
     
     // List of available colors
+    private List<Color> colorSetZero = new()
+    {
+        Color.black
+    };
     private List<Color> colorSetOne = new()
     {
         Color.black,
@@ -58,6 +62,9 @@ public class Colors : MonoBehaviour
     {
         switch (colorSetSelection)
         {
+            case ColorSet.Unchanged:
+                selectedColorSet = colorSetZero;
+                break;
             case ColorSet.BlackAndWhite:
                 selectedColorSet = colorSetOne;
                 break;
@@ -122,7 +129,9 @@ public class Colors : MonoBehaviour
     {
         // Get the index of the player's current color in the List<Color> currentColorSet
         int currentColorIndex = selectedColorSet.IndexOf(sprite.color);
-        
+        //If there is only one color (the color is unchanged), don't bother changing colors
+        if(selectedColorSet.Count == 1) return selectedColorSet[currentColorIndex];
+
         // Exclude the currentColorIndex and randomly pick one from the rest
         var colorIndexRange = Enumerable.Range(0, numberOfColors).Where(i => i != currentColorIndex);
         var random = new System.Random();
@@ -133,6 +142,7 @@ public class Colors : MonoBehaviour
 
     public enum ColorSet
     {
+        Unchanged,
         BlackAndWhite, 
         RGB
     };

@@ -19,6 +19,8 @@ public class LevelMenu : MonoBehaviour
     // In development sandbox levels
     public string HugeMapLevel;
     
+    public string Obstacle1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,5 +71,8 @@ public class LevelMenu : MonoBehaviour
     public void StartHugeMapLevel()
     {
         SceneManager.LoadScene(HugeMapLevel);
+    public void StartObstacle1()
+    {
+        SceneManager.LoadScene(Obstacle1);
     }
 }

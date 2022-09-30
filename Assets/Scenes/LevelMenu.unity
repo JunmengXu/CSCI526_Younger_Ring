@@ -551,7 +551,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1006574892
+--- !u!1001 &1151377798
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -560,7 +560,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_text
-      value: HugeMap
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_Pivot.x
@@ -572,7 +572,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_AnchorMax.x
@@ -628,11 +628,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 447
+      value: -790
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -270
+      value: 0.000030518
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -648,7 +648,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028665, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_Name
-      value: HugeMap
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028667, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -668,7 +668,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028667, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StartHugeMapLevel
+      value: StartObstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028667, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -680,10 +680,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
---- !u!224 &1006574893 stripped
+--- !u!224 &1151377799 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
-  m_PrefabInstance: {fileID: 1006574892}
+  m_PrefabInstance: {fileID: 1151377798}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1197251994
 GameObject:
@@ -782,12 +782,7 @@ RectTransform:
   - {fileID: 370061109}
   - {fileID: 2146209203}
   - {fileID: 1348850447}
-  - {fileID: 1513499960}
-  - {fileID: 1962529490}
-  - {fileID: 735448234}
-  - {fileID: 1447506530}
-  - {fileID: 1939161890}
-  - {fileID: 1006574893}
+  - {fileID: 1151377799}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -811,11 +806,7 @@ MonoBehaviour:
   Level1: FirstLevelScene
   Level2: SecondLevel
   Level3: SampleScene
-  Catapult1: Catapult_1
-  Catapult2: Catapult_2
-  Catapult3: Catapult_3
-  Brush1: Brush_1
-  HugeMapLevel: Level3
+  Obstacle1: Obstacle1Scene
 --- !u!1001 &1348850446
 PrefabInstance:
   m_ObjectHideFlags: 0
