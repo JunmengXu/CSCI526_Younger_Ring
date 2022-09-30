@@ -356,9 +356,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_text
-      value: 'Level4
-
-'
+      value: ColorAdd
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_Pivot.x

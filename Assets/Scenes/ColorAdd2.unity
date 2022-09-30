@@ -348,7 +348,6 @@ GameObject:
   - component: {fileID: 92907640}
   - component: {fileID: 92907643}
   - component: {fileID: 92907644}
-  - component: {fileID: 92907645}
   m_Layer: 5
   m_Name: UIController
   m_TagString: Untagged
@@ -409,7 +408,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92907637}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12bf352049ff4ed687542c44b3f6925, type: 3}
   m_Name: 
@@ -421,25 +420,6 @@ MonoBehaviour:
   result: {fileID: 1029292363}
   timer: {fileID: 2048947531}
   SendLevel4: {fileID: 0}
---- !u!114 &92907645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92907637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 203abbe18c3084c5eb5f585ad9375d47, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  resultScreen: {fileID: 0}
-  player: {fileID: 0}
-  retryButton: {fileID: 0}
-  selectLevelButton: {fileID: 0}
-  result: {fileID: 0}
-  timer: {fileID: 0}
-  SendLevel5: {fileID: 0}
 --- !u!1 &124185828
 GameObject:
   m_ObjectHideFlags: 0
