@@ -8,6 +8,17 @@ public class LevelMenu : MonoBehaviour
     public string Level1;
     public string Level2;
     public string Level3;
+
+    public string Catapult1;
+    public string Catapult2;
+    public string Catapult3;
+
+    // Brush tile levels
+    public string Brush1;
+    
+    // In development sandbox levels
+    public string HugeMapLevel;
+    
     public string Obstacle1;
     public string Fragile1;
 
@@ -40,6 +51,31 @@ public class LevelMenu : MonoBehaviour
         SceneManager.LoadScene(Level3);
     }
 
+    public void StartCatapult1()
+    {
+        SceneManager.LoadScene(Catapult1);
+    }
+
+    public void StartCatapult2()
+    {
+        SceneManager.LoadScene(Catapult2);
+    }
+
+    public void StartCatapult3()
+    {
+        SceneManager.LoadScene(Catapult3);
+    }
+    
+    public void StartBrush1()
+    {
+        SceneManager.LoadScene(Brush1);
+    }
+
+    public void StartHugeMapLevel()
+    {
+        SceneManager.LoadScene(HugeMapLevel);
+    }
+    
     public void StartObstacle1()
     {
         SceneManager.LoadScene(Obstacle1);

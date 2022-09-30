@@ -12,6 +12,9 @@ namespace UIController
         public Player player;
     
         public Button retryButton;
+        public Button selectLevelButton;
+
+        public string nextLevelSceneStr;
 
         // "You used ...s" Text
         public TMP_Text result;
@@ -35,6 +38,8 @@ namespace UIController
             
             retryButton.onClick.AddListener(ResetGame);
 
+            selectLevelButton.onClick.AddListener(SelectLevel);
+
             SendLevel3 = gameObject.AddComponent<SendToGoogle>();
 
             send = true;
@@ -42,7 +47,11 @@ namespace UIController
     
         void ResetGame()
         {
-            SceneManager.LoadScene("FirstLevelScene");
+            SceneManager.LoadScene(nextLevelSceneStr);
+        }
+        void SelectLevel()
+        {
+            SceneManager.LoadScene("LevelMenu");
         }
 
         // Update is called once per frame

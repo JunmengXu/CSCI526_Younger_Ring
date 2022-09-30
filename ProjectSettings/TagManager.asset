@@ -8,6 +8,9 @@ TagManager:
   - Tile
   - Wall
   - FinishLine
+  - Item
+  - Catapult
+  - NoColorTile
   layers:
   - Default
   - TransparentFX
