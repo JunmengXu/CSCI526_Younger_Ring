@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/limitedJump_2.unity
     guid: 95d0e72605ba94f148b2e278c8e45627
+  - enabled: 1
+    path: Assets/Scenes/Obstacle1Scene.unity
+    guid: 1f9972470fcf24999b73c19dd7d03635
   m_configObjects: {}
