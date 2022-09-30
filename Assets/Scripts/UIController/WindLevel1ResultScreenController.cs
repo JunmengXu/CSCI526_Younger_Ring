@@ -13,6 +13,8 @@ namespace UIController
     
         public Button retryButton;
 
+        public Button selectLevelButton;
+
         // "You used ...s" Text
         public TMP_Text result;
 
@@ -29,11 +31,18 @@ namespace UIController
             resultScreen.SetActive(false);
             
             retryButton.onClick.AddListener(ResetGame);
+
+            selectLevelButton.onClick.AddListener(SelectLevel);
         }
 
         void ResetGame()
         {
-            SceneManager.LoadScene("Wind_2");
+            SceneManager.LoadScene("Wind_1");
+        }
+
+        void SelectLevel()
+        {
+            SceneManager.LoadScene("LevelMenu");
         }
 
         // Update is called once per frame

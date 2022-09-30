@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace UIController
 {
-    public class WindLevel2ResultScreenController : MonoBehaviour
+    public class WindLevel4ResultScreenController : MonoBehaviour
     {
         public GameObject resultScreen;
         
@@ -37,7 +37,7 @@ namespace UIController
 
         void ResetGame()
         {
-            SceneManager.LoadScene("Wind_2");
+            SceneManager.LoadScene("Wind_4");
         }
 
         void SelectLevel()
