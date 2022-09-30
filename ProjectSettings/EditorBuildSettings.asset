@@ -18,9 +18,39 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/ColorAdd1.unity
-    guid: 7bdeb1e1074fc470ab8e91b41eb53e1f
+    path: Assets/Scenes/Level3.unity
+    guid: dca53697a07c747caae5f1924a544870
   - enabled: 1
-    path: Assets/Scenes/ColorAdd2.unity
-    guid: 5bf08de07195e43ed8ee4f4ddd3303a8
+    path: Assets/Scenes/Catapult_1.unity
+    guid: 69b19cf79ccc5495fa2966fbf7843376
+  - enabled: 1
+    path: Assets/Scenes/Catapult_2.unity
+    guid: 5aff6ea182bfe46378786850e6674542
+  - enabled: 1
+    path: Assets/Scenes/Catapult_3.unity
+    guid: 13c433617569940d6975f9f6a9483c75
+  - enabled: 1
+    path: Assets/Scenes/Brush_1.unity
+    guid: 572d82b9af864431afa23508a2167e3f
+  - enabled: 1
+    path: Assets/Scenes/Wind_1.unity
+    guid: 5c5aadcbb8f084f7a8420daa495c823c
+  - enabled: 1
+    path: Assets/Scenes/Wind_2.unity
+    guid: 06589f522044845f096be06c03756300
+  - enabled: 1
+    path: Assets/Scenes/Wind_3.unity
+    guid: b481e21464b08455685e03446ff745a7
+  - enabled: 1
+    path: Assets/Scenes/Wind_4.unity
+    guid: 5e9944fef698944feb1b04a8d1903ba8
+  - enabled: 1
+    path: Assets/Scenes/limitedJump_1.unity
+    guid: d9c7f6c3de3d44a899e4ad06e228eb3a
+  - enabled: 1
+    path: Assets/Scenes/limitedJump_2.unity
+    guid: 95d0e72605ba94f148b2e278c8e45627
+  - enabled: 1
+    path: Assets/Scenes/Obstacle1Scene.unity
+    guid: 1f9972470fcf24999b73c19dd7d03635
   m_configObjects: {}
