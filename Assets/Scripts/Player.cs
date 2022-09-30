@@ -84,17 +84,6 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void HandleItemCollision(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Item"))
-        {
-            collision.gameObject.SetActive(false);
-            isSuperStatus = true;
-            playerColor.HandleSuperItemColorAndLayer();
-        }
-
-    }
-
     private void FixedUpdate()
     {
         // Get the current velocity
