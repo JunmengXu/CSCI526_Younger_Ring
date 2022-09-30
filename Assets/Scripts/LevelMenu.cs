@@ -16,6 +16,9 @@ public class LevelMenu : MonoBehaviour
     // Brush tile levels
     public string Brush1;
     
+    // In development sandbox levels
+    public string HugeMapLevel;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -61,5 +64,10 @@ public class LevelMenu : MonoBehaviour
     public void StartBrush1()
     {
         SceneManager.LoadScene(Brush1);
+    }
+
+    public void StartHugeMapLevel()
+    {
+        SceneManager.LoadScene(HugeMapLevel);
     }
 }
