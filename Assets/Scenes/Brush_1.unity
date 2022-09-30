@@ -1139,7 +1139,7 @@ GameObject:
   - component: {fileID: 152638867}
   - component: {fileID: 152638866}
   - component: {fileID: 152638865}
-  m_Layer: 16
+  m_Layer: 18
   m_Name: NoColorTile
   m_TagString: NoColorTile
   m_Icon: {fileID: 0}
@@ -5787,7 +5787,7 @@ GameObject:
   - component: {fileID: 1151288319}
   - component: {fileID: 1151288318}
   - component: {fileID: 1151288317}
-  m_Layer: 16
+  m_Layer: 18
   m_Name: NoColorTile (1)
   m_TagString: NoColorTile
   m_Icon: {fileID: 0}
@@ -7199,7 +7199,7 @@ GameObject:
   - component: {fileID: 1637610490}
   - component: {fileID: 1637610489}
   - component: {fileID: 1637610488}
-  m_Layer: 16
+  m_Layer: 18
   m_Name: NoColorTile
   m_TagString: NoColorTile
   m_Icon: {fileID: 0}
@@ -7860,7 +7860,7 @@ GameObject:
   - component: {fileID: 1784132090}
   - component: {fileID: 1784132089}
   - component: {fileID: 1784132092}
-  m_Layer: 16
+  m_Layer: 18
   m_Name: NoColorTile
   m_TagString: NoColorTile
   m_Icon: {fileID: 0}
