@@ -8,6 +8,7 @@ TagManager:
   - Tile
   - Wall
   - FinishLine
+  - ColorAdd
   layers:
   - Default
   - TransparentFX

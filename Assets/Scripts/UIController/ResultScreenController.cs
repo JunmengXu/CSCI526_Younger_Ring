@@ -42,7 +42,7 @@ namespace UIController
     
         void ResetGame()
         {
-            SceneManager.LoadScene("FirstLevelScene");
+            SceneManager.LoadScene("ColorAdd1");
         }
 
         // Update is called once per frame

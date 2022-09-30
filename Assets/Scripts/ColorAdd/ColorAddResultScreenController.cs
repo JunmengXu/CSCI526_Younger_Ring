@@ -3,9 +3,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-namespace UIController
+namespace ColorAdd
 {
-    public class Level1ResultScreenController : MonoBehaviour
+    public class ColorAddResultScreenController : MonoBehaviour
     {
         public GameObject resultScreen;
         
@@ -21,7 +21,7 @@ namespace UIController
         public TMP_Text timer;
 
         // Send to google instance
-        public SendToGoogle SendLevel1;
+        public SendToGoogle SendLevel4;
 
         // Only send once to Google
         private bool send;
@@ -38,14 +38,14 @@ namespace UIController
 
             selectLevelButton.onClick.AddListener(SelectLevel);
 
-            SendLevel1 = gameObject.AddComponent<SendToGoogle>();
+            SendLevel4 = gameObject.AddComponent<SendToGoogle>();
 
             send = true;
     }
 
         void ResetGame()
         {
-            SceneManager.LoadScene("ColorAdd1");
+            SceneManager.LoadScene("FirstLevelScene");
         }
         void SelectLevel()
         {
@@ -57,12 +57,12 @@ namespace UIController
             // When the player gets to the finish line, pause the game and show resultScreen
             if (player.gameover && send)
             {
-                // Send level 1 info to Goolge Form
-                SendLevel1.sessionID = GlobalVarStorage.globalSessionID;
-                SendLevel1.levelClearTime = timer.text;
-                SendLevel1.level = 1;
-                SendLevel1.numNumps = player.jumps;
-                SendLevel1.Send();
+                // Send level 3info to Goolge Form
+                SendLevel4.sessionID = GlobalVarStorage.globalSessionID;
+                SendLevel4.levelClearTime = timer.text;
+                SendLevel4.level = 4;
+                SendLevel4.numNumps = player.jumps;
+                SendLevel4.Send();
 
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";

@@ -8,6 +8,8 @@ public class LevelMenu : MonoBehaviour
     public string Level1;
     public string Level2;
     public string Level3;
+    public string Level4;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -34,4 +36,9 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadScene(Level3);
     }
+    public void StartLevel4()
+    {
+        SceneManager.LoadScene(Level4);
+    }
+    
 }
