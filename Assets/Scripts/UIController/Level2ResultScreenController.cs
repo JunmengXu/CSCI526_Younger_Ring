@@ -37,9 +37,7 @@ namespace UIController
             retryButton.onClick.AddListener(ResetGame);
 
             selectLevelButton.onClick.AddListener(SelectLevel);
-            resultScreen.SetActive(false);
-
-            retryButton.onClick.AddListener(ResetGame);
+            // resultScreen.SetActive(false);
 
             SendLevel2 = gameObject.AddComponent<SendToGoogle>();
 
@@ -48,7 +46,7 @@ namespace UIController
 
         void ResetGame()
         {
-            SceneManager.LoadScene("ColorAdd1");
+            SceneManager.LoadScene("SecondLevel1");
         }
         void SelectLevel()
         {

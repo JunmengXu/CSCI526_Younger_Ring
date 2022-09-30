@@ -45,7 +45,7 @@ namespace UIController
 
         void ResetGame()
         {
-            SceneManager.LoadScene("ColorAdd1");
+            SceneManager.LoadScene("FirstLevelScene");
         }
         void SelectLevel()
         {
