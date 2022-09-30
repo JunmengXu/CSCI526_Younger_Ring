@@ -8136,7 +8136,7 @@ MonoBehaviour:
   player: {fileID: 283543985}
   retryButton: {fileID: 807932781}
   selectLevelButton: {fileID: 1954306130}
-  nextLevelSceneStr: 
+  nextLevelSceneStr: Brush_1
   result: {fileID: 434556127}
   timer: {fileID: 443518966}
   SendLevel3: {fileID: 0}
