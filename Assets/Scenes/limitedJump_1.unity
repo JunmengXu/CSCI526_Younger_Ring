@@ -333,7 +333,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 92907637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3e0239b976fe8d46ab6b19a64c53506, type: 3}
+  m_Script: {fileID: 11500000, guid: 46280f9bd010541aca19b1a1be4c3093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resultScreen: {fileID: 261291510}
@@ -342,7 +342,7 @@ MonoBehaviour:
   selectLevelButton: {fileID: 1759410902}
   result: {fileID: 1029292363}
   timer: {fileID: 2048947531}
-  SendLevel1: {fileID: 0}
+  SendLevelOb1: {fileID: 0}
 --- !u!1 &124185828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1719,7 +1719,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Next Level
+  m_text: Retry
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
