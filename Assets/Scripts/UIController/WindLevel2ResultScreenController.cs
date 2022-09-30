@@ -33,7 +33,7 @@ namespace UIController
 
         void ResetGame()
         {
-            SceneManager.LoadScene("WindThirdLevel");
+            SceneManager.LoadScene("Wind_3");
         }
 
         // Update is called once per frame

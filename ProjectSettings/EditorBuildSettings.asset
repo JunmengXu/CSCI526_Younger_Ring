@@ -18,9 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Wind_1.unity
     guid: 5c5aadcbb8f084f7a8420daa495c823c
   - enabled: 1
-    path: Assets/Scenes/WindSecondLevel.unity
+    path: Assets/Scenes/Wind_2.unity
     guid: 06589f522044845f096be06c03756300
   - enabled: 1
-    path: Assets/Scenes/WindThirdLevel.unity
-    guid: 125a34c62322f49b38941fc6c67ca727
+    path: Assets/Scenes/Wind_3.unity
+    guid: b481e21464b08455685e03446ff745a7
+  - enabled: 1
+    path: Assets/Scenes/Wind_4.unity
+    guid: 5e9944fef698944feb1b04a8d1903ba8
   m_configObjects: {}
