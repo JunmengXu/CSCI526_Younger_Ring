@@ -322,7 +322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dedb8bcd489a4e989d8ea8ad977cd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1129971315}
+  playerColor: {fileID: 0}
   nextColorText: {fileID: 960426770}
 --- !u!114 &92907642
 MonoBehaviour:
@@ -339,6 +339,7 @@ MonoBehaviour:
   resultScreen: {fileID: 261291510}
   player: {fileID: 1129971318}
   retryButton: {fileID: 273796586}
+  selectLevelButton: {fileID: 0}
   result: {fileID: 1029292363}
   timer: {fileID: 2048947531}
   SendLevel1: {fileID: 0}
@@ -982,10 +983,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe59aca83524842528a9687fe7a9c60d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1129971318}
-  initialPosition: 5
-  cameraHeight: 10
-  mainCamera: {fileID: 519420031}
+  playerTransform: {fileID: 0}
+  mainCameraTransform: {fileID: 0}
+  cameraFollowTimeOffset: 3
 --- !u!4 &413743971
 Transform:
   m_ObjectHideFlags: 0
@@ -2286,9 +2286,14 @@ MonoBehaviour:
   moveSpeed: 8
   gameover: 0
   isGrounded: 0
+  isSuperStatus: 0
+  velocity: 0
   playerColor: {fileID: 1129971321}
   playerRigidbody: {fileID: 1129971322}
   jumps: 0
+  horizontalVelocity: 0
+  isHitByCatapult: 0
+  horizontalGravityValue: 0
 --- !u!212 &1129971319
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2369,7 +2374,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sprite: {fileID: 1129971319}
-  colorSetSelection: 0
+  player: {fileID: 0}
+  colorSetSelection: 1
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   nextColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!50 &1129971322
