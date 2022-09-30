@@ -47,6 +47,7 @@ public class Player : MonoBehaviour
         {
             velocity = jumpForce;
             isGrounded = false;
+            
         }
     }
 
