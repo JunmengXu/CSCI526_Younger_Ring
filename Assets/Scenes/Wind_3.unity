@@ -572,6 +572,7 @@ MonoBehaviour:
   resultScreen: {fileID: 1239672365}
   player: {fileID: 1608419689}
   retryButton: {fileID: 228676908}
+  selectLevelButton: {fileID: 0}
   result: {fileID: 1597943375}
   timer: {fileID: 152759542}
   SendLevel2: {fileID: 0}
@@ -600,7 +601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3dedb8bcd489a4e989d8ea8ad977cd78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerColor: {fileID: 0}
+  playerColor: {fileID: 1608419691}
   nextColorText: {fileID: 1324151360}
 --- !u!114 &165336324
 MonoBehaviour:
