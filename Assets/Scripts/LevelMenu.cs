@@ -9,7 +9,8 @@ public class LevelMenu : MonoBehaviour
     public string Level2;
     public string Level3;
     public string ColorAdd1;
-    
+    public string ColorAdd2;
+
 
     public string Catapult1;
     public string Catapult2;
@@ -61,7 +62,10 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadScene(ColorAdd1);
     }
-    
+    public void StartColorAdd2()
+    {
+        SceneManager.LoadScene(ColorAdd2);
+    }
 
     public void StartCatapult1()
     {
