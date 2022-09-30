@@ -1355,6 +1355,8 @@ MonoBehaviour:
   resultScreen: {fileID: 1445234448}
   player: {fileID: 1370144337}
   retryButton: {fileID: 1539116134}
+  selectLevelButton: {fileID: 0}
+  nextLevelSceneStr: 
   result: {fileID: 1115325797}
   timer: {fileID: 1699315614}
   SendLevel3: {fileID: 0}
