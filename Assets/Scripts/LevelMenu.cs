@@ -71,6 +71,8 @@ public class LevelMenu : MonoBehaviour
     public void StartHugeMapLevel()
     {
         SceneManager.LoadScene(HugeMapLevel);
+    }
+    
     public void StartObstacle1()
     {
         SceneManager.LoadScene(Obstacle1);

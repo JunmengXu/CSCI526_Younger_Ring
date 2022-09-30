@@ -6879,7 +6879,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 1370144340}
   player: {fileID: 1370144337}
-  colorSetSelection: 0
+  colorSetSelection: 1
   currentColor: {r: 0, g: 0, b: 0, a: 0}
   nextColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!212 &1370144340

@@ -783,6 +783,11 @@ RectTransform:
   - {fileID: 2146209203}
   - {fileID: 1348850447}
   - {fileID: 1151377799}
+  - {fileID: 1962529490}
+  - {fileID: 735448234}
+  - {fileID: 1447506530}
+  - {fileID: 1513499960}
+  - {fileID: 1939161890}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -806,6 +811,11 @@ MonoBehaviour:
   Level1: FirstLevelScene
   Level2: SecondLevel
   Level3: SampleScene
+  Catapult1: Catapult_1
+  Catapult2: Catapult_2
+  Catapult3: Catapult_3
+  Brush1: Brush_1
+  HugeMapLevel: Level3
   Obstacle1: Obstacle1Scene
 --- !u!1001 &1348850446
 PrefabInstance:
@@ -1186,7 +1196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1330,7 +1340,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1197251998}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
