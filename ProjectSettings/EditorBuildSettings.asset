@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Catapult_3.unity
     guid: 13c433617569940d6975f9f6a9483c75
+  - enabled: 1
+    path: Assets/Scenes/Brush_1.unity
+    guid: 572d82b9af864431afa23508a2167e3f
   m_configObjects: {}

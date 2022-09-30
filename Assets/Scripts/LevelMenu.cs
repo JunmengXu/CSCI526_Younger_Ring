@@ -12,6 +12,10 @@ public class LevelMenu : MonoBehaviour
     public string Catapult1;
     public string Catapult2;
     public string Catapult3;
+
+    // Brush tile levels
+    public string Brush1;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -52,5 +56,10 @@ public class LevelMenu : MonoBehaviour
     public void StartCatapult3()
     {
         SceneManager.LoadScene(Catapult3);
+    }
+    
+    public void StartBrush1()
+    {
+        SceneManager.LoadScene(Brush1);
     }
 }
