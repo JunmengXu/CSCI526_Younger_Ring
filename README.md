@@ -39,6 +39,36 @@ Currently there is only one scene.
     │   └── ...
     └── Cameras                 # Cameras
 
+### Tag list
+- 0: Floor
+- 1: Tile
+- 2: Wall
+- 3: FinishLine
+- 4: Item
+- 5: Catapult
+- 6: NoColorTile
+- 7: ColorAdd
+
+### Layer list
+- 0: Default
+- 1: TransparentFX
+- 2: Ignore Raycast
+- 4: Water
+- 5: UI
+- 6: Tiles
+- 7: Floor
+- 8: Wall
+- 9: Item
+- 10: White
+- 11: Black
+- 12: Red
+- 13: Green
+- 14: Blue
+- 15: Obstacle
+- 16: Fragile
+- 17: AllColor
+- 18: NoColor
+
 ### Tweak Settings
 To change the player's jump speed, tweak "Jump Force" and "Gravity".
 ![](https://github.com/MikeShuyang/misc/raw/main/player%20settings.jpg)
