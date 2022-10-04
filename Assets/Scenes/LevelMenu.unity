@@ -1893,8 +1893,8 @@ MonoBehaviour:
   Level1: FirstLevelScene
   Level2: SecondLevel1
   Level3: SampleScene
-  ColorAdd1: ColorAdd1
-  ColorAdd2: ColorAdd2
+  ColorAdd1: ColorAdd_1
+  ColorAdd2: ColorAdd_2
   Catapult1: Catapult_1
   Catapult2: Catapult_2
   Catapult3: Catapult_3
