@@ -5,12 +5,12 @@ using UnityEngine.UI;
 
 namespace ColorAdd
 {
-    public class ColorAddResultScreenController : MonoBehaviour
+    public class ColorAdd2ResultScreenController : MonoBehaviour
     {
         public GameObject resultScreen;
-        
+
         public Player player;
-    
+
         public Button retryButton;
         public Button selectLevelButton;
 
@@ -21,7 +21,7 @@ namespace ColorAdd
         public TMP_Text timer;
 
         // Send to google instance
-        public SendToGoogle SendLevel4;
+        public SendToGoogle SendCoLorAdd2;
 
         // Only send once to Google
         private bool send;
@@ -30,22 +30,22 @@ namespace ColorAdd
         {
             // TODO: Move the Time setting to a new global controller
             Time.timeScale = 1;
-            
+
             // At the start, hide self
             resultScreen.SetActive(false);
-            
+
             retryButton.onClick.AddListener(ResetGame);
 
             selectLevelButton.onClick.AddListener(SelectLevel);
 
-            SendLevel4 = gameObject.AddComponent<SendToGoogle>();
+            SendCoLorAdd2 = gameObject.AddComponent<SendToGoogle>();
 
             send = true;
-    }
+        }
 
         void ResetGame()
         {
-            SceneManager.LoadScene("ColorAdd_1");
+            SceneManager.LoadScene("ColorAdd_2");
         }
         void SelectLevel()
         {
@@ -57,12 +57,12 @@ namespace ColorAdd
             // When the player gets to the finish line, pause the game and show resultScreen
             if (player.gameover && send)
             {
-                // Send level 3info to Goolge Form
-                SendLevel4.sessionID = GlobalVarStorage.globalSessionID;
-                SendLevel4.levelClearTime = timer.text;
-                SendLevel4.level = 4;
-                SendLevel4.numNumps = player.jumps;
-                SendLevel4.Send();
+                // Send SendCoLorAdd2 info to Goolge Form
+                SendCoLorAdd2.sessionID = GlobalVarStorage.globalSessionID;
+                SendCoLorAdd2.levelClearTime = timer.text;
+                SendCoLorAdd2.level = 2;
+                SendCoLorAdd2.numNumps = player.jumps;
+                SendCoLorAdd2.Send();
 
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";

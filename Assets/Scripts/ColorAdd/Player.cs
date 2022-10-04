@@ -115,6 +115,23 @@ namespace ColorAdd
             // increment num of jumps
             jumps++;
         }
+
+        public void ChangeForceGravityAndMoveSpeed(float newJumpForce, float newGravity, float newMoveSpeed)
+        {
+            jumpForce = newJumpForce;
+            gravity = newGravity;
+            moveSpeed = newMoveSpeed;
+        }
+
+        public float GetVelocity()
+        {
+            return velocity;
+        }
+
+        public void SetVelocity(float newVelocity)
+        {
+            velocity = newVelocity;
+        }
     }
 }
 

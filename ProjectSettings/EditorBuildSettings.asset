@@ -54,6 +54,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Obstacle1Scene.unity
     guid: 1f9972470fcf24999b73c19dd7d03635
   - enabled: 1
-    path: Assets/Scenes/ColorAdd1.unity
+    path: Assets/Scenes/ColorAdd_1.unity
     guid: 7bdeb1e1074fc470ab8e91b41eb53e1f
+  - enabled: 1
+    path: Assets/Scenes/ColorAdd_2.unity
+    guid: 5bf08de07195e43ed8ee4f4ddd3303a8
   m_configObjects: {}
