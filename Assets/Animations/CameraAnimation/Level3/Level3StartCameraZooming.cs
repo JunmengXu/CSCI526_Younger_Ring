@@ -20,7 +20,7 @@ namespace Animations.CameraAnimation.Level3
         // Update is called once per frame
         void Update()
         {
-            if (animator.GetBool(Finish) || Input.GetKeyDown(KeyCode.Space))
+            if (animator.GetBool(Finish) || Input.GetKeyDown(KeyCode.Return))
             {
                 animator.enabled = false;
                 pressKeyToSkipText.SetActive(false);
