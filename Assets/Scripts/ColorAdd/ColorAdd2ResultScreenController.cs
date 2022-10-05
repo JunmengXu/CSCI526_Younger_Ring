@@ -45,7 +45,7 @@ namespace ColorAdd
 
         void ResetGame()
         {
-            SceneManager.LoadScene("ColorAdd2");
+            SceneManager.LoadScene("ColorAdd_2");
         }
         void SelectLevel()
         {
