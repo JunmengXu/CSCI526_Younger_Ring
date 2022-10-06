@@ -3568,7 +3568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxLength: 2
-  stretchSpeed: 0.01
+  stretchSpeed: 0.001
   player: {fileID: 160845225}
   playerSpeed: 20
 --- !u!1001 &1093222192

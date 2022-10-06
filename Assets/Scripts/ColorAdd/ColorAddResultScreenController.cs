@@ -26,6 +26,8 @@ namespace ColorAdd
         // Only send once to Google
         private bool send;
 
+        public string retryLevelSceneStr;
+
         void Start()
         {
             // TODO: Move the Time setting to a new global controller
@@ -45,7 +47,7 @@ namespace ColorAdd
 
         void ResetGame()
         {
-            SceneManager.LoadScene("ColorAdd_1");
+            SceneManager.LoadScene(retryLevelSceneStr);
         }
         void SelectLevel()
         {
