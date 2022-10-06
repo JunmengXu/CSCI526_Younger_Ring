@@ -47,6 +47,8 @@ public class Player : MonoBehaviour
     // the value of horizontal gravity when player is hit by catapult. It is used to slow down the player
     [SerializeField] private float horizontalGravityValue;
 
+    // used for color add mechanism
+    public bool isColorAdd = false;
     void Update()
     {
         // Always listen to keyboard inputs
@@ -121,7 +123,8 @@ public class Player : MonoBehaviour
     {
         // Ground self and change a new color, as well as the layer
         isGrounded = true;
-        playerColor.ChangeColorAndLayer();
+        if(!isColorAdd)
+            playerColor.ChangeColorAndLayer();
         // increment num of jumps
         jumps++;
     }

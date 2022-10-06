@@ -132,16 +132,8 @@ namespace ColorAdd
 
             if(player.gameover)
             {
-                if(!paused)
-                {
-                    Proceed();
-                }else
-                {
-                    if (Input.GetKeyDown(KeyCode.Return))
-                    {
-                        StartLevel();
-                    }
-                }
+                Time.timeScale = 0;
+                resultScreen.SetActive(true);
             }
         }
         
@@ -178,6 +170,7 @@ namespace ColorAdd
             {
                 tutorialDialogs[i].SetActive(false);
             }
+            print(currentIndex);
             tutorialDialogs[currentIndex].SetActive(true);
             Time.timeScale = 0;
             paused = true;
@@ -185,6 +178,7 @@ namespace ColorAdd
 
         public void StartLevel()
         {
+            print("StartLevel");
             tutorial.SetActive(false);
             actualLevel.SetActive(true);
             Time.timeScale = 1;
