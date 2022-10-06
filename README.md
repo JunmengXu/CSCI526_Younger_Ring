@@ -69,6 +69,26 @@ Currently there is only one scene.
 - 17: AllColor
 - 18: NoColor
 
+### Scene list
+- 0: Scenes/LevelMenu
+- 1: Scenes/FirstLevelScene
+- 2: Scenes/SecondLevel1
+- 3: Scenes/SampleScene
+- 4: Scenes/Level3
+- 5: Scenes/Catapult_1
+- 6: Scenes/Catapult_2
+- 7: Scenes/Catapult_3
+- 8: Scenes/Brush_1
+- 9: Scenes/Wind_1
+- 10: Scenes/Wind_2
+- 11: Scenes/Wind_3
+- 12: Scenes/Wind_4
+- 13: Scenes/limitedJump_1
+- 14: Scenes/limitedJump_2
+- 15: Scenes/Obstacle1Scene
+- 16: Scenes/ColorAdd_1
+- 17: Scenes/ColorAdd_2
+
 ### Tweak Settings
 To change the player's jump speed, tweak "Jump Force" and "Gravity".
 ![](https://github.com/MikeShuyang/misc/raw/main/player%20settings.jpg)
