@@ -47,6 +47,15 @@ public class Colors : MonoBehaviour
         { Color.yellow, "AllColor"}
     };
 
+    private Dictionary<int, Color> touchToColorDictionary = new()
+        {
+            { 10, Color.white },
+            { 11, Color.black },
+            { 12, Color.red },
+            { 13, Color.green },
+            { 14, Color.blue }
+        };
+
     void Start()
     {
         // Initialize the variable "currentColorSet", get the quantity of the colors in the chosen set
@@ -55,7 +64,8 @@ public class Colors : MonoBehaviour
         
         // Get player's current color, and generate the next color
         currentColor = sprite.color;
-        nextColor = NextColor();
+        if(!player.isColorAdd)
+            nextColor = NextColor();
     }
     
     private void InitColorSet()
@@ -93,6 +103,21 @@ public class Colors : MonoBehaviour
             gameObject.layer = LayerMask.NameToLayer(colorDictionary[currentColor]);
             nextColor = NextColor();
         }
+    }
+
+    /// <summary>
+    /// Change the color of object when the player touch ColorAdd object
+    /// </summary>
+    public void ChangeColorAndLayer(int layer)
+    {
+        //sprite.color = nextColor;
+        //currentColor = sprite.color;
+
+        sprite.color = touchToColorDictionary[layer];
+        currentColor = sprite.color;
+        gameObject.layer = LayerMask.NameToLayer(colorDictionary[currentColor]);
+
+        //nextColor = NextColor();
     }
 
     /// <summary>

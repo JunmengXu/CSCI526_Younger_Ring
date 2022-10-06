@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: 365073823844245925, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   resultScreen: {fileID: 261291510}
-  player: {fileID: 1129971323}
+  player: {fileID: 1129971324}
   retryButton: {fileID: 273796586}
   selectLevelButton: {fileID: 1759410902}
   result: {fileID: 1029292363}
@@ -792,7 +792,7 @@ PrefabInstance:
     - target: {fileID: 365073823844245925, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -968,7 +968,7 @@ PrefabInstance:
     - target: {fileID: 2542257326537278389, guid: 0dc37662223fc4effbcca2e5a3827e9e, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: 0dc37662223fc4effbcca2e5a3827e9e, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -1037,7 +1037,7 @@ PrefabInstance:
     - target: {fileID: 2542257326537278389, guid: 0dc37662223fc4effbcca2e5a3827e9e, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: 0dc37662223fc4effbcca2e5a3827e9e, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -1284,7 +1284,7 @@ PrefabInstance:
     - target: {fileID: 365073823844245925, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1446,7 +1446,7 @@ PrefabInstance:
     - target: {fileID: 2542257326537278389, guid: 0dc37662223fc4effbcca2e5a3827e9e, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: 0dc37662223fc4effbcca2e5a3827e9e, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -1841,7 +1841,7 @@ PrefabInstance:
     - target: {fileID: 365073823844245925, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -2262,8 +2262,8 @@ GameObject:
   - component: {fileID: 1129971319}
   - component: {fileID: 1129971317}
   - component: {fileID: 1129971322}
-  - component: {fileID: 1129971323}
   - component: {fileID: 1129971324}
+  - component: {fileID: 1129971323}
   m_Layer: 11
   m_Name: Player
   m_TagString: Player
@@ -2394,17 +2394,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1129971315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7669af94209f24963b0b3c06abd84894, type: 3}
+  m_Script: {fileID: 11500000, guid: b7177961aaf5040308c6bdebbde2854e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 13
-  gravity: -30
-  moveSpeed: 8
-  gameover: 0
-  isGrounded: 0
-  playerColor: {fileID: 1129971324}
-  playerRigidbody: {fileID: 1129971322}
-  jumps: 0
+  sprite: {fileID: 1129971319}
+  player: {fileID: 1129971324}
+  colorSetSelection: 1
+  currentColor: {r: 0, g: 0, b: 0, a: 0}
+  nextColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1129971324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2414,12 +2411,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1129971315}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92292d8f80b464aedb0caad09becd383, type: 3}
+  m_Script: {fileID: 11500000, guid: e99a01c84fe47457ea8f4cfc5c6401df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sprite: {fileID: 1129971319}
-  colorSetSelection: 0
-  currentColor: {r: 0, g: 0, b: 0, a: 0}
+  jumpForce: 13
+  gravity: -30
+  moveSpeed: 8
+  gameover: 0
+  isGrounded: 0
+  isSuperStatus: 0
+  velocity: 0
+  playerColor: {fileID: 1129971323}
+  playerRigidbody: {fileID: 1129971322}
+  jumps: 0
+  horizontalVelocity: 0
+  isHitByCatapult: 0
+  horizontalGravityValue: 0
+  isColorAdd: 1
 --- !u!1 &1156930487
 GameObject:
   m_ObjectHideFlags: 0
@@ -3069,7 +3077,7 @@ PrefabInstance:
     - target: {fileID: 365073823844245925, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -3624,7 +3632,7 @@ PrefabInstance:
     - target: {fileID: 365073823844245925, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3697,7 +3705,7 @@ PrefabInstance:
     - target: {fileID: 365073823844245925, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: playerColor
       value: 
-      objectReference: {fileID: 1129971324}
+      objectReference: {fileID: 1129971323}
     - target: {fileID: 3641849587424306817, guid: d61e96bb46ff74782970417e0745e0eb, type: 3}
       propertyPath: m_RootOrder
       value: 5
