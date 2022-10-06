@@ -31,7 +31,6 @@ public class Magnet : MonoBehaviour
             Player player = other.GetComponent<Player>();
             player.isInMagnet = true;
             var sprite = player.GetComponent<SpriteRenderer>();
-            
             if(sprite.color != color){
                 direction = -1.0f;
             }else{
@@ -46,6 +45,13 @@ public class Magnet : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             Player player = other.GetComponent<Player>();
+            var sprite = player.GetComponent<SpriteRenderer>();
+            if(sprite.color != color){
+                direction = -1.0f;
+            }else{
+                direction = 1.0f;
+            }
+
             var degree = (transform.eulerAngles.z / 180 * Mathf.PI);
             player.velocity += force * direction * Mathf.Sin(degree) * Time.fixedDeltaTime;
             player.horizontalVelocity += force * direction * Mathf.Cos(degree) * Time.fixedDeltaTime;
