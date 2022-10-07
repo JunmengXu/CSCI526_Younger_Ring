@@ -22,9 +22,6 @@ namespace UIController
         // Timer text on the top right
         public TMP_Text timer;
 
-        // Send to google instance
-        public SendToGoogle SendLevel3;
-
         // Only send once to Google
         private bool send;
 
@@ -39,8 +36,6 @@ namespace UIController
             retryButton.onClick.AddListener(ResetGame);
 
             selectLevelButton.onClick.AddListener(SelectLevel);
-
-            SendLevel3 = gameObject.AddComponent<SendToGoogle>();
 
             send = true;
         }
@@ -60,13 +55,6 @@ namespace UIController
             // When the player gets to the finish line, pause the game and show resultScreen
             if (player.gameover && send)
             {
-                // Send level 2 info to Goolge Form
-                SendLevel3.sessionID = GlobalVarStorage.globalSessionID;
-                SendLevel3.levelClearTime = timer.text;
-                SendLevel3.level = 3;
-                SendLevel3.numNumps = player.jumps;
-                SendLevel3.Send();
-
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";
                 resultScreen.SetActive(true);

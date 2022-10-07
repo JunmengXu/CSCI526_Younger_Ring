@@ -20,9 +20,6 @@ namespace ColorAdd
         // Timer text on the top right
         public TMP_Text timer;
 
-        // Send to google instance
-        public SendToGoogle SendLevel4;
-
         // Only send once to Google
         private bool send;
 
@@ -39,8 +36,6 @@ namespace ColorAdd
             retryButton.onClick.AddListener(ResetGame);
 
             selectLevelButton.onClick.AddListener(SelectLevel);
-
-            SendLevel4 = gameObject.AddComponent<SendToGoogle>();
 
             send = true;
     }
@@ -59,12 +54,6 @@ namespace ColorAdd
             // When the player gets to the finish line, pause the game and show resultScreen
             if (player.gameover && send)
             {
-                // Send level 3info to Goolge Form
-                SendLevel4.sessionID = GlobalVarStorage.globalSessionID;
-                SendLevel4.levelClearTime = timer.text;
-                SendLevel4.level = 4;
-                SendLevel4.numNumps = player.jumps;
-                SendLevel4.Send();
 
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";

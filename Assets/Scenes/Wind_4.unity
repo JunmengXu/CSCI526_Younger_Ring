@@ -2462,6 +2462,7 @@ MonoBehaviour:
   horizontalVelocity: 0
   isHitByCatapult: 0
   horizontalGravityValue: 0
+  isColorAdd: 0
 --- !u!50 &941162556
 Rigidbody2D:
   serializedVersion: 4
@@ -3284,7 +3285,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281862916}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c560a12be1894461a8b488bb61b4d9d0, type: 3}
   m_Name: 
@@ -3296,7 +3297,6 @@ MonoBehaviour:
   nextLevelSceneStr: 
   result: {fileID: 163893437}
   timer: {fileID: 649745953}
-  SendLevel3: {fileID: 0}
 --- !u!114 &1281862921
 MonoBehaviour:
   m_ObjectHideFlags: 0

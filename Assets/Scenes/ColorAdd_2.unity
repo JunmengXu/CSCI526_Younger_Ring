@@ -270,7 +270,6 @@ MonoBehaviour:
   selectLevelButton: {fileID: 1759410902}
   result: {fileID: 1029292363}
   timer: {fileID: 93951924}
-  SendLevel4: {fileID: 0}
   retryLevelSceneStr: ColorAdd_2
 --- !u!1 &93951922
 GameObject:
@@ -2437,7 +2436,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1156930488}
-  - component: {fileID: 1156930489}
   m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
@@ -2468,18 +2466,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1156930489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156930487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80f06699160c45cea858d937b47c7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1213126676 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6991466326917803963, guid: 6166aa644fc4240a69e187355b23c8a6, type: 3}

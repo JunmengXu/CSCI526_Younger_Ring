@@ -564,7 +564,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165336319}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9af807f4b11146b1ba0daf463795c98, type: 3}
   m_Name: 
@@ -575,7 +575,6 @@ MonoBehaviour:
   selectLevelButton: {fileID: 0}
   result: {fileID: 1597943375}
   timer: {fileID: 152759542}
-  SendLevel2: {fileID: 0}
 --- !u!114 &165336322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3625,6 +3624,7 @@ MonoBehaviour:
   horizontalVelocity: 0
   isHitByCatapult: 0
   horizontalGravityValue: 0
+  isColorAdd: 0
 --- !u!50 &1608419690
 Rigidbody2D:
   serializedVersion: 4
