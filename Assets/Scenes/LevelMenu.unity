@@ -1901,8 +1901,8 @@ MonoBehaviour:
   Brush1: Brush_1
   HugeMapLevel: Level3
   Obstacle1: Obstacle1Scene
-  Fragile1: limitedJump_1
-  Fragile2: limitedJump_2
+  Fragile1: fragile_1
+  Fragile2: fragile_2
   Wind1: Wind_1
   Wind2: Wind_2
   Wind3: Wind_3

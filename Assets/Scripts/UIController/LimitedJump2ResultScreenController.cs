@@ -45,7 +45,7 @@ namespace UIController
 
         void ResetGame()
         {
-            SceneManager.LoadScene("LimitedJump_2");
+            SceneManager.LoadScene("fragile_2");
         }
         void SelectLevel()
         {
