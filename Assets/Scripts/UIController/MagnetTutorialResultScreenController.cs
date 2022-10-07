@@ -31,7 +31,7 @@ namespace UIController
 
         void ResetGame()
         {
-            SceneManager.LoadScene("MagnetTutorialResultScreenController");
+            SceneManager.LoadScene("Magnet Tutorial");
         }
 
         void SelectLevel()
