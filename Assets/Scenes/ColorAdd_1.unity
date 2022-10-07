@@ -612,7 +612,6 @@ GameObject:
   m_Component:
   - component: {fileID: 92907638}
   - component: {fileID: 92907640}
-  - component: {fileID: 92907643}
   - component: {fileID: 92907644}
   m_Layer: 5
   m_Name: UIController
@@ -654,18 +653,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 1104334306}
---- !u!114 &92907643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92907637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50b9ced5106b5434c89dcc0bea18746d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &92907644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -684,7 +671,6 @@ MonoBehaviour:
   selectLevelButton: {fileID: 1759410902}
   result: {fileID: 1029292363}
   timer: {fileID: 1104334306}
-  SendLevel4: {fileID: 0}
   retryLevelSceneStr: ColorAdd_1
 --- !u!1 &110226996
 GameObject:
@@ -4384,7 +4370,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1156930488}
-  - component: {fileID: 1156930489}
   m_Layer: 0
   m_Name: Environment
   m_TagString: Untagged
@@ -4413,18 +4398,6 @@ Transform:
   m_Father: {fileID: 672807669}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1156930489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156930487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80f06699160c45cea858d937b47c7e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1163699246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5816,6 +5789,67 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1400153775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4009346722566718597, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_Name
+      value: AnalyticsManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718598, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1129971324}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 411.75494
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 259.67902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5325495
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
 --- !u!1001 &1435476422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7853,7 +7887,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1969256990}
-  - component: {fileID: 1969256992}
   - component: {fileID: 1969256991}
   m_Layer: 5
   m_Name: UIController
@@ -7889,7 +7922,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1969256989}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12bf352049ff4ed687542c44b3f6925, type: 3}
   m_Name: 
@@ -7900,20 +7933,7 @@ MonoBehaviour:
   selectLevelButton: {fileID: 2096657136}
   result: {fileID: 1029292363}
   timer: {fileID: 1104334306}
-  SendLevel4: {fileID: 0}
   retryLevelSceneStr: ColorAdd_1
---- !u!114 &1969256992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969256989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50b9ced5106b5434c89dcc0bea18746d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2048947529
 GameObject:
   m_ObjectHideFlags: 0

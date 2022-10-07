@@ -123,6 +123,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &72347552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4009346722566718597, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_Name
+      value: AnalyticsManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718598, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 160845225}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 411.75494
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 259.67902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.5325495
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4009346722566718599, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6a900759485484e06a70a63dd2af9964, type: 3}
 --- !u!1 &83888398
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,6 +523,7 @@ MonoBehaviour:
   horizontalVelocity: 10
   isHitByCatapult: 0
   horizontalGravityValue: 20
+  isColorAdd: 0
 --- !u!50 &160845226
 Rigidbody2D:
   serializedVersion: 4
@@ -6842,4 +6904,3 @@ MonoBehaviour:
   nextLevelSceneStr: Catapult_1
   result: {fileID: 1598961128}
   timer: {fileID: 1596918599}
-  SendLevel3: {fileID: 0}
