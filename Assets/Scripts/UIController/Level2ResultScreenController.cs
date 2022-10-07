@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Utility;
 
 namespace UIController
 {
@@ -60,12 +61,19 @@ namespace UIController
             if (player.gameover && send)
             {
                 // Send level 2 info to Goolge Form
-                SendLevel2.sessionID = GlobalVarStorage.globalSessionID;
-                SendLevel2.levelClearTime = timer.text;
-                SendLevel2.level = 2;
-                SendLevel2.numNumps = player.jumps;
-                SendLevel2.Send();
+                // SendLevel2.sessionID = GlobalVarStorage.globalSessionID;
+                // SendLevel2.levelClearTime = timer.text;
+                // SendLevel2.level = 2;
+                // SendLevel2.numNumps = player.jumps;
+                // SendLevel2.Send();
 
+                FinishJson json = new FinishJson();
+                json.AddSessionID(GlobalVarStorage.globalSessionID);
+                json.AddLevelClearTime(timer.text);
+                json.AddLevel(2);
+                json.AddJumps(player.jumps);
+                SendToFireBase.Send(json.ToJsonString());
+                
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";
                 resultScreen.SetActive(true);

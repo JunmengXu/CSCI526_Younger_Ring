@@ -1,7 +1,9 @@
+using Newtonsoft.Json;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Utility;
 
 namespace UIController
 {
@@ -58,12 +60,13 @@ namespace UIController
             if (player.gameover && send)
             {
                 // Send level 1 info to Goolge Form
+                
+                
                 SendLevelOb1.sessionID = GlobalVarStorage.globalSessionID;
                 SendLevelOb1.levelClearTime = timer.text;
                 SendLevelOb1.level = 10;
                 SendLevelOb1.numNumps = player.jumps;
                 SendLevelOb1.Send();
-
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";
                 resultScreen.SetActive(true);
