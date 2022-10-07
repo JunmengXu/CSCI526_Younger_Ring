@@ -43,6 +43,8 @@ public class Player : MonoBehaviour
     public float horizontalVelocity = 0;
 
     public bool isHitByCatapult = false;
+
+    public bool isInMagnet = false;
     
     // the value of horizontal gravity when player is hit by catapult. It is used to slow down the player
     [SerializeField] private float horizontalGravityValue;
@@ -102,6 +104,11 @@ public class Player : MonoBehaviour
             playerRigidbodyVelocity.y = velocity;
             // Decrease velocity by applying gravity
             velocity += gravity * Time.fixedDeltaTime;
+        }
+
+        if(isInMagnet)
+        {
+            playerRigidbodyVelocity.x += horizontalVelocity;
         }
 
         if(isHitByCatapult)
