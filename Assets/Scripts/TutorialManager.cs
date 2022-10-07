@@ -24,7 +24,7 @@ public class TutorialManager : MonoBehaviour
         {
             if (i == popUpIndex || i == popUpIndex + 1)
             {
-                Debug.Log(i);
+                // Debug.Log(i);
                 popUps[i].SetActive(true);
 
             } else

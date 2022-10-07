@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class LevelMenu : MonoBehaviour
 {
@@ -35,6 +36,10 @@ public class LevelMenu : MonoBehaviour
     public string ColorWind1;
 
     public string Night1;
+
+    public string Magnetic1;
+
+    public string Mix1;
 
     // Start is called before the first frame update
     void Start()
@@ -139,5 +144,15 @@ public class LevelMenu : MonoBehaviour
     public void StartNight1()
     {
         SceneManager.LoadScene(Night1);
+    }
+
+    public void StartMagnetic1()
+    {
+        SceneManager.LoadScene(Magnetic1);
+    }
+
+    public void StartMix1()
+    {
+        SceneManager.LoadScene(Mix1);
     }
 }

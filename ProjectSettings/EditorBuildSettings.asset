@@ -68,4 +68,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ColorAddWind_1.unity
     guid: ff8d667c75a1a4b7ab5d82f09dcea913
+  - enabled: 1
+    path: Assets/Scenes/Magnet Tutorial.unity
+    guid: 696813d0a4f07d94eb0211e05797e49b
   m_configObjects: {}
