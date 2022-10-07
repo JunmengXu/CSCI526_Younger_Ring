@@ -1393,6 +1393,17 @@ PrefabInstance:
       objectReference: {fileID: 1925546410}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 147aca142a6364b529cdfdb97b6ef091, type: 3}
+--- !u!114 &580884237 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5589855945117423670, guid: 147aca142a6364b529cdfdb97b6ef091, type: 3}
+  m_PrefabInstance: {fileID: 580884236}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4d3c9aa0944cbaa54e35aff84800c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &608507609
 GameObject:
   m_ObjectHideFlags: 0
@@ -1981,6 +1992,10 @@ PrefabInstance:
       propertyPath: playerSpeed
       value: 25
       objectReference: {fileID: 0}
+    - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
+      propertyPath: difficultyController
+      value: 
+      objectReference: {fileID: 580884237}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
 --- !u!4 &794338818 stripped
@@ -2201,6 +2216,10 @@ PrefabInstance:
       propertyPath: playerSpeed
       value: 29
       objectReference: {fileID: 0}
+    - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
+      propertyPath: difficultyController
+      value: 
+      objectReference: {fileID: 580884237}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
 --- !u!4 &1058952732 stripped

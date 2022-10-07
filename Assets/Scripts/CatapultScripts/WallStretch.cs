@@ -29,9 +29,11 @@ namespace CatapultScripts
         private float rotationZRadians;
 
         public Player player;
+        public DifficultyController difficultyController;
 
         // After hit by catapult, player's speed will be playerSpeed
         [SerializeField] private float playerSpeed = 20f;
+        private float initialPlayerSpeed;
 
         // Start is called before the first frame update
         void Start()
@@ -49,7 +51,8 @@ namespace CatapultScripts
             rotationZDegree = rotation.z;
             
             rotationZRadians = rotationZDegree / 180 * Mathf.PI;
-            
+
+            initialPlayerSpeed = playerSpeed;
         }
 
         // Update is called once per frame
@@ -102,6 +105,19 @@ namespace CatapultScripts
                 }
                 
             }
+
+            switch (difficultyController.difficultySelection)
+            {
+                case DifficultyController.Difficulties.Hard:
+                    playerSpeed = Mathf.Sqrt(initialPlayerSpeed * initialPlayerSpeed * 8 / 3);
+                    break;
+                case DifficultyController.Difficulties.Normal:
+                    playerSpeed = initialPlayerSpeed;
+                    break;
+                case DifficultyController.Difficulties.Easy:
+                    playerSpeed = Mathf.Sqrt(initialPlayerSpeed * initialPlayerSpeed * 0.4f / 3);
+                    break;
+            }
         }
 
 
@@ -112,7 +128,7 @@ namespace CatapultScripts
                 // playerSpeed is the speed with the same direction as the catapult. We need to divide it into horizontal and vertical direction
                 player.isHitByCatapult = true;
                 player.velocity = playerSpeed * Mathf.Sin(rotationZRadians);
-                player.horizontalVelocity = playerSpeed * Mathf.Cos(rotationZRadians);
+                player.horizontalVelocity = initialPlayerSpeed * Mathf.Cos(rotationZRadians);
             }
         }
     }
