@@ -3971,6 +3971,7 @@ MonoBehaviour:
   jumps: 0
   horizontalVelocity: 0
   isHitByCatapult: 0
+  isInMagnet: 0
   horizontalGravityValue: 0
   isColorAdd: 1
 --- !u!4 &1094060906 stripped
@@ -4359,6 +4360,7 @@ MonoBehaviour:
   jumps: 0
   horizontalVelocity: 0
   isHitByCatapult: 0
+  isInMagnet: 0
   horizontalGravityValue: 0
   isColorAdd: 1
 --- !u!1 &1156930487
@@ -7929,8 +7931,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultScreen: {fileID: 110226996}
   player: {fileID: 1050561966}
-  retryButton: {fileID: 2096657136}
-  selectLevelButton: {fileID: 2096657136}
+  retryButton: {fileID: 273796586}
+  selectLevelButton: {fileID: 0}
   result: {fileID: 1029292363}
   timer: {fileID: 1104334306}
   retryLevelSceneStr: ColorAdd_1
