@@ -7932,7 +7932,7 @@ MonoBehaviour:
   resultScreen: {fileID: 110226996}
   player: {fileID: 1050561966}
   retryButton: {fileID: 273796586}
-  selectLevelButton: {fileID: 0}
+  selectLevelButton: {fileID: 1759410902}
   result: {fileID: 1029292363}
   timer: {fileID: 1104334306}
   retryLevelSceneStr: ColorAdd_1
