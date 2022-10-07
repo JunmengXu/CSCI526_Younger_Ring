@@ -45,10 +45,10 @@ EditorBuildSettings:
     path: Assets/Scenes/Wind_4.unity
     guid: 5e9944fef698944feb1b04a8d1903ba8
   - enabled: 1
-    path: Assets/Scenes/limitedJump_1.unity
+    path: Assets/Scenes/fragile_1.unity
     guid: d9c7f6c3de3d44a899e4ad06e228eb3a
   - enabled: 1
-    path: Assets/Scenes/limitedJump_2.unity
+    path: Assets/Scenes/fragile_2.unity
     guid: 95d0e72605ba94f148b2e278c8e45627
   - enabled: 1
     path: Assets/Scenes/Obstacle1Scene.unity
