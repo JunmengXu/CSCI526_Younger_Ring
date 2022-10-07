@@ -32,6 +32,10 @@ public class LevelMenu : MonoBehaviour
     public string Wind3;
     public string Wind4;
 
+    public string ColorWind1;
+
+    public string Night1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -125,5 +129,15 @@ public class LevelMenu : MonoBehaviour
     public void StartWind4()
     {
         SceneManager.LoadScene(Wind4);
+    }
+
+    public void StartColorWind1()
+    {
+        SceneManager.LoadScene(ColorWind1);
+    }
+
+    public void StartNight1()
+    {
+        SceneManager.LoadScene(Night1);
     }
 }

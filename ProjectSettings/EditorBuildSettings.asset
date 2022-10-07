@@ -62,4 +62,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mix_1.unity
     guid: dc0c562ac0114659995b904f0c11556d
+    path: Assets/Scenes/Night_1.unity
+    guid: 5064169ae30404fc7bd461d889a3e478
+  - enabled: 1
+    path: Assets/Scenes/ColorAddWind_1.unity
+    guid: ff8d667c75a1a4b7ab5d82f09dcea913
   m_configObjects: {}
