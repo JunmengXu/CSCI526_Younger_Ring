@@ -3033,6 +3033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 5589855945117423670, guid: 147aca142a6364b529cdfdb97b6ef091, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1129971318}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 147aca142a6364b529cdfdb97b6ef091, type: 3}
 --- !u!1 &2048947529
