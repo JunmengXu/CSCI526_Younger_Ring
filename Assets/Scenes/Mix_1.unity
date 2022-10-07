@@ -916,7 +916,7 @@ MonoBehaviour:
   player: {fileID: 1370144337}
   retryButton: {fileID: 1539116134}
   selectLevelButton: {fileID: 2079120905}
-  nextLevelSceneStr: Level3
+  nextLevelSceneStr: Mix_1
   result: {fileID: 1115325797}
   timer: {fileID: 1699315614}
   SendLevel3: {fileID: 0}
