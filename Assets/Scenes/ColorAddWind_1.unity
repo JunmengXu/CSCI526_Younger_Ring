@@ -2937,8 +2937,23 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1388044148}
+    - target: {fileID: 5589855945117423670, guid: 147aca142a6364b529cdfdb97b6ef091, type: 3}
+      propertyPath: pauseController
+      value: 
+      objectReference: {fileID: 1119441812}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 147aca142a6364b529cdfdb97b6ef091, type: 3}
+--- !u!114 &1119441812 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2645736908407117327, guid: 147aca142a6364b529cdfdb97b6ef091, type: 3}
+  m_PrefabInstance: {fileID: 1119441811}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 451d6e07c45444f8c8396e1a9edb4c01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1144403435
 GameObject:
   m_ObjectHideFlags: 0
@@ -4006,6 +4021,7 @@ MonoBehaviour:
   jumps: 0
   horizontalVelocity: 0
   isHitByCatapult: 0
+  isInMagnet: 0
   horizontalGravityValue: 0
   isColorAdd: 1
 --- !u!50 &1388044149
