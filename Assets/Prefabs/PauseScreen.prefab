@@ -2744,6 +2744,7 @@ MonoBehaviour:
   easyButton: {fileID: 2645736908632580961}
   normalButton: {fileID: 2645736909144219835}
   hardButton: {fileID: 2645736907289715988}
+  pauseController: {fileID: 2645736908407117327}
   difficultySelection: 1
 --- !u!1 &7139888146944666296
 GameObject:

@@ -62,5 +62,10 @@ namespace PauseScreenScripts
             return pauseMenu.activeSelf;
         }
         
+        // Let DifficultyController use this to directly back to game after modifying the difficulties
+        public void backToGame()
+        {
+            ResumeGame();
+        }
     }
 }

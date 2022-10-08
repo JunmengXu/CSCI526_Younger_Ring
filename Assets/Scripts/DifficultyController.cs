@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using PauseScreenScripts;
 
 public class DifficultyController : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class DifficultyController : MonoBehaviour
     public Button easyButton;
     public Button normalButton;
     public Button hardButton;
+
+    public PauseController pauseController;
 
     public Difficulties difficultySelection;
 
@@ -61,6 +64,7 @@ public class DifficultyController : MonoBehaviour
             newDifficulty.MoveSpeed
         );
         UpdateButtonColor();
+        pauseController.backToGame();
     }
 
     // TODO: Remove hard coded logic
