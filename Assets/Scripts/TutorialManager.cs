@@ -18,6 +18,7 @@ public class TutorialManager : MonoBehaviour
     public GameObject[] popUps;
     public GameObject Player;
     private int popUpIndex;
+    private bool finished = false;
     private void Update()
     {
         for (int i = 0; i < popUps.Length; i++)
@@ -40,9 +41,15 @@ public class TutorialManager : MonoBehaviour
                 
             
         }
-        if(popUpIndex == popUps.Length) {
+        if (!finished)
+        {
+            Player.GetComponent<Player>().velocity = 0;
+        }
+        if(popUpIndex == popUps.Length && !finished) {
             popUps[popUpIndex - 1].SetActive(false);
             Player.transform.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            Player.transform.GetComponent<Rigidbody2D>().interpolation = RigidbodyInterpolation2D.Interpolate;
+            finished = true;
         }
 
         
