@@ -12,6 +12,9 @@ namespace PauseScreenScripts
 
         public bool duringTimeFreeze = false;
 
+        // Store the selected difficulty time scale
+        public float cachedTimeScale = 1;
+
         // Update is called once per frame
         void Update()
         {
@@ -44,7 +47,7 @@ namespace PauseScreenScripts
         {
             if (!duringTimeFreeze)
             {
-                Time.timeScale = 1;
+                Time.timeScale = cachedTimeScale;
             }
             ResetPauseScreen();
             duringTimeFreeze = false;

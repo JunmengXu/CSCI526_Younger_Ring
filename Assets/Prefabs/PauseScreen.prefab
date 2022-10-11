@@ -1744,6 +1744,7 @@ MonoBehaviour:
   pauseOptions: {fileID: 2645736908105416533}
   difficultySelectionButtons: {fileID: 2645736908297117846}
   duringTimeFreeze: 0
+  cachedTimeScale: 1
 --- !u!1 &2645736908456758117
 GameObject:
   m_ObjectHideFlags: 0

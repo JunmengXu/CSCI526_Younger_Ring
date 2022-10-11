@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 
@@ -12,7 +13,10 @@ namespace UIController
         
         void Update()
         {
-            timer += Time.deltaTime;
+            if (Time.timeScale != 0)
+            {
+                timer += Time.unscaledDeltaTime;
+            }
             timerText.text = ((int)timer).ToString();
         }
     }

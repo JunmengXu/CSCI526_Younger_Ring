@@ -29,7 +29,7 @@ public class CameraController : MonoBehaviour
         mainCameraTransform.position = Vector3.Lerp(
             cameraStartPosition, 
             targetCameraPosition, 
-            cameraFollowTimeOffset * Time.deltaTime
+            cameraFollowTimeOffset * Time.unscaledDeltaTime
         );
     }
 }
