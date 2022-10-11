@@ -15,6 +15,10 @@ namespace PauseScreenScripts
 
         public void PauseGame()
         {
+            if (Time.timeScale == 0)
+            {
+                pauseController.duringTimeFreeze = true;
+            }
             Time.timeScale = 0;
             pauseMenu.SetActive(true);
         }
@@ -23,7 +27,7 @@ namespace PauseScreenScripts
         {
             if (!pauseController.duringTimeFreeze)
             {
-                Time.timeScale = 1;
+                Time.timeScale = pauseController.cachedTimeScale;
             }
             pauseMenu.SetActive(false);
             pauseController.duringTimeFreeze = false;

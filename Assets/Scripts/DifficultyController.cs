@@ -16,17 +16,22 @@ public class DifficultyController : MonoBehaviour
     public PauseController pauseController;
 
     public Difficulties difficultySelection;
-
-    private readonly Dictionary<string, Difficulty> difficultyDictionary = new()
+    
+    // Using time scale to control the player speed, i.e. difficulty
+    // Credit: Xiao Li
+    private readonly Dictionary<string, float> difficultyDictionary = new()
     {
-        {"Easy", new Difficulty(4.9f,-4,5)},
-        {"Normal", new Difficulty(13,-30,8)},
-        {"Hard", new Difficulty(25,-80,10)}
+        {"Easy", 0.5f},
+        {"Normal", 1f},
+        {"Hard", 1.5f}
     };
     
     // Start is called before the first frame update
     void Start()
     {
+        // Manually force set the player's attributes, to avoid updating these in the inspector for every scene.
+        player.ChangeForceGravityAndMoveSpeed(9, -14, 6);
+        
         // Setup onClick listeners for the difficulty buttons
         easyButton.onClick.AddListener(delegate
         {
@@ -49,21 +54,26 @@ public class DifficultyController : MonoBehaviour
         UpdateButtonColor();
     }
 
+    private void Update()
+    {
+        // When exit pause state, if not during tutorial, retain the current difficulty setting
+        if (Math.Abs(Time.timeScale - pauseController.cachedTimeScale) > 0)
+        {
+            if (Time.timeScale != 0)
+            {
+                Time.timeScale = pauseController.cachedTimeScale;
+            }
+        }
+    }
+
     void ChangeDifficulty(string difficulty)
     {
-        // Reset the player's vertical velocity to 0 to prevent the player from
-        // launching insanely high to the sky when the player's current vertical
-        // velocity is too high
-        player.SetVelocity(0);
-        
         // Apply the difficulty change
-        Difficulty newDifficulty = difficultyDictionary[difficulty];
-        player.ChangeForceGravityAndMoveSpeed(
-            newDifficulty.JumpForce,
-            newDifficulty.Gravity,
-            newDifficulty.MoveSpeed
-        );
+        float difficultyScale = difficultyDictionary[difficulty];
+        pauseController.cachedTimeScale = difficultyScale;
         UpdateButtonColor();
+        
+        // Automatically resume the game
         pauseController.backToGame();
     }
 
@@ -104,20 +114,6 @@ public class DifficultyController : MonoBehaviour
         button.colors = buttonColors;
     }
 
-    class Difficulty
-    {
-        public float JumpForce { get; set; }
-        public float Gravity { get; set; }
-        public float MoveSpeed { get; set; }
-
-        public Difficulty(float jumpForce, float gravity, float moveSpeed)
-        {
-            JumpForce = jumpForce;
-            Gravity = gravity;
-            MoveSpeed = moveSpeed;
-        }
-    }
-    
     public enum Difficulties
     {
         Easy,
