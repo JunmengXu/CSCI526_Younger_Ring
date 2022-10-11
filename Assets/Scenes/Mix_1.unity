@@ -365,7 +365,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: playerSpeed
-      value: 35
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: difficultyController
@@ -1472,7 +1472,7 @@ PrefabInstance:
       objectReference: {fileID: 1370144337}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: playerSpeed
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: difficultyController
@@ -2441,7 +2441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2844934850808198588, guid: 8b49e9336fc46584bb23fa4879036e3e, type: 3}
       propertyPath: force
-      value: 24
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 3144709671841388319, guid: 8b49e9336fc46584bb23fa4879036e3e, type: 3}
       propertyPath: m_LocalScale.x
@@ -3543,6 +3543,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1370144337}
+    - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
+      propertyPath: playerSpeed
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: difficultyController
       value: 
@@ -5360,6 +5364,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1370144337}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
+      propertyPath: playerSpeed
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: difficultyController
       value: 
       objectReference: {fileID: 2092879564}
@@ -5380,11 +5388,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1370144344}
   - component: {fileID: 1370144340}
-  - component: {fileID: 1370144341}
+  - component: {fileID: 1370144345}
   - component: {fileID: 1370144338}
   - component: {fileID: 1370144337}
   - component: {fileID: 1370144339}
-  - component: {fileID: 1370144345}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5417,7 +5424,7 @@ MonoBehaviour:
   horizontalVelocity: 0
   isHitByCatapult: 0
   isInMagnet: 0
-  horizontalGravityValue: 15
+  horizontalGravityValue: 6.5
   isColorAdd: 0
 --- !u!50 &1370144338
 Rigidbody2D:
@@ -5436,7 +5443,7 @@ Rigidbody2D:
   m_AngularDrag: 0
   m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 3219dd2119b344290b4089a4a23361f5, type: 2}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
@@ -5509,22 +5516,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!70 &1370144341
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370144336}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
-  m_Direction: 0
 --- !u!4 &1370144344
 Transform:
   m_ObjectHideFlags: 0
@@ -5541,8 +5532,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1370144345
-BoxCollider2D:
+--- !u!60 &1370144345
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5554,7 +5545,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.5144906}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5564,9 +5555,30 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 0.008088112}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.5, y: 0.5}
+      - {x: -0.5, y: 0}
+      - {x: -0.49889565, y: -0.107023}
+      - {x: -0.48743153, y: -0.15838861}
+      - {x: -0.45548344, y: -0.22481966}
+      - {x: -0.4005766, y: -0.2943225}
+      - {x: -0.34083366, y: -0.3576715}
+      - {x: -0.2783413, y: -0.4076836}
+      - {x: -0.19661427, y: -0.4501028}
+      - {x: -0.11369991, y: -0.48042274}
+      - {x: -0.05948639, y: -0.4939959}
+      - {x: 0, y: -0.5}
+      - {x: 0.05926037, y: -0.49365306}
+      - {x: 0.10564709, y: -0.48183513}
+      - {x: 0.1918211, y: -0.45007205}
+      - {x: 0.27396488, y: -0.40429926}
+      - {x: 0.3532915, y: -0.33531237}
+      - {x: 0.4117384, y: -0.2752943}
+      - {x: 0.47143078, y: -0.18673873}
+      - {x: 0.49070644, y: -0.11709905}
+      - {x: 0.5, y: 0}
+      - {x: 0.5, y: 0.5}
 --- !u!1 &1373367946 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4751294186866917795, guid: 8b49e9336fc46584bb23fa4879036e3e, type: 3}
@@ -6974,8 +6986,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794665020}
   m_LocalRotation: {x: -0, y: -0, z: 0.18185437, w: 0.9833255}
-  m_LocalPosition: {x: -1.4299997, y: 24.882801, z: 0}
-  m_LocalScale: {x: 7.4182467, y: 0.35, z: 1}
+  m_LocalPosition: {x: -1.3999, y: 24.8943, z: 0}
+  m_LocalScale: {x: 7.4827857, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 817468620}
@@ -8688,7 +8700,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2106300082}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.024, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8708,7 +8720,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.000008583069, y: 0.5296104}
+  m_Offset: {x: -0.0013160706, y: 0.5296104}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -8719,7 +8731,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8774471, y: 0.005587101}
+  m_Size: {x: 0.9467449, y: 0.005587101}
   m_EdgeRadius: 0
 --- !u!114 &2106300085
 MonoBehaviour:
@@ -8867,6 +8879,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1370144337}
+    - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
+      propertyPath: playerSpeed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: difficultyController
       value: 
