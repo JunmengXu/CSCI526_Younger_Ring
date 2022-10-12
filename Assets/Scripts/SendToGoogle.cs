@@ -18,14 +18,20 @@ public class SendToGoogle : MonoBehaviour
     // uniquely identify a single play even in same level
     public long uniqueLevelID;
 
+    // a list containing path data
+    // (<x, y, time>, ...)
+    public List<string> playerPath = new List<string>();
+
     // current timestamp
     public string timestamp;
 
     //  status of game:
     //  0 - start of level
-    //  1 -  finish level
+    //  1 - finish level
+    //  2 - quit/retry before goal (scene destroyed) TODO
     public int status;
 
+    // player in the scene
     public Player player;
 
     // bool to control send to Google 
@@ -49,12 +55,17 @@ public class SendToGoogle : MonoBehaviour
         this.send = true;
 
         Send();
+
+        // Continuously get the position
+        // fixme: fix repeat time to match jump timescale
+        InvokeRepeating("GetPosition", 0.0f, 1.5f);
     }
 
 
     // send to Google once player hit finish line
     void Update()
     {
+
         if (player.gameover && send)
         {
 
@@ -65,16 +76,45 @@ public class SendToGoogle : MonoBehaviour
 
             // send only once 
             send = false;
+
+            CancelInvoke("GetPosition");
         }
+
     }
 
+
+    private void OnDestroy()
+    {
+        // fixme: not able to send
+        this.timestamp = DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
+        this.status = 2;
+        string path = String.Join(", ", playerPath.ToArray());
+        Post(sessionID.ToString(), levelIndex.ToString(), uniqueLevelID.ToString(), timestamp.ToString(), status.ToString(), path);
+    }
+
+    // Get the player position x and y, and add timestamp
+    void GetPosition()
+    {
+        float posX = player.GetHorizontalPos();
+        float posY = player.GetVerticalPos();
+
+        this.timestamp = DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
+
+        Tuple<float, float, string> currPosInfo = new Tuple<float, float, string>(posX, posY, this.timestamp);
+
+        playerPath.Add(currPosInfo.ToString());
+    }
 
     public void Send()
     {
-        StartCoroutine(Post(sessionID.ToString(), levelIndex.ToString(), uniqueLevelID.ToString(), timestamp.ToString(), status.ToString()));
+        string path = "Null";
+        if (this.status != 0)
+        {
+            path = String.Join(", ", playerPath.ToArray());
+        }
     }
 
-    private IEnumerator Post(string session, string levelIndex, string ULID, string timestamp, string status)
+    private IEnumerator Post(string session, string levelIndex, string ULID, string timestamp, string status, string wholePath)
     {
         WWWForm form = new WWWForm();
         form.AddField("entry.1775625545", session);
@@ -82,6 +122,7 @@ public class SendToGoogle : MonoBehaviour
         form.AddField("entry.1757100219", ULID);
         form.AddField("entry.2061129056", timestamp);
         form.AddField("entry.519829308", status);
+        form.AddField("entry.794095359", wholePath); 
 
         using (UnityWebRequest www = UnityWebRequest.Post(URL, form))
         {

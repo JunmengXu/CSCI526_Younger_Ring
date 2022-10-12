@@ -152,4 +152,14 @@ public class Player : MonoBehaviour
     {
         velocity = newVelocity;
     }
+
+    public float GetHorizontalPos()
+    {
+        return playerRigidbody.position.x;
+    }
+
+    public float GetVerticalPos()
+    {
+        return playerRigidbody.position.y;
+    }
 }
