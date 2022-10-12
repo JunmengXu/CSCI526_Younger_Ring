@@ -5,7 +5,7 @@ public class Highlight : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    private string[] mixTutorialName = {"Level1", "Catapult1", "Obstacle1" };
+    private string[] mixTutorialName = {"Level1", "Catapult1", "Obstacle1", "Magnetic"};
 
     private string[] colorWind = { "Level1", "Wind1", "ColorAdd1"};
 
