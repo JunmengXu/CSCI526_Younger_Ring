@@ -28,7 +28,7 @@ public class SendToGoogle : MonoBehaviour
     //  status of game:
     //  0 - start of level
     //  1 - finish level
-    //  2 - quit/retry before goal (scene destroyed) TODO
+    //  2 - quit/retry before goal
     public int status;
 
     // player in the scene
@@ -37,6 +37,15 @@ public class SendToGoogle : MonoBehaviour
     // bool to control send to Google 
     private bool send;
 
+    private void OnEnable()
+    {
+        GameManger.instance.quitAction += Send;
+    }
+
+    private void OnDisable()
+    {
+        GameManger.instance.quitAction -= Send;
+    }
 
     // on the start of each scene, send to Google
     private void Start()
@@ -45,8 +54,6 @@ public class SendToGoogle : MonoBehaviour
         this.sessionID = GlobalVarStorage.globalSessionID;
 
         this.levelIndex = SceneManager.GetActiveScene().buildIndex;
-
-        this.timestamp = DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
 
         this.uniqueLevelID = DateTime.Now.Ticks;
 
@@ -57,7 +64,6 @@ public class SendToGoogle : MonoBehaviour
         Send();
 
         // Continuously get the position
-        // fixme: fix repeat time to match jump timescale
         InvokeRepeating("GetPosition", 0.0f, 1.5f);
     }
 
@@ -82,16 +88,6 @@ public class SendToGoogle : MonoBehaviour
 
     }
 
-
-    private void OnDestroy()
-    {
-        // fixme: not able to send
-        this.timestamp = DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
-        this.status = 2;
-        string path = String.Join(", ", playerPath.ToArray());
-        Post(sessionID.ToString(), levelIndex.ToString(), uniqueLevelID.ToString(), timestamp.ToString(), status.ToString(), path);
-    }
-
     // Get the player position x and y, and add timestamp
     void GetPosition()
     {
@@ -107,11 +103,17 @@ public class SendToGoogle : MonoBehaviour
 
     public void Send()
     {
-        string path = "Null";
+        this.timestamp = DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss");
+
+        // Send the path string safely to Google at start 0
+        string path = "null";
+
         if (this.status != 0)
         {
             path = String.Join(", ", playerPath.ToArray());
         }
+
+        StartCoroutine(Post(sessionID.ToString(), levelIndex.ToString(), uniqueLevelID.ToString(), timestamp.ToString(), status.ToString(), path));
     }
 
     private IEnumerator Post(string session, string levelIndex, string ULID, string timestamp, string status, string wholePath)
@@ -134,7 +136,7 @@ public class SendToGoogle : MonoBehaviour
             }
             else
             {
-                Debug.Log("Succeess!");
+                Debug.Log("SendToGoogle: Succeess!");
             }
         }
 

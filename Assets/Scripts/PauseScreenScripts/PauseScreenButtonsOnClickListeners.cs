@@ -13,6 +13,13 @@ namespace PauseScreenScripts
         
         public GameObject difficultySelectionButtons;
 
+        public SendToGoogle sendManger;
+
+        void Start()
+        {
+            sendManger = GameObject.Find("AnalyticsManager").GetComponent<SendToGoogle>();
+        }
+
         public void PauseGame()
         {
             if (Time.timeScale == 0)
@@ -41,12 +48,19 @@ namespace PauseScreenScripts
 
         public void RetryCurrentLevel()
         {
+            // send analytics for retry
+            sendManger.status = 2;
+            sendManger.Send();
+
             Time.timeScale = 1;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         public void ReturnToMainMenu()
         {
+            // send analytics for leave current level
+            sendManger.status = 2;
+            sendManger.Send();
             SceneManager.LoadScene("LevelMenu");
         }
 
