@@ -37,15 +37,15 @@ public class SendToGoogle : MonoBehaviour
     // bool to control send to Google 
     private bool send;
 
-    private void OnEnable()
-    {
-        GameManger.instance.quitAction += Send;
-    }
+    //private void OnEnable()
+    //{
+    //    GameManger.instance.quitAction += Send;
+    //}
 
-    private void OnDisable()
-    {
-        GameManger.instance.quitAction -= Send;
-    }
+    //private void OnDisable()
+    //{
+    //    GameManger.instance.quitAction -= Send;
+    //}
 
     // on the start of each scene, send to Google
     private void Start()
