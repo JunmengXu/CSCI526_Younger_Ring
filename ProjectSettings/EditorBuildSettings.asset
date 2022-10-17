@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Magnet Tutorial.unity
     guid: 696813d0a4f07d94eb0211e05797e49b
+  - enabled: 1
+    path: Assets/Scenes/Mix_Brush_Catapult_Magnet.unity
+    guid: 7cb35d93d06e8434b8f38d17e5a9986b
   m_configObjects: {}
