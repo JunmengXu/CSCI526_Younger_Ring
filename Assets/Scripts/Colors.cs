@@ -13,7 +13,7 @@ public class Colors : MonoBehaviour
     public ColorSet colorSetSelection;
     public Color currentColor;
     public Color nextColor;
-    
+
     // List of available colors
     private List<Color> colorSetOne = new()
     {
@@ -25,6 +25,9 @@ public class Colors : MonoBehaviour
         Color.red,
         Color.green,
         Color.blue
+
+
+        ///Test
     };
     private int numberOfColors = 0;
     private List<Color> selectedColorSet;
@@ -43,12 +46,12 @@ public class Colors : MonoBehaviour
         // Initialize the variable "currentColorSet", get the quantity of the colors in the chosen set
         InitColorSet();
         numberOfColors = selectedColorSet.Count;
-        
+
         // Get player's current color, and generate the next color
         currentColor = sprite.color;
         nextColor = NextColor();
     }
-    
+
     private void InitColorSet()
     {
         switch (colorSetSelection)
@@ -88,18 +91,18 @@ public class Colors : MonoBehaviour
     {
         // Get the index of the player's current color in the List<Color> currentColorSet
         int currentColorIndex = selectedColorSet.IndexOf(sprite.color);
-        
+
         // Exclude the currentColorIndex and randomly pick one from the rest
         var colorIndexRange = Enumerable.Range(0, numberOfColors).Where(i => i != currentColorIndex);
         var random = new System.Random();
         int newColorIndex = colorIndexRange.ElementAt(random.Next(0, numberOfColors - 1));
-        
+
         return selectedColorSet[newColorIndex];
     }
-    
+
     public enum ColorSet
     {
-        BlackAndWhite, 
+        BlackAndWhite,
         RGB
     };
 }
