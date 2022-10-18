@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Brush_2.unity
     guid: 76dff607d2e6f48c3834f965ab21ddd6
   - enabled: 1
+    path: Assets/Scenes/Brush_3.unity
+    guid: 42fcf6b619cbc472da69f4bb06907a14
+  - enabled: 1
     path: Assets/Scenes/Wind_1.unity
     guid: 5c5aadcbb8f084f7a8420daa495c823c
   - enabled: 1
