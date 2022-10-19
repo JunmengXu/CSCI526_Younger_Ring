@@ -1,16 +1,15 @@
 using System.Collections;
 using UnityEngine;
 
-namespace CatapultScripts
+namespace Items
 {
-    public class TutorialController : MonoBehaviour
+    public class SuperItemTutorialController : MonoBehaviour
     {
         public Player player;
         
         public GameObject[] tutorialDialogs;
 
         public GameObject continueText;
-
 
         public int currentIndex = 0;
 
