@@ -8,13 +8,16 @@ public class GlobalVarStorage : MonoBehaviour
     // Start is called before the first frame update
 
     // sessionID to uniquely identify a gameplay
-    public static long globalSessionID;
-
+    public static long globalSessionID = DateTime.Now.Ticks;
 
     void Start()
     {
-        globalSessionID = DateTime.Now.Ticks;
         Debug.Log("SessionID created: " + globalSessionID);
+    }
+
+    void Awake()
+    {
+        //DontDestroyOnLoad(this);
     }
 
     // Update is called once per frame

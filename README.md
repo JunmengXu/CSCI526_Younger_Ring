@@ -96,6 +96,34 @@ To change the player's jump speed, tweak "Jump Force" and "Gravity".
 To change the color set, tweak "Color Set Selection".
 ![](https://github.com/MikeShuyang/misc/raw/main/color%20set%20setting.jpg)
 
+### Level Index List
+(Base on build list)
+```
+0       LevelMenu
+1       FirstLevelScene
+2       SecondLevel1
+3       SampleScene
+4       Level3
+5       Catapult_1
+6       Catapult_2
+7       Catapult_3
+8       Brush_1
+9       Wind_1
+10      Wind_2
+11      Wind_3
+12      Wind_4
+13      fragile_1
+14      fragile21
+15      Obstacle1Scene
+16      ColorAdd_1
+17      ColorAdd_2
+18      Mix_1
+19      Night_1
+20      ColorAddWind_1
+21      Magnet Tutorial
+```
+
+
 ### Bugs
 1. ~~Player can go inside or even fall through other objects when the vertical velocity is too high, because the current implementation doesn't utilize Unity's physics system.~~
 2. ~~(A good glitch for players) When the player falls on the side wall of a "Floor" or a "Tile" with the correct color, the player will be treated as grounded hence will jump again immediately.~~

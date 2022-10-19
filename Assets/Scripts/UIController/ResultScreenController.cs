@@ -12,18 +12,15 @@ namespace UIController
         public Player player;
     
         public Button retryButton;
+        public Button selectLevelButton;
+
+        public string nextLevelSceneStr;
 
         // "You used ...s" Text
         public TMP_Text result;
 
         // Timer text on the top right
         public TMP_Text timer;
-
-        // Send to google instance
-        public SendToGoogle SendLevel3;
-
-        // Only send once to Google
-        private bool send;
 
         void Start()
         {
@@ -35,34 +32,27 @@ namespace UIController
             
             retryButton.onClick.AddListener(ResetGame);
 
-            SendLevel3 = gameObject.AddComponent<SendToGoogle>();
-
-            send = true;
+            selectLevelButton.onClick.AddListener(SelectLevel);
         }
     
         void ResetGame()
         {
-            SceneManager.LoadScene("FirstLevelScene");
+            SceneManager.LoadScene(nextLevelSceneStr);
+        }
+        void SelectLevel()
+        {
+            SceneManager.LoadScene("LevelMenu");
         }
 
         // Update is called once per frame
         void Update()
         {
             // When the player gets to the finish line, pause the game and show resultScreen
-            if (player.gameover && send)
+            if (player.gameover)
             {
-                // Send level 2 info to Goolge Form
-                SendLevel3.sessionID = GlobalVarStorage.globalSessionID;
-                SendLevel3.levelClearTime = timer.text;
-                SendLevel3.level = 3;
-                SendLevel3.numNumps = player.jumps;
-                SendLevel3.Send();
-
                 Time.timeScale = 0;
                 result.text = "You used " + timer.text + "s";
                 resultScreen.SetActive(true);
-
-                send = false;
             }
         }
     }
