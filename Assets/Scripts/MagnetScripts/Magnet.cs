@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,6 +24,7 @@ public class Magnet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         
     }
 
@@ -53,9 +55,9 @@ public class Magnet : MonoBehaviour
             }else{
                 direction = 1.0f;
             }
-
             var degree = (transform.eulerAngles.z / 180 * Mathf.PI);
             player.velocity += force * direction * Mathf.Sin(degree) * Time.deltaTime;
+            if (isHit && direction < 0f) player.velocity = 10;
             player.horizontalVelocity += force * direction * Mathf.Cos(degree) * Time.deltaTime;
         }
     }
