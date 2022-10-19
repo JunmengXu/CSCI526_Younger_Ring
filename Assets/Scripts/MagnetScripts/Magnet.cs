@@ -57,7 +57,6 @@ public class Magnet : MonoBehaviour
             }
             var degree = (transform.eulerAngles.z / 180 * Mathf.PI);
             player.velocity += force * direction * Mathf.Sin(degree) * Time.deltaTime;
-            if (isHit && direction < 0f) player.velocity = 10;
             player.horizontalVelocity += force * direction * Mathf.Cos(degree) * Time.deltaTime;
         }
     }

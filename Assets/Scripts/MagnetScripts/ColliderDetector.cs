@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ColliderDetector : MonoBehaviour
@@ -27,5 +29,12 @@ public class ColliderDetector : MonoBehaviour
             player.velocity = 0.0f;
             player.horizontalVelocity = 0.0f;
         }
+    }
+
+
+    private void OnTriggerExit2D(Collider2D col)
+    {
+        Player player = col.GetComponent<Player>();
+        player.velocity = 0.0f;
     }
 }
