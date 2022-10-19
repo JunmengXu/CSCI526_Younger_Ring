@@ -19,6 +19,8 @@ public class LevelMenu : MonoBehaviour
 
     // Brush tile levels
     public string Brush1;
+    public string Brush2;
+    public string Brush3;
     
     // In development sandbox levels
     public string HugeMapLevel;
@@ -97,6 +99,16 @@ public class LevelMenu : MonoBehaviour
     public void StartBrush1()
     {
         SceneManager.LoadScene(Brush1);
+    }
+    
+    public void StartBrush2()
+    {
+        SceneManager.LoadScene(Brush2);
+    }
+    
+    public void StartBrush3()
+    {
+        SceneManager.LoadScene(Brush3);
     }
 
     public void StartHugeMapLevel()
