@@ -21,6 +21,8 @@ namespace Items
         private float effectTimer;
         private bool startCountdown = false;
 
+        public TMP_Text invincibleTimeText;
+
         // Start is called before the first frame update
         void Start()
         {
@@ -28,6 +30,8 @@ namespace Items
             itemCollider = GetComponent<Collider2D>();
 
             effectTimer = invincibleTime + 1;
+
+            invincibleTimeText.text = ((int)invincibleTime).ToString();
         }
 
         private void Update()
@@ -48,6 +52,8 @@ namespace Items
                 spriteRenderer.enabled = false;
                 //Stop detect collision
                 itemCollider.enabled = false;
+                //Make invincibleTimeText disappear
+                invincibleTimeText.enabled = false;
 
                 // Enter SUPER mode let's go!
                 player.isSuperStatus = true;

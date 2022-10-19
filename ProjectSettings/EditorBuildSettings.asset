@@ -33,6 +33,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Brush_1.unity
     guid: 572d82b9af864431afa23508a2167e3f
   - enabled: 1
+    path: Assets/Scenes/Brush_2.unity
+    guid: 76dff607d2e6f48c3834f965ab21ddd6
+  - enabled: 1
+    path: Assets/Scenes/Brush_3.unity
+    guid: 42fcf6b619cbc472da69f4bb06907a14
+  - enabled: 1
     path: Assets/Scenes/Wind_1.unity
     guid: 5c5aadcbb8f084f7a8420daa495c823c
   - enabled: 1
@@ -74,4 +80,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NightColorAdd_1.unity
     guid: 4dbf1936b43ce4559a8468ea0754c05f
+  - enabled: 1
+    path: Assets/Scenes/Mix_Brush_Catapult_Magnet.unity
+    guid: 7cb35d93d06e8434b8f38d17e5a9986b
   m_configObjects: {}

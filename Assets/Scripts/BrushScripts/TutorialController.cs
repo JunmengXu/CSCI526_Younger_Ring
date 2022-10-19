@@ -23,10 +23,6 @@ namespace BrushScripts
 
         public GameObject resultScreen;
 
-        public GameObject tutorial;
-
-        public GameObject actualLevel;
-
         public int currentIndex = 0;
 
         public bool paused = false;
@@ -160,9 +156,7 @@ namespace BrushScripts
 
                 if (player.gameover)
                 {
-                    Time.timeScale = 0;
                     tutorialDialogs[currentIndex].SetActive(false);
-                    resultScreen.SetActive(true);
                 }
             }
 
@@ -212,13 +206,6 @@ namespace BrushScripts
             tutorialDialogs[currentIndex].SetActive(true);
             Time.timeScale = 0;
             paused = true;
-        }
-
-        public void StartLevel()
-        {
-            tutorial.SetActive(false);
-            actualLevel.SetActive(true);
-            Time.timeScale = 1;
         }
     }
 }
