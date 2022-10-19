@@ -22,6 +22,7 @@ public class AutoHorizontalMovement : MonoBehaviour
         Vector3 tilePosition = transform.position;
 
         // Automatically move the tile up and down
+        //
         tilePosition.x = Mathf.PingPong(
             Time.fixedTime * moveSpeed,
             endX - startX) + startX;
