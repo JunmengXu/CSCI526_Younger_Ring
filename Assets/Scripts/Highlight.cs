@@ -9,6 +9,8 @@ public class Highlight : MonoBehaviour
 
     private string[] colorWind = { "Level1", "Wind1", "ColorAdd1"};
 
+    private string[] colorNight = { "Level1", "Night1", "ColorAdd1" };
+
     private string[] hugeMap = { "Level1" };
 
     public GameObject textInfo;
@@ -68,6 +70,23 @@ public class Highlight : MonoBehaviour
         }
     }
 
+    public void OnSelectColorNight()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in colorNight)
+        {
+            HighLightButton(s);
+        }
+    }
+
+    public void OnDeselectColorNight()
+    {
+        textInfo.SetActive(false);
+        foreach (var s in colorNight)
+        {
+            DeHighLightButton(s);
+        }
+    }
     public void OnSelectHugeMap()
     {
         textInfo.SetActive(true);

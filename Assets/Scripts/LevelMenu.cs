@@ -35,6 +35,9 @@ public class LevelMenu : MonoBehaviour
 
     public string ColorWind1;
 
+    public string ColorNight;
+
+
     public string Night1;
 
     public string Magnetic1;
@@ -139,6 +142,11 @@ public class LevelMenu : MonoBehaviour
     public void StartColorWind1()
     {
         SceneManager.LoadScene(ColorWind1);
+    }
+
+    public void StartColorNight()
+    {
+        SceneManager.LoadScene(ColorNight);
     }
 
     public void StartNight1()
