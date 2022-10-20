@@ -71,4 +71,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Magnet Tutorial.unity
     guid: 696813d0a4f07d94eb0211e05797e49b
+  - enabled: 1
+    path: Assets/Scenes/magnetFramework.unity
+    guid: a20f5eb44aea140e3bdad516d6c2c3bf
   m_configObjects: {}

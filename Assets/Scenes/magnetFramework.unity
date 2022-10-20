@@ -11188,7 +11188,7 @@ MonoBehaviour:
   player: {fileID: 1950321051}
   retryButton: {fileID: 447280804}
   selectLevelButton: {fileID: 72207518}
-  nextLevelSceneStr: MagnetMix_1
+  nextLevelSceneStr: MagnetFramework
   result: {fileID: 1403160425}
   timer: {fileID: 48334049}
 --- !u!1001 &717924580
