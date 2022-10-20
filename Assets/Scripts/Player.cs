@@ -71,8 +71,10 @@ public class Player : MonoBehaviour
         HandleFloorAndTileCollision(col);
 
         // When the player collides with the FinishLine, end the game
+        Debug.Log("hitted");
         if (col.gameObject.CompareTag("FinishLine"))
         {
+            Debug.Log("game over");
             gameover = true;
         }
     }
