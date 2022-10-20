@@ -40,6 +40,8 @@ public class LevelMenu : MonoBehaviour
     public string Magnetic1;
 
     public string Mix1;
+    
+    public string MagnetFramework;
 
     // Start is called before the first frame update
     void Start()
@@ -154,5 +156,10 @@ public class LevelMenu : MonoBehaviour
     public void StartMix1()
     {
         SceneManager.LoadScene(Mix1);
+    }
+    
+    public void StartMagnetMix()
+    {
+        SceneManager.LoadScene(MagnetFramework);
     }
 }

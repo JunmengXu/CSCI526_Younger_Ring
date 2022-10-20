@@ -49,6 +49,24 @@ public class Highlight : MonoBehaviour
             DeHighLightButton(s);
         }
     }
+    
+    public void OnSelectMagnetMix()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in mixTutorialName)
+        {
+            HighLightButton(s);
+        }
+    }
+
+    public void OnDeSelectMagnetMix()
+    {
+        textInfo.SetActive(false);
+        foreach (var s in mixTutorialName)
+        {
+            DeHighLightButton(s);
+        }
+    }
 
     public void OnSelectColorWind()
     {
