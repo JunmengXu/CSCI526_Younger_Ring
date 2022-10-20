@@ -50,6 +50,8 @@ public class LevelMenu : MonoBehaviour
 
     public string SuperItem1;
 
+    public string BrushMix;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -188,5 +190,10 @@ public class LevelMenu : MonoBehaviour
     public void StartMagnetMix()
     {
         SceneManager.LoadScene(MagnetFramework);
+    }
+
+    public void StartBrushMix()
+    {
+        SceneManager.LoadScene(BrushMix);
     }
 }
