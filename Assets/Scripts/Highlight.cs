@@ -11,7 +11,7 @@ public class Highlight : MonoBehaviour
 
     private string[] colorNight = { "Level1", "Night1", "ColorAdd1" };
 
-    private string[] hugeMap = { "Level1" };
+    private string[] hugeMap = { "Level1", "SuperItem" };
 
     public GameObject textInfo;
     

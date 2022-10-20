@@ -46,6 +46,8 @@ public class LevelMenu : MonoBehaviour
 
     public string Mix1;
 
+    public string SuperItem1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -174,5 +176,10 @@ public class LevelMenu : MonoBehaviour
     public void StartMix1()
     {
         SceneManager.LoadScene(Mix1);
+    }
+
+    public void StartSuperItem1() 
+    {
+        SceneManager.LoadScene(SuperItem1);
     }
 }
