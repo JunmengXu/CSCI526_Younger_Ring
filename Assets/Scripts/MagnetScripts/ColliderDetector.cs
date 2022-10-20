@@ -31,10 +31,33 @@ public class ColliderDetector : MonoBehaviour
         }
     }
 
-
-    private void OnTriggerExit2D(Collider2D col)
+    private void OnTriggerStay2D(Collider2D other)
     {
-        Player player = col.GetComponent<Player>();
-        player.velocity = 0.0f;
+        if(other.gameObject.CompareTag("Player"))
+        {
+            magnet.isHit = true;
+            Player player = other.GetComponent<Player>();
+            Transform magnetColorObject = transform.parent.Find("Color");
+            Color magnetColor = magnetColorObject.GetComponent<SpriteRenderer>().color;
+            if (player.playerColor.currentColor != magnetColor && player.isInMagnet)
+            {
+                player.velocity = 0.0f;
+            }
+        }
     }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            magnet.isHit = false;
+        }
+    }
+
+
+    // private void OnTriggerExit2D(Collider2D col)
+    // {
+    //     Player player = col.GetComponent<Player>();
+    //     player.velocity = 0.0f;
+    // }
 }
