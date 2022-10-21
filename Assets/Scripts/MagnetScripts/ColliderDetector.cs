@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ColliderDetector : MonoBehaviour
@@ -52,4 +53,11 @@ public class ColliderDetector : MonoBehaviour
             magnet.isHit = false;
         }
     }
+
+
+    // private void OnTriggerExit2D(Collider2D col)
+    // {
+    //     Player player = col.GetComponent<Player>();
+    //     player.velocity = 0.0f;
+    // }
 }

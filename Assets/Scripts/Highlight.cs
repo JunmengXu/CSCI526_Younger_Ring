@@ -5,13 +5,19 @@ public class Highlight : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    private string[] mixTutorialName = {"Level1", "Catapult1", "Obstacle1", "Magnetic"};
+    private string[] mixTutorialName = { "Level1", "Catapult1", "Obstacle1", "Magnetic" };
 
-    private string[] colorWind = { "Level1", "Wind1", "ColorAdd1"};
+    private string[] colorWind = { "Level1", "Wind1", "ColorAdd1" };
 
     private string[] colorNight = { "Level1", "Night1", "ColorAdd1" };
 
-    private string[] hugeMap = { "Level1" };
+    private string[] hugeMap = { "Level1", "SuperItem" };
+
+    private string[] magnetMix = {"Level1", "Obstacle1", "Magnetic", "Fragile1", "Wind1"};
+
+    private string[] brushMix = { "Level1", "Magnetic", "Catapult1", "Brush1"};
+    
+    
 
     public GameObject textInfo;
     
@@ -47,6 +53,24 @@ public class Highlight : MonoBehaviour
     {
         textInfo.SetActive(false);
         foreach (var s in mixTutorialName)
+        {
+            DeHighLightButton(s);
+        }
+    }
+    
+    public void OnSelectMagnetMix()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in magnetMix)
+        {
+            HighLightButton(s);
+        }
+    }
+
+    public void OnDeSelectMagnetMix()
+    {
+        textInfo.SetActive(false);
+        foreach (var s in magnetMix)
         {
             DeHighLightButton(s);
         }
@@ -104,6 +128,30 @@ public class Highlight : MonoBehaviour
             DeHighLightButton(s);
         }
     }
+
+    public void OnSelectBrushMixMap()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in brushMix) 
+        {
+            HighLightButton(s);
+        }
+    }
+    
+    public void OnDeSelectBrushMixMap()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in brushMix) 
+        {
+            DeHighLightButton(s);
+        }
+    }
+    
+    
+    
+    
+
+    
     
     // Update is called once per frame
     void Update()

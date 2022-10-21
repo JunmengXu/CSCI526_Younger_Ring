@@ -46,7 +46,7 @@ public class AutomaticMovement : MonoBehaviour
                 break;
             case Direction.Vertical:
                 // Automatically move the tile up and down
-                objectPosition.y = Mathf.PingPong(
+                objectPosition.y = (speed > 0 ? 1 : -1) * Mathf.PingPong(
                     Time.fixedTime * speed,
                     moveRange) + startHeight;
                 break;
