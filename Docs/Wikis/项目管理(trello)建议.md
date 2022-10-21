@@ -25,13 +25,13 @@
 
 1. \* plan：我们在***plan当中记录某周或者某个时间节点之前的一些要点任务，这些任务可以是比较宽泛的描述，不需要有具体的代码功能描述。如下：
 
-   ![image-20220930195529634](C:\Users\92770\AppData\Roaming\Typora\typora-user-images\image-20220930195529634.png)
+   ![image-20220930195529634](../statics/image-20220930195529634.png)
 
    而后，由project manager(?)将这些genaral的文字任务拆分成具体的任务，移动到Features或者Bugs中
 
 2. Features：我们在Features当中记录需要实现的新feature，这些新feature可以是新的Mechanism，可以是新关卡等等。需要比较具体的描述：新关卡可以是关卡的图片(drawio)，新feature可以是feature的一个构思图
 
-   ![image-20220930201131037](C:\Users\92770\AppData\Roaming\Typora\typora-user-images\image-20220930201131037.png)
+   ![image-20220930201131037](../statics/image-20220930201131037.png)
 
 3. Bugs：我们在Bugs当中记录发现和需要处理的Bug以及一切不需要开发新功能的任务，包括一些代码重构相关的工作。这些bug需要有具体的文字描述或者图片视频表现，以及Bug复现方法等等。
 
@@ -41,27 +41,27 @@
 
 1. 移动任务单到Developing(WIP)
 
-   ![image-20220930201344973](C:\Users\92770\AppData\Roaming\Typora\typora-user-images\image-20220930201344973.png)
+   ![image-20220930201344973](../statics/image-20220930201344973.png)
 
 2. 将自己加入到单中（Join)
 
-   ![image-20220930201441352](C:\Users\92770\AppData\Roaming\Typora\typora-user-images\image-20220930201441352.png)
+   ![image-20220930201441352](../statics/image-20220930201441352.png)
 
 3. 贴上你开发的分支名称：
 
-   ![image-20220930201540103](C:\Users\92770\AppData\Roaming\Typora\typora-user-images\image-20220930201540103.png)
+   ![image-20220930201540103](../statics/image-20220930201540103.png)
 
 ### 验收任务
 
 1. 当任务开发完毕后，提交pull request，并且将单子移动到Awaiting acceptance
 
-   ![image-20220930201822269](C:\Users\92770\AppData\Roaming\Typora\typora-user-images\image-20220930201822269.png)
+   ![image-20220930201822269](../statics/image-20220930201822269.png)
 
-   ![image-20220930201841636](C:\Users\92770\AppData\Roaming\Typora\typora-user-images\image-20220930201841636.png)
+   ![image-20220930201841636](../statics/image-20220930201841636.png)
 
 2. 由测试人员（Pm或者任意一个开发人员以外的人）接手测试，将自己Join到member中表示自己正在测试，以防多个人同时测试同一个单子浪费时间。
 
-   ![image-20220930202006181](C:\Users\92770\AppData\Roaming\Typora\typora-user-images\image-20220930202006181.png)
+   ![image-20220930202006181](../statics/image-20220930202006181.png)
 
 ### 完成任务
 
