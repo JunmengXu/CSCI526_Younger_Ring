@@ -27,6 +27,7 @@ namespace UIController
             "ColorAdd_1",
             "ColorAdd_2",
             "Night_1",
+            "Night_2",
             "Magnet Tutorial",
             "SuperItem_1",
             "ColorAddWind_1",
