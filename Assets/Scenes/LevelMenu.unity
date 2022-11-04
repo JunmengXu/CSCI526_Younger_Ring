@@ -5108,7 +5108,7 @@ MonoBehaviour:
   ColorWind1: ColorAddWindNew_1
   ColorNight: NightColorAdd_1
   Night1: Night_1
-  Night2: 
+  Night2: Night_2
   Magnetic1: Magnet Tutorial
   Mix1: Mix_1
   MagnetFramework: magnetFramework
