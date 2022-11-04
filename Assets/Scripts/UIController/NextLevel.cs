@@ -30,7 +30,7 @@ namespace UIController
             "Night_2",
             "Magnet Tutorial",
             "SuperItem_1",
-            "ColorAddWind_1",
+            "ColorAddWindNew_1",
             "Level3",
             "Mix_1",
             "magnetFramework",

@@ -3408,7 +3408,7 @@ MonoBehaviour:
   Wind2: Wind_2
   Wind3: Wind_3
   Wind4: Wind_4
-  ColorWind1: ColorAddWind_1
+  ColorWind1: ColorAddWindNew_1
   ColorNight: NightColorAdd_1
   Night1: Night_1
   Night2: Night_2
