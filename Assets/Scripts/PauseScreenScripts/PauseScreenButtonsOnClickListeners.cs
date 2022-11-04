@@ -36,6 +36,8 @@ namespace PauseScreenScripts
             {
                 Time.timeScale = pauseController.cachedTimeScale;
             }
+            difficultySelectionButtons.SetActive(false);
+            pauseOptions.SetActive(true);
             pauseMenu.SetActive(false);
             pauseController.duringTimeFreeze = false;
         }
