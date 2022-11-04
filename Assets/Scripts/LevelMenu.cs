@@ -41,6 +41,7 @@ public class LevelMenu : MonoBehaviour
 
 
     public string Night1;
+    public string Night2;
 
     public string Magnetic1;
 
@@ -170,6 +171,11 @@ public class LevelMenu : MonoBehaviour
     public void StartNight1()
     {
         SceneManager.LoadScene(Night1);
+    }
+
+    public void StartNight2()
+    {
+        SceneManager.LoadScene(Night2);
     }
 
     public void StartMagnetic1()

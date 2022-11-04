@@ -33,7 +33,7 @@ public class TutorialManager : MonoBehaviour
                 popUps[i].SetActive(false);
             }
         }
-        if(Input.GetKeyDown(KeyCode.Space) && popUpIndex < popUps.Length) {
+        if(Input.GetKeyDown(KeyCode.Return) && popUpIndex < popUps.Length) {
             if(popUpIndex <= popUps.Length - 3) { popUpIndex += 2; } else
             {
                 popUpIndex++;

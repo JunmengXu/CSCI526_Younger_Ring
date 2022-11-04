@@ -53,24 +53,30 @@ To change the color set, tweak "Color Set Selection".
 1       FirstLevelScene
 2       SecondLevel1
 3       SampleScene
-4       Level3
+4       Level3              [SuperItem]
 5       Catapult_1
 6       Catapult_2
 7       Catapult_3
 8       Brush_1
-9       Wind_1
-10      Wind_2
-11      Wind_3
-12      Wind_4
-13      fragile_1
-14      fragile21
-15      Obstacle1Scene
-16      ColorAdd_1
-17      ColorAdd_2
-18      Mix_1
-19      Night_1
-20      ColorAddWind_1
-21      Magnet Tutorial
+9       Brush_2
+10      Brush_3
+11      Wind_1
+12      Wind_2
+13      Wind_3
+14      Wind_4
+15      fragile_1
+16      fragile_2
+17      Obstacle1Scene
+18      ColorAdd_1
+19      ColorAdd_2
+20      Mix_1               [Catapult, Obstacle, Magnetic]
+21      Night_1
+22      ColorAddWind_1      [Wind, ColorAdd]
+23      Magnet Tutorial
+24      NightColorAdd_1     [Night, ColorAdd]
+25      Mix_Brush_Catapult_Magnet   [Catapult, Magnetic, Brush]
+26      SuperItem_1
+27      magnetFramework     [Obstacle,Fragile, Magnetic]
 ```
 
 
