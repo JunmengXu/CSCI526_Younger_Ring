@@ -13,7 +13,7 @@ namespace PauseScreenScripts
         public bool duringTimeFreeze = false;
 
         // Store the selected difficulty time scale
-        public float cachedTimeScale = 1;
+        public float cachedTimeScale;
 
         // Update is called once per frame
         void Update()
@@ -63,12 +63,6 @@ namespace PauseScreenScripts
         bool IsPaused()
         {
             return pauseMenu.activeSelf;
-        }
-        
-        // Let DifficultyController use this to directly back to game after modifying the difficulties
-        public void backToGame()
-        {
-            ResumeGame();
         }
     }
 }
