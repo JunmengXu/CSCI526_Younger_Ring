@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ColliderDetector : MonoBehaviour
@@ -28,4 +30,34 @@ public class ColliderDetector : MonoBehaviour
             player.horizontalVelocity = 0.0f;
         }
     }
+
+    private void OnTriggerStay2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            magnet.isHit = true;
+            Player player = other.GetComponent<Player>();
+            Transform magnetColorObject = transform.parent.Find("Color");
+            Color magnetColor = magnetColorObject.GetComponent<SpriteRenderer>().color;
+            if (player.playerColor.currentColor != magnetColor && player.isInMagnet)
+            {
+                player.velocity = 0.0f;
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Player"))
+        {
+            magnet.isHit = false;
+        }
+    }
+
+
+    // private void OnTriggerExit2D(Collider2D col)
+    // {
+    //     Player player = col.GetComponent<Player>();
+    //     player.velocity = 0.0f;
+    // }
 }

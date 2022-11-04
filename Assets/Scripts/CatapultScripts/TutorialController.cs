@@ -11,7 +11,6 @@ namespace CatapultScripts
 
         public GameObject continueText;
 
-        public GameObject resultScreen;
 
         public int currentIndex = 0;
 

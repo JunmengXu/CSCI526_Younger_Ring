@@ -19,6 +19,8 @@ public class LevelMenu : MonoBehaviour
 
     // Brush tile levels
     public string Brush1;
+    public string Brush2;
+    public string Brush3;
     
     // In development sandbox levels
     public string HugeMapLevel;
@@ -35,11 +37,21 @@ public class LevelMenu : MonoBehaviour
 
     public string ColorWind1;
 
+    public string ColorNight;
+
+
     public string Night1;
+    public string Night2;
 
     public string Magnetic1;
 
     public string Mix1;
+    
+    public string MagnetFramework;
+
+    public string SuperItem1;
+
+    public string BrushMix;
 
     // Start is called before the first frame update
     void Start()
@@ -95,6 +107,16 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadScene(Brush1);
     }
+    
+    public void StartBrush2()
+    {
+        SceneManager.LoadScene(Brush2);
+    }
+    
+    public void StartBrush3()
+    {
+        SceneManager.LoadScene(Brush3);
+    }
 
     public void StartHugeMapLevel()
     {
@@ -141,9 +163,19 @@ public class LevelMenu : MonoBehaviour
         SceneManager.LoadScene(ColorWind1);
     }
 
+    public void StartColorNight()
+    {
+        SceneManager.LoadScene(ColorNight);
+    }
+
     public void StartNight1()
     {
         SceneManager.LoadScene(Night1);
+    }
+
+    public void StartNight2()
+    {
+        SceneManager.LoadScene(Night2);
     }
 
     public void StartMagnetic1()
@@ -154,5 +186,20 @@ public class LevelMenu : MonoBehaviour
     public void StartMix1()
     {
         SceneManager.LoadScene(Mix1);
+    }
+
+    public void StartSuperItem1() 
+    {
+        SceneManager.LoadScene(SuperItem1);
+    }
+    
+    public void StartMagnetMix()
+    {
+        SceneManager.LoadScene(MagnetFramework);
+    }
+
+    public void StartBrushMix()
+    {
+        SceneManager.LoadScene(BrushMix);
     }
 }
