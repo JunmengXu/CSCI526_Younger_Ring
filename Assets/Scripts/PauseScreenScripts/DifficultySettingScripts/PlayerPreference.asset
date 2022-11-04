@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 77438a175947a4a7a8767f56354e3099, type: 3}
   m_Name: PlayerPreference
   m_EditorClassIdentifier: 
-  scale: 1.5
+  scale: 1
