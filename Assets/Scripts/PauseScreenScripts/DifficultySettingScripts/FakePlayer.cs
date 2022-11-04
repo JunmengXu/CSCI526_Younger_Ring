@@ -77,9 +77,11 @@ namespace PauseScreenScripts.DifficultySettingScripts
             // Update player velocity, and handle tile collision
             if (!isGrounded)
             {
-                fakePlayerTransform.y += velocity * Time.unscaledDeltaTime * playerPreference.scale;
+                // fakePlayerTransform.y += velocity * Time.unscaledDeltaTime * playerPreference.scale;
+                fakePlayerTransform.y += velocity * Time.unscaledDeltaTime * (PlayerPrefs.HasKey("Scale") ? PlayerPrefs.GetFloat("Scale") : 1f);
                 // Decrease velocity by applying gravity
-                velocity += gravity * Time.unscaledDeltaTime * playerPreference.scale;
+                // velocity += gravity * Time.unscaledDeltaTime * playerPreference.scale;
+                velocity += gravity * Time.unscaledDeltaTime * (PlayerPrefs.HasKey("Scale") ? PlayerPrefs.GetFloat("Scale") : 1f);
             }
         
             transform.position = fakePlayerTransform;
