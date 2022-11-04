@@ -17,10 +17,12 @@ public class DifficultyController : MonoBehaviour
     public void ChangeScale(float sliderValue)
     {
         // Save the new scale to playerPreference
-        playerPreference.scale = sliderValue;
+        // playerPreference.scale = sliderValue;
+        PlayerPrefs.SetFloat("Scale", sliderValue);
         
         // Apply the time scale change
-        pauseController.cachedTimeScale = playerPreference.scale;
+        // pauseController.cachedTimeScale = playerPreference.scale;
+        pauseController.cachedTimeScale = PlayerPrefs.GetFloat("Scale");
     }
 
     // Start is called before the first frame update
@@ -30,8 +32,10 @@ public class DifficultyController : MonoBehaviour
         player.ChangeForceGravityAndMoveSpeed(9, -14, 6);
         
         // Initialize the time scale setting
-        pauseController.cachedTimeScale = playerPreference.scale;
-        jumpSpeedSlider.value = playerPreference.scale;
+        // pauseController.cachedTimeScale = playerPreference.scale;
+        pauseController.cachedTimeScale = PlayerPrefs.HasKey("Scale") ? PlayerPrefs.GetFloat("Scale") : 1f;
+        // jumpSpeedSlider.value = playerPreference.scale;
+        jumpSpeedSlider.value = PlayerPrefs.HasKey("Scale") ? PlayerPrefs.GetFloat("Scale") : 1f;
     }
 
     private void Update()
