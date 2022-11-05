@@ -46,14 +46,14 @@ public class Highlight : MonoBehaviour
 
     void HighLightButton(string Name)
     {
-        var level = GameObject.Find(Name);
+        var level = transform.Find(Name);
         var button = level.GetComponent<Button>();
         button.OnSelect(null);
     }
 
     void DeHighLightButton(string Name)
     {
-        var level = GameObject.Find(Name);
+        var level = transform.Find(Name);
         var button = level.GetComponent<Button>();
         button.OnDeselect(null);
     }
