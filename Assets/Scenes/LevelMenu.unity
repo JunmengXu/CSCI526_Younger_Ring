@@ -3130,7 +3130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3206,7 +3206,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028665, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_Name
-      value: Obstacle1
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028667, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3342,8 +3342,8 @@ RectTransform:
   - {fileID: 370061109}
   - {fileID: 2146209203}
   - {fileID: 1348850447}
-  - {fileID: 1151377799}
   - {fileID: 1382612640}
+  - {fileID: 1151377799}
   - {fileID: 379802157}
   - {fileID: 1532950563}
   - {fileID: 1447506530}
@@ -3639,7 +3639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028664, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3715,7 +3715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028665, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_Name
-      value: Obstacle2
+      value: Obstacle1
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028667, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
