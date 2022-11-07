@@ -18,6 +18,7 @@ namespace UIController
             "Brush_2",
             "Brush_3",
             "Obstacle1Scene",
+            "Obstacle2",
             "fragile_1",
             "fragile_2",
             "Wind_1",

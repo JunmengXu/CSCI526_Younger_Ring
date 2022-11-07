@@ -26,6 +26,7 @@ public class LevelMenu : MonoBehaviour
     public string HugeMapLevel;
     
     public string Obstacle1;
+    public string Obstacle2 ;
     public string Fragile1;
 
     public string Fragile2;
@@ -126,6 +127,11 @@ public class LevelMenu : MonoBehaviour
     public void StartObstacle1()
     {
         SceneManager.LoadScene(Obstacle1);
+    }
+
+    public void StartObstacle2()
+    {
+        SceneManager.LoadScene(Obstacle2);
     }
 
     public void StartFragile1()
