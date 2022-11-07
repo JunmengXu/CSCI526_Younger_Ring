@@ -4806,7 +4806,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_text
-      value: Obstacle1
+      value: Obstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_fontSize
@@ -4922,7 +4922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028667, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StartObstacle1
+      value: StartObstacle2
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534904028667, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -5040,6 +5040,7 @@ RectTransform:
   - {fileID: 2146209203}
   - {fileID: 1348850447}
   - {fileID: 1151377799}
+  - {fileID: 1382612640}
   - {fileID: 379802157}
   - {fileID: 1532950563}
   - {fileID: 1447506530}
@@ -5099,6 +5100,7 @@ MonoBehaviour:
   Brush3: Brush_3
   HugeMapLevel: Level3
   Obstacle1: Obstacle1Scene
+  Obstacle2: Obstacle2
   Fragile1: fragile_1
   Fragile2: fragile_2
   Wind1: Wind_1
