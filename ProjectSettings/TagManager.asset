@@ -11,8 +11,6 @@ TagManager:
   - Item
   - Catapult
   - NoColorTile
-  - ColorAdd
-  - Obstacle
   layers:
   - Default
   - TransparentFX

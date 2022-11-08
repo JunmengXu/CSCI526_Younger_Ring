@@ -95,7 +95,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ColorAddWindNew_1.unity
     guid: 4fb29d4fcf5ae4f2e9185f12473521d8
-  - enabled: 1
-    path: Assets/Scenes/Obstacle2.unity
-    guid: a84dd4df987744e29831302fcd33f7ed
   m_configObjects: {}
