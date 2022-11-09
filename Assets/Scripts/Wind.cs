@@ -8,10 +8,12 @@ public class Wind : MonoBehaviour
     private Color windColor;
     [SerializeField] private GameObject windSign;
     [SerializeField] private int magnitude;
+    [SerializeField] private int angle;
     [SerializeField] private Player player;
     // Start is called before the first frame update
     void Start()
     {
+        gameObject.GetComponent<AreaEffector2D>().forceAngle = angle;
         switch (windColorSet)
         {
             case ColorSet.White:
