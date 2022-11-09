@@ -8,7 +8,7 @@ namespace PauseScreenScripts
 
         public GameObject pauseOptions;
         
-        public GameObject difficultySelectionButtons;
+        public GameObject speedSettingMenu;
 
         public bool duringTimeFreeze = false;
 
@@ -55,7 +55,7 @@ namespace PauseScreenScripts
 
         void ResetPauseScreen()
         {
-            difficultySelectionButtons.SetActive(false);
+            speedSettingMenu.SetActive(false);
             pauseOptions.SetActive(true);
             pauseMenu.SetActive(false);
         }
