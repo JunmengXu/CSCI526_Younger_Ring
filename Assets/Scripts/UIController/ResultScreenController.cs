@@ -69,17 +69,22 @@ namespace UIController
             if (player.gameover)
             {
                 Time.timeScale = 0;
+                
+                if(index < avgTimeList.Count && index < stdTimeList.Count)
+                {
+                    double userTime = double.Parse(timer.text);
+                    double avgTime = double.Parse(avgTimeList[index][1]);
+                    double stdTime = double.Parse(stdTimeList[index][1]);
+                    double p = Normal(userTime, avgTime, stdTime);
+                    double cnd = CND((userTime - avgTime)/stdTime);
+                    double percent = (1.0 - cnd) * 100;
 
-                double userTime = double.Parse(timer.text);
-                double avgTime = double.Parse(avgTimeList[index][1]);
-                double stdTime = double.Parse(stdTimeList[index][1]);
-                Debug.Log("userTime: " + userTime + " avgTime: " + avgTime + " stdTime: " + stdTime);
-                double p = Normal(userTime, avgTime, stdTime);
-                double cnd = CND((userTime - avgTime)/stdTime);
-                double percent = (1.0 - cnd) * 100;
-                Debug.Log("p = " + p + " cnd = " + cnd);
-
-                result.text = "You used " + timer.text + "s and beat " + percent.ToString("0.00") + "% of players!";
+                    result.text = "You used " + timer.text + "s and beat " + percent.ToString("0.00") + "% of players!";
+                }
+                else
+                {
+                    result.text = "You used " + timer.text + "s!";
+                }
                 resultScreen.SetActive(true);
             }
         }
