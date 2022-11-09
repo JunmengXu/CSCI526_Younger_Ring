@@ -2855,7 +2855,7 @@ GameObject:
   - component: {fileID: 1281862920}
   - component: {fileID: 1281862919}
   - component: {fileID: 1281862918}
-  - component: {fileID: 1281862921}
+  - component: {fileID: 1281862922}
   m_Layer: 5
   m_Name: UIController
   m_TagString: Untagged
@@ -2929,7 +2929,7 @@ MonoBehaviour:
   nextLevelSceneStr: 
   result: {fileID: 163893437}
   timer: {fileID: 649745953}
---- !u!114 &1281862921
+--- !u!114 &1281862922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2938,13 +2938,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1281862916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04a3160d8aa664af687e63856e1a54ba, type: 3}
+  m_Script: {fileID: 11500000, guid: c560a12be1894461a8b488bb61b4d9d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   resultScreen: {fileID: 400895566}
   player: {fileID: 941162555}
   retryButton: {fileID: 1259297851}
   selectLevelButton: {fileID: 1167551357}
+  nextLevelSceneStr: Wind_4
   result: {fileID: 163893437}
   timer: {fileID: 649745953}
 --- !u!1001 &1295192797
