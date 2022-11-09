@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1713766791818522975}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.42, y: -4.78, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1713766792649985123}
@@ -181,7 +181,7 @@ MonoBehaviour:
   windColorSet: 2
   windSign: {fileID: 1713766792649985122}
   magnitude: 150
-  player: {fileID: 0}
+  angle: 0
 --- !u!1 &1713766792649985122
 GameObject:
   m_ObjectHideFlags: 0

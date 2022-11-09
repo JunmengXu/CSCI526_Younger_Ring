@@ -232,7 +232,7 @@ MonoBehaviour:
   windColorSet: 0
   windSign: {fileID: 3058098259258432953}
   magnitude: 150
-  player: {fileID: 0}
+  angle: 0
 --- !u!1 &3058098260588732548
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,7 +258,7 @@ Transform:
   m_GameObject: {fileID: 3058098260588732548}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3058098259258432952}

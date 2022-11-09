@@ -9,7 +9,7 @@ public class Wind : MonoBehaviour
     [SerializeField] private GameObject windSign;
     [SerializeField] private int magnitude;
     [SerializeField] private int angle;
-    [SerializeField] private Player player;
+    //[SerializeField] private Player player;
     // Start is called before the first frame update
     void Start()
     {
@@ -46,6 +46,7 @@ public class Wind : MonoBehaviour
     private void OnTriggerStay2D(Collider2D col) {
         if (col.gameObject.tag == "Player")
         {
+            Player player = col.GetComponent<Player>();
             bool isSameColor = (windColor == player.playerColor.currentColor);
             if (isSameColor)
             {
