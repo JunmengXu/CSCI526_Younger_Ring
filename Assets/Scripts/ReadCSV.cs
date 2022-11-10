@@ -9,7 +9,7 @@ public class ReadCSV : MonoBehaviour
 {
     private static char _csvSeparator = ',';
     private static bool _trimColumns = false;
-    //获取一个单元格的写入格式
+    //Get the format of a cell
     public static string GetCSVFormat(string str)
     {
         string tempStr = str;
@@ -24,7 +24,7 @@ public class ReadCSV : MonoBehaviour
         return tempStr;
     }
 
-    //获取一行的写入格式
+    //Get the format of a line
     public static string GetCSVFormatLine(List<string> strList)
     {
         string tempStr = "";
@@ -37,33 +37,31 @@ public class ReadCSV : MonoBehaviour
         return tempStr;
     }
 
-    //解析一行
+    //Parse a line
     public static List<string> ParseLine(string line)
     {
         StringBuilder _columnBuilder = new StringBuilder();
         List<string> Fields = new List<string>();
-        bool inColum = false;//是否是在一个列元素里
-        bool inQuotes = false;//是否需要转义
-        bool isNotEnd = false;//读取完毕未结束转义
+        bool inColum = false;//Whether it is in a cell
+        bool inQuotes = false;//Whether it is in a quote
+        bool isNotEnd = false;//Whether it is the end of the line
         _columnBuilder.Remove(0, _columnBuilder.Length);
 
-        //空行也是一个空元素，一个逗号是2个空元素
+        //An empty line is an empty element, and a comma is 2 empty elements
         if (line == "")
         {
             Fields.Add("");
         }
-        // Iterate through every character in the line  遍历行中的每个字符
+        // Iterate through every character in the line
         for (int i = 0; i < line.Length; i++)
         {
             char character = line[i];
 
-            //If we are not currently inside a column   如果我们现在不在一列中
+            //If we are not currently inside a column
             if (!inColum)
             {
                 // If the current character is a double quote then the column value is contained within
-                //如果当前字符是双引号，则列值包含在内
                 // double quotes, otherwise append the next character
-                //双引号，否则追加下一个字符
                 inColum = true;
                 if (character == '"')
                 {
@@ -71,55 +69,56 @@ public class ReadCSV : MonoBehaviour
                     continue;
                 }
             }
-            // If we are in between double quotes   如果我们处在双引号之间
+            // If we are in between double quotes
             if (inQuotes)
             {
-                if ((i + 1) == line.Length)//这个字符已经结束了整行
+                if ((i + 1) == line.Length)//this is the last character
                 {
-                    if (character == '"')//正常转义结束，且该行已经结束
+                    if (character == '"')//this line is end
                     {
                         inQuotes = false;
                         continue;
                     }
-                    else//异常结束，转义未收尾
+                    else // End with error
                     {
                         isNotEnd = true;
                     }
                 }
-                else if (character == '"' && line[i + 1] == _csvSeparator)//结束转义，且后面有可能还有数据
+                else if (character == '"' && line[i + 1] == _csvSeparator)
                 {
                     inQuotes = false;
                     inColum = false;
-                    i++;//跳过下一个字符
+                    i++;//jump over the comma
                 }
-                else if (character == '"' && line[i + 1] == '"')//双引号转义
+                //
+                else if (character == '"' && line[i + 1] == '"')//escape the quotes
                 {
-                    i++;//跳过下一个字符
+                    i++;//jump over the next character
                 }
-                else if (character == '"')//双引号单独出现（这种情况实际上已经是格式错误，为了兼容暂时不处理）
+                // If the current character is double quotes, this is a format error
+                else if (character == '"')
                 {
-                    throw new System.Exception("格式错误，错误的双引号转义");
+                    throw new System.Exception("Format Error: wrong double quotes");
                 }
-                //其他情况直接跳出，后面正常添加
+                // Otherwise append the current character
             }
             else if (character == _csvSeparator)
             {
                 inColum = false;
             }
             // If we are no longer in the column clear the builder and add the columns to the list
-            //结束该元素时inColumn置为false,并且不处理当前字符,直接进行Add
             if (!inColum)
             {
                 Fields.Add(_trimColumns ? _columnBuilder.ToString().Trim() : _columnBuilder.ToString());
                 _columnBuilder.Remove(0, _columnBuilder.Length);
             }
-            else//追加当前列
+            else
             {
                 _columnBuilder.Append(character);
             }
         }
  
-        // If we are still inside a column add a new one （标准格式一行结尾不需要逗号结尾，而上面for是遇到逗号才添加的，为了兼容最后还要添加一次）
+        // If we are still inside a column add a new one
         if (inColum)
         {
             if (isNotEnd)
@@ -128,22 +127,23 @@ public class ReadCSV : MonoBehaviour
             }
             Fields.Add(_trimColumns ? _columnBuilder.ToString().Trim() : _columnBuilder.ToString());
         }
-        else  //如果inColumn为false，说明已经添加，因为最后一个字符为分隔符，所以后面要加上一个空元素
+        //If we are not in a column, add a new one
+        else
         {
             Fields.Add("");
         }
         return Fields;
     }
 
-    //读取文件
+    //Read the CSV file
     public static List<List<string>> Read(string filePath, Encoding encoding)
     {
         List<List<string>> result = new List<List<string>>();
-        string content = File.ReadAllText(filePath, encoding);//读取csv所有的文本内容
+        //Read all texts
+        string content = File.ReadAllText(filePath, encoding);
+        //Split each line by \r\n
+        //This may be a problem on some csv files, you can try to replace \r\n with \n
         string[] lines = content.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
-        //以换行回车拆分字符串，去除空格
-        //注：回车换行可能对某些csv不适用，这里如果我们出现读取不正常，可以改用 \n （换行）试试
-        
         for (int i = 0; i < lines.Length; i++)
         {
             List<string> line = ParseLine(lines[i]);
