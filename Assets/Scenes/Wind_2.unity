@@ -2136,6 +2136,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 1733532096}
     m_Modifications:
     - target: {fileID: 3058098260033907521, guid: bed3e60d7297b4c328129c9ae58d091f, type: 3}
+      propertyPath: angle
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 3058098260033907521, guid: bed3e60d7297b4c328129c9ae58d091f, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1129971318}
