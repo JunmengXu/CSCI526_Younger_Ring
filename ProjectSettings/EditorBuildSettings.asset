@@ -98,4 +98,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Obstacle2.unity
     guid: a84dd4df987744e29831302fcd33f7ed
+  - enabled: 1
+    path: Assets/Scenes/Obstacle3.unity
+    guid: ae6be8209fda546eb891685117961eed
   m_configObjects: {}
