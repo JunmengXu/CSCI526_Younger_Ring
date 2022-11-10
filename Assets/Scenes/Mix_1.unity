@@ -2011,7 +2011,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 3.0330138, y: 0, z: 2.929222, w: 0}
+  m_margin: {x: -0.038856983, y: 0, z: 0.0073432922, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6433,7 +6433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   magnet: {fileID: 1373367946}
-  obstacleRemainHealth: {fileID: 592477244}
+  obstacle: {fileID: 2089433691}
 --- !u!114 &1681885327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8627,6 +8627,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 592477244}
+  obstacleColorSet: 5
+  player: {fileID: 0}
+  allColorObstacle: 0
+  obstacleLife: 3
 --- !u!61 &2089433694
 BoxCollider2D:
   m_ObjectHideFlags: 0
