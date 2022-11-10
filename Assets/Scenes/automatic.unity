@@ -6582,11 +6582,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500898, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.11
+      value: 14.3
       objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500898, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 43.67
+      value: 43.6
       objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500898, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6630,7 +6630,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: playerSpeed
-      value: 19
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5027160154526500910, guid: 81b8d39e6bcd1471f882dac6038327ab, type: 3}
       propertyPath: stretchSpeed
