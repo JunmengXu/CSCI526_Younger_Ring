@@ -21,8 +21,6 @@ namespace BrushScripts
 
         public GameObject continueText;
 
-        public GameObject resultScreen;
-
         public int currentIndex = 0;
 
         public bool paused = false;
@@ -46,8 +44,7 @@ namespace BrushScripts
         void Update()
         {
             if ((currentIndex == 0 || 
-                 currentIndex == 1 || 
-                 currentIndex == 6) && paused)
+                 currentIndex == 1) && paused)
             {
                 if (Input.GetKeyDown(KeyCode.Return))
                 {
@@ -125,7 +122,7 @@ namespace BrushScripts
                 }
             }
 
-            if (currentIndex == 7)
+            if (currentIndex == 6)
             {
                 if (paused && !finishedPartThree)
                 {
@@ -145,7 +142,7 @@ namespace BrushScripts
                 }
             }
 
-            if (currentIndex == 8)
+            if (currentIndex == 7)
             {
                 if (paused)
                 {

@@ -5,29 +5,42 @@ using TMPro;
 using UnityEngine;
 
 //
-// Control for obstacle
+// < Control for obstacle >
+// 
+//  < What do you need to set to use obstacle: >
+//  1.  obstacleLife        -- default is 3, you can use any int
+//  2.  obstacleColorSet    -- all prefabs (B/W/R/G/B) have been set to the correct obstacleColorSet, only change if you want to tweak it
 //
 public class Obstacle : MonoBehaviour
 {
     public TextMeshProUGUI text;
 
-    public SpriteRenderer sprite;
+    private SpriteRenderer sprite;
+
+    // select the obstacle's color
     public ColorSet obstacleColorSet;
+
     private Color ObstacleColor;
-    [SerializeField] private Player player;
+
+    public Player player;
+
+    // F:   obstacle only hitable by certain color
+    // T:   obstacle hitablt by any color
+    // only change if you want to tweak it
     [SerializeField] private bool allColorObstacle;
 
-    // num of hit to make obstacle disappear
+    // num of hits to make obstacle disappear, default is 3
     [SerializeField] private int obstacleLife = 3;
 
     private void Start()
     {
         text.text = obstacleLife.ToString() + " hits";
-        //ObstacleColor = sprite.color;
         if (player == null)
         {
-            player = GameObject.Find("Player").GetComponent<Player>();
+            // find the player in top hierarchy, not the fake player in speed control
+            player = GameObject.Find("/Player").GetComponent<Player>();
         }
+        
         switch (obstacleColorSet)
         {
             case ColorSet.White:
@@ -54,27 +67,10 @@ public class Obstacle : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        // When the player collides with the obstacle, decrement the obstacle life count
+        // When the player collides with the obstacle, decrement the obstacle life count if color match
         if (col.gameObject.CompareTag("Player"))
         {
-            if (player == null)
-            {
-                Debug.Log("no player");
-            }
 
-
-            if (player.playerColor == null)
-            {
-                Debug.Log("playerColor");
-            }
-
-
-            if (player.playerColor.currentColor == null)
-            {
-                Debug.Log("playerColor");
-            }
-
-            
             bool isSameColor = (ObstacleColor == player.playerColor.currentColor);
             if (allColorObstacle || isSameColor)
             {
@@ -99,6 +95,6 @@ public class Obstacle : MonoBehaviour
         Red,
         Green,
         Blue,
-        Yellow
+        Yellow      // for all-color obstacle
     };
 }

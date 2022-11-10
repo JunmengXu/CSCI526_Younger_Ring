@@ -11,7 +11,7 @@ namespace PauseScreenScripts
         
         public GameObject pauseOptions;
         
-        public GameObject difficultySelectionButtons;
+        public GameObject speedSettingMenu;
 
         public SendToGoogle sendManger;
 
@@ -36,7 +36,7 @@ namespace PauseScreenScripts
             {
                 Time.timeScale = pauseController.cachedTimeScale;
             }
-            difficultySelectionButtons.SetActive(false);
+            speedSettingMenu.SetActive(false);
             pauseOptions.SetActive(true);
             pauseMenu.SetActive(false);
             pauseController.duringTimeFreeze = false;
@@ -45,7 +45,7 @@ namespace PauseScreenScripts
         public void ToggleDifficultyButtons()
         {
             pauseOptions.SetActive(false);
-            difficultySelectionButtons.SetActive(true);
+            speedSettingMenu.SetActive(true);
         }
 
         public void RetryCurrentLevel()
@@ -69,7 +69,7 @@ namespace PauseScreenScripts
         public void GoBack()
         {
             pauseOptions.SetActive(true);
-            difficultySelectionButtons.SetActive(false);
+            speedSettingMenu.SetActive(false);
         }
     }
 }
