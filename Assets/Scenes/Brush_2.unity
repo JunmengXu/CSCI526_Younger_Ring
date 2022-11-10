@@ -1693,9 +1693,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 603675836}
+  - {fileID: 2092939850}
   - {fileID: 1616452764}
   - {fileID: 614575592}
-  - {fileID: 2092939850}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2770,7 +2770,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179b985ce8ae4cdf939ae4c4683403b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  square: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  whiteSprite: {fileID: -2095182456, guid: 27eafacacff09404f80388e3418320d5, type: 3}
+  blackSprite: {fileID: -739226417, guid: 27eafacacff09404f80388e3418320d5, type: 3}
   noColor: {fileID: 21300000, guid: 648b897ad61f4fd38926a1a5572adb7b, type: 3}
   player: {fileID: 283543985}
   playerColor: {fileID: 283543984}
@@ -3632,7 +3633,7 @@ Transform:
   m_Children:
   - {fileID: 1122535131}
   m_Father: {fileID: 1021202030}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2092939851
 BoxCollider2D:

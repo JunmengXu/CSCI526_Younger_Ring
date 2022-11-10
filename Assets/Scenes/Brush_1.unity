@@ -6016,6 +6016,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   square: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  whiteSprite: {fileID: -2095182456, guid: 27eafacacff09404f80388e3418320d5, type: 3}
+  blackSprite: {fileID: -739226417, guid: 27eafacacff09404f80388e3418320d5, type: 3}
+  whiteTile: {fileID: 3494750174513181228, guid: 6166aa644fc4240a69e187355b23c8a6, type: 3}
+  blackTile: {fileID: 3494750174513181228, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
   noColor: {fileID: 21300000, guid: 648b897ad61f4fd38926a1a5572adb7b, type: 3}
   player: {fileID: 508952529}
   playerColor: {fileID: 508952528}
@@ -6034,7 +6038,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4533290984292532569, guid: ca1dd016be4e94400a61faa44d5fadc4, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4533290984292532569, guid: ca1dd016be4e94400a61faa44d5fadc4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6100,7 +6104,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4533290984292532569, guid: ca1dd016be4e94400a61faa44d5fadc4, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4533290984292532569, guid: ca1dd016be4e94400a61faa44d5fadc4, type: 3}
       propertyPath: m_LocalPosition.x

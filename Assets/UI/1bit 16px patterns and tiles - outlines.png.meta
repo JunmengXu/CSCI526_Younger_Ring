@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -6179,16 +6179,16 @@ TextureImporter:
       1bit 16px patterns and tiles - outlines_146: -2139195734
       1bit 16px patterns and tiles - outlines_58: -195144530
       1bit 16px patterns and tiles - outlines_277: -1494390607
-      1bit 16px patterns and tiles - outlines_195: 1503624900
-      1bit 16px patterns and tiles - outlines_3: 622038462
       1bit 16px patterns and tiles - outlines_258: -929223775
+      1bit 16px patterns and tiles - outlines_3: 622038462
+      1bit 16px patterns and tiles - outlines_195: 1503624900
       1bit 16px patterns and tiles - outlines_43: 1412278965
       1bit 16px patterns and tiles - outlines_109: 576103493
       1bit 16px patterns and tiles - outlines_274: 197895462
       1bit 16px patterns and tiles - outlines_244: 2125040410
       1bit 16px patterns and tiles - outlines_160: -20518984
-      1bit 16px patterns and tiles - outlines_145: 1440575867
       1bit 16px patterns and tiles - outlines_264: 1239063920
+      1bit 16px patterns and tiles - outlines_145: 1440575867
       1bit 16px patterns and tiles - outlines_153: -388373659
       1bit 16px patterns and tiles - outlines_53: 1272000354
       1bit 16px patterns and tiles - outlines_96: 1966575051
@@ -6277,12 +6277,11 @@ TextureImporter:
       1bit 16px patterns and tiles - outlines_202: 38398832
       1bit 16px patterns and tiles - outlines_20: -912982452
       1bit 16px patterns and tiles - outlines_17: 1123490139
+      1bit 16px patterns and tiles - outlines_179: 143349315
+      1bit 16px patterns and tiles - outlines_191: -934146412
+      1bit 16px patterns and tiles - outlines_34: -413960225
       1bit 16px patterns and tiles - outlines_81: 87460801
       1bit 16px patterns and tiles - outlines_166: 168915409
-      1bit 16px patterns and tiles - outlines_34: -413960225
-      1bit 16px patterns and tiles - outlines_179: 143349315
-      1bit 16px patterns and tiles - outlines_193: 899220733
-      1bit 16px patterns and tiles - outlines_191: -934146412
       1bit 16px patterns and tiles - outlines_189: 970307477
       1bit 16px patterns and tiles - outlines_67: -220732701
       1bit 16px patterns and tiles - outlines_74: -171789913
@@ -6291,26 +6290,27 @@ TextureImporter:
       1bit 16px patterns and tiles - outlines_65: -974005244
       1bit 16px patterns and tiles - outlines_78: 84909434
       1bit 16px patterns and tiles - outlines_276: -770251647
+      1bit 16px patterns and tiles - outlines_193: 899220733
       1bit 16px patterns and tiles - outlines_76: 1003691508
       1bit 16px patterns and tiles - outlines_196: -1595522842
       1bit 16px patterns and tiles - outlines_231: -428229300
-      1bit 16px patterns and tiles - outlines_124: 20315065
+      1bit 16px patterns and tiles - outlines_237: 2084162339
       1bit 16px patterns and tiles - outlines_79: 300851916
       1bit 16px patterns and tiles - outlines_49: 785384609
-      1bit 16px patterns and tiles - outlines_134: 586899286
+      1bit 16px patterns and tiles - outlines_124: 20315065
       1bit 16px patterns and tiles - outlines_88: -2016639566
-      1bit 16px patterns and tiles - outlines_237: 2084162339
-      1bit 16px patterns and tiles - outlines_243: -161650334
       1bit 16px patterns and tiles - outlines_284: 1008109497
+      1bit 16px patterns and tiles - outlines_243: -161650334
       1bit 16px patterns and tiles - outlines_71: 1454877973
       1bit 16px patterns and tiles - outlines_24: -1861951984
       1bit 16px patterns and tiles - outlines_23: 640083552
       1bit 16px patterns and tiles - outlines_154: -1377354265
       1bit 16px patterns and tiles - outlines_48: -2041558672
       1bit 16px patterns and tiles - outlines_204: 1299137400
-      1bit 16px patterns and tiles - outlines_54: 2075567919
+      1bit 16px patterns and tiles - outlines_134: 586899286
       1bit 16px patterns and tiles - outlines_66: -403941354
       1bit 16px patterns and tiles - outlines_207: -739226417
+      1bit 16px patterns and tiles - outlines_54: 2075567919
       1bit 16px patterns and tiles - outlines_241: 1655622199
       1bit 16px patterns and tiles - outlines_192: -609443134
       1bit 16px patterns and tiles - outlines_1: -269274282
@@ -6318,19 +6318,19 @@ TextureImporter:
       1bit 16px patterns and tiles - outlines_94: 1984868470
       1bit 16px patterns and tiles - outlines_197: -1534696584
       1bit 16px patterns and tiles - outlines_21: 1586822163
-      1bit 16px patterns and tiles - outlines_104: 1258286164
       1bit 16px patterns and tiles - outlines_131: -856837670
-      1bit 16px patterns and tiles - outlines_180: 1252640272
+      1bit 16px patterns and tiles - outlines_104: 1258286164
       1bit 16px patterns and tiles - outlines_161: -1341108675
       1bit 16px patterns and tiles - outlines_14: -461681131
       1bit 16px patterns and tiles - outlines_82: -1138702367
       1bit 16px patterns and tiles - outlines_156: -1841536270
       1bit 16px patterns and tiles - outlines_200: -1061263204
-      1bit 16px patterns and tiles - outlines_273: 5034110
+      1bit 16px patterns and tiles - outlines_180: 1252640272
       1bit 16px patterns and tiles - outlines_69: 134298721
-      1bit 16px patterns and tiles - outlines_252: -143120694
+      1bit 16px patterns and tiles - outlines_273: 5034110
       1bit 16px patterns and tiles - outlines_263: 214720137
       1bit 16px patterns and tiles - outlines_129: 1216339057
+      1bit 16px patterns and tiles - outlines_252: -143120694
       1bit 16px patterns and tiles - outlines_270: 1033300989
       1bit 16px patterns and tiles - outlines_185: -1485524611
       1bit 16px patterns and tiles - outlines_151: 625201877

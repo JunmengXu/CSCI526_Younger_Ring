@@ -603,6 +603,10 @@ PrefabInstance:
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2
       objectReference: {fileID: 0}
@@ -1650,6 +1654,10 @@ PrefabInstance:
     - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3049,6 +3057,10 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.0299993
       objectReference: {fileID: 0}
@@ -3150,6 +3162,10 @@ PrefabInstance:
     - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4482940486851407015, guid: 29df89c60025d4cdc91f7f0756634e2f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3273,7 +3289,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179b985ce8ae4cdf939ae4c4683403b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  square: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  whiteSprite: {fileID: -2095182456, guid: 27eafacacff09404f80388e3418320d5, type: 3}
+  blackSprite: {fileID: -739226417, guid: 27eafacacff09404f80388e3418320d5, type: 3}
   noColor: {fileID: 21300000, guid: 648b897ad61f4fd38926a1a5572adb7b, type: 3}
   player: {fileID: 283543985}
   playerColor: {fileID: 283543984}
