@@ -2925,8 +2925,8 @@ MonoBehaviour:
   resultScreen: {fileID: 400895566}
   player: {fileID: 941162555}
   retryButton: {fileID: 1259297851}
-  selectLevelButton: {fileID: 0}
-  nextLevelSceneStr: 
+  selectLevelButton: {fileID: 1167551357}
+  nextLevelSceneStr: Wind_4
   result: {fileID: 163893437}
   timer: {fileID: 649745953}
 --- !u!114 &1281862922
