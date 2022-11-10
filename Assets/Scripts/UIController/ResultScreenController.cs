@@ -48,8 +48,8 @@ namespace UIController
                 stdTimeList = ReadCSV.Read(Application.streamingAssetsPath + "/7 - Std Level Clear Time.csv", Encoding.Default);
             #else
                 Debug.Log("PC");
-                avgTimeList = ReadCSV.Read(Application.dataPath + "/3 - Avg Level Clear Time.csv", Encoding.Default);
-                stdTimeList = ReadCSV.Read(Application.dataPath + "/7 - Std Level Clear Time.csv", Encoding.Default);
+                avgTimeList = ReadCSV.Read(Application.dataPath + "/Resources/3 - Avg Level Clear Time.csv", Encoding.Default);
+                stdTimeList = ReadCSV.Read(Application.dataPath + "/Resources/7 - Std Level Clear Time.csv", Encoding.Default);
             #endif
         }
     
