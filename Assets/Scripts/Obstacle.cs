@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -23,7 +24,10 @@ public class Obstacle : MonoBehaviour
     {
         text.text = obstacleLife.ToString() + " hits";
         //ObstacleColor = sprite.color;
-        player = GameObject.Find("Player").GetComponent<Player>();
+        if (player == null)
+        {
+            player = GameObject.Find("Player").GetComponent<Player>();
+        }
         switch (obstacleColorSet)
         {
             case ColorSet.White:
@@ -53,6 +57,24 @@ public class Obstacle : MonoBehaviour
         // When the player collides with the obstacle, decrement the obstacle life count
         if (col.gameObject.CompareTag("Player"))
         {
+            if (player == null)
+            {
+                Debug.Log("no player");
+            }
+
+
+            if (player.playerColor == null)
+            {
+                Debug.Log("playerColor");
+            }
+
+
+            if (player.playerColor.currentColor == null)
+            {
+                Debug.Log("playerColor");
+            }
+
+            
             bool isSameColor = (ObstacleColor == player.playerColor.currentColor);
             if (allColorObstacle || isSameColor)
             {
