@@ -55,7 +55,8 @@ namespace UIController
     
         void ResetGame()
         {
-            SceneManager.LoadScene(nextLevelSceneStr);
+            //SceneManager.LoadScene(nextLevelSceneStr);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
         void SelectLevel()
         {

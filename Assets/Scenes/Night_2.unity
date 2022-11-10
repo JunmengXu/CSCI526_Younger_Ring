@@ -379,7 +379,7 @@ MonoBehaviour:
   player: {fileID: 1129971318}
   retryButton: {fileID: 273796586}
   selectLevelButton: {fileID: 1741530436}
-  nextLevelSceneStr: Night_1
+  nextLevelSceneStr: Night_2
   result: {fileID: 1029292363}
   timer: {fileID: 2058227116}
 --- !u!114 &92907640

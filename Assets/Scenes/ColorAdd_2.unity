@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 92907638}
   - component: {fileID: 92907640}
   - component: {fileID: 92907644}
+  - component: {fileID: 92907645}
   m_Layer: 5
   m_Name: UIController
   m_TagString: Untagged
@@ -259,7 +260,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92907637}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b12bf352049ff4ed687542c44b3f6925, type: 3}
   m_Name: 
@@ -271,6 +272,25 @@ MonoBehaviour:
   result: {fileID: 1029292363}
   timer: {fileID: 93951924}
   retryLevelSceneStr: ColorAdd_2
+--- !u!114 &92907645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92907637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c560a12be1894461a8b488bb61b4d9d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resultScreen: {fileID: 261291510}
+  player: {fileID: 1129971324}
+  retryButton: {fileID: 273796586}
+  selectLevelButton: {fileID: 1759410902}
+  nextLevelSceneStr: ColorAdd_2
+  result: {fileID: 1029292363}
+  timer: {fileID: 93951924}
 --- !u!1 &93951922
 GameObject:
   m_ObjectHideFlags: 0
