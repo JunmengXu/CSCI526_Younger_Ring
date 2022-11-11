@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using System.Text;
 using System;
+using UnityEngine.Networking;
 
 public class ReadCSV : MonoBehaviour 
 {
@@ -143,6 +144,19 @@ public class ReadCSV : MonoBehaviour
         string content = File.ReadAllText(filePath, encoding);
         //Split each line by \r\n
         //This may be a problem on some csv files, you can try to replace \r\n with \n
+        string[] lines = content.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
+        for (int i = 0; i < lines.Length; i++)
+        {
+            List<string> line = ParseLine(lines[i]);
+            result.Add(line);
+        }
+        return result;
+    }
+
+    //Read the CSV file on WebGL
+    public static List<List<string>> ReadOnWebGL(string content)
+    {
+        List<List<string>> result = new List<List<string>>();
         string[] lines = content.Split(new string[] { "\r\n" }, StringSplitOptions.RemoveEmptyEntries);
         for (int i = 0; i < lines.Length; i++)
         {
