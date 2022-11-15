@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -34,10 +35,12 @@ public class Obstacle : MonoBehaviour
     private void Start()
     {
         text.text = obstacleLife.ToString() + " hits";
-
-        // find the player in top hierarchy, not the fake player in speed control
-        player = GameObject.Find("/Player").GetComponent<Player>();
-
+        if (player == null)
+        {
+            // find the player in top hierarchy, not the fake player in speed control
+            player = GameObject.Find("/Player").GetComponent<Player>();
+        }
+        
         switch (obstacleColorSet)
         {
             case ColorSet.White:

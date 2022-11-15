@@ -1,19 +1,16 @@
-using TMPro;
 using UnityEngine;
 
 namespace LevelSpecificScripts
 {
     public class Mix1Controller : MonoBehaviour
     {
-
         public GameObject magnet;
-
-        public TMP_Text obstacleRemainHealth;
+        public GameObject obstacle;
 
         // Update is called once per frame
         void Update()
         {
-            if (obstacleRemainHealth.text == "0")
+            if (!obstacle.activeSelf)
             {
                 magnet.SetActive(true);
             }
