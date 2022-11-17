@@ -149,7 +149,7 @@ GameObject:
   - component: {fileID: 5766125618680884146}
   m_Layer: 15
   m_Name: WhiteObstacle
-  m_TagString: Floor
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -261,7 +261,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 5766125618106811987}
-  sprite: {fileID: 5766125618680884144}
   obstacleColorSet: 1
   player: {fileID: 0}
   allColorObstacle: 0

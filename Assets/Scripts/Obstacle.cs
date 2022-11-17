@@ -70,8 +70,12 @@ public class Obstacle : MonoBehaviour
         // When the player collides with the obstacle, decrement the obstacle life count if color match
         if (col.gameObject.CompareTag("Player"))
         {
-
             bool isSameColor = (ObstacleColor == player.playerColor.currentColor);
+            //Debug.Log("-------");
+            //Debug.Log("ob color: "+ ObstacleColor);
+            //Debug.Log("curcolor: "+ player.playerColor.currentColor);
+            //Debug.Log("isSameCo: "+ isSameColor);
+            //Debug.Log("-------");
             if (allColorObstacle || isSameColor)
             {
                 // Decrement show on the obstacle text
