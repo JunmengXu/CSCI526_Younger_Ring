@@ -6,7 +6,9 @@ namespace BrushScripts
 {
     public class TileBrush : MonoBehaviour
     {
-        public Sprite square;
+        // public Sprite square;
+        public Sprite whiteSprite;
+        public Sprite blackSprite;
         public Sprite noColor;
         
         public Player player;
@@ -41,9 +43,20 @@ namespace BrushScripts
             {
                 if (brushes > 0)
                 {
-                    brushedTiles.Enqueue(col.gameObject);
-                    col.gameObject.GetComponent<SpriteRenderer>().color = playerColor.currentColor;
-                    col.gameObject.GetComponent<SpriteRenderer>().sprite = square;
+                    brushedTiles.Enqueue(col.gameObject);  
+                    // col.gameObject.GetComponent<SpriteRenderer>().color = playerColor.currentColor;
+                    // col.gameObject.GetComponent<SpriteRenderer>().sprite = square;
+                  
+                    if(playerColor.currentColor == Color.black)
+                        col.gameObject.GetComponent<SpriteRenderer>().sprite = blackSprite;
+                    else if(playerColor.currentColor == Color.white)
+                        col.gameObject.GetComponent<SpriteRenderer>().sprite = whiteSprite;
+
+                    col.gameObject.GetComponent<SpriteRenderer>().drawMode = SpriteDrawMode.Tiled;
+                    col.gameObject.GetComponent<SpriteRenderer>().size = new Vector2(0.67f, 0.165f);
+                    col.gameObject.transform.localScale = new Vector3(3, 3, 0);
+                    col.gameObject.GetComponent<BoxCollider2D>().autoTiling = true;
+
                     col.gameObject.layer = LayerMask.NameToLayer(colorDictionary[playerColor.currentColor]);
                     col.gameObject.tag = "Tile";
                     brushes -= 1;
@@ -70,6 +83,10 @@ namespace BrushScripts
             noColorTile.layer = LayerMask.NameToLayer("NoColor");
             noColorTile.GetComponent<SpriteRenderer>().sprite = noColor;
             noColorTile.GetComponent<SpriteRenderer>().color = Color.white;
+            noColorTile.gameObject.GetComponent<SpriteRenderer>().drawMode = SpriteDrawMode.Simple;
+            noColorTile.gameObject.transform.localScale = new Vector3(2, 0.5f, 1);
+            noColorTile.gameObject.GetComponent<BoxCollider2D>().autoTiling = false;
+
             UpdateBrushesText();
         }
 
