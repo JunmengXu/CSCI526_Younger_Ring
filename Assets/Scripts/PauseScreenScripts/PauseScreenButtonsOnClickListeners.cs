@@ -10,6 +10,8 @@ namespace PauseScreenScripts
         public GameObject pauseMenu;
         
         public GameObject pauseOptions;
+
+        public GameObject fakeStage;
         
         public GameObject speedSettingMenu;
 
@@ -36,6 +38,7 @@ namespace PauseScreenScripts
             {
                 Time.timeScale = pauseController.cachedTimeScale;
             }
+            fakeStage.SetActive(false);
             speedSettingMenu.SetActive(false);
             pauseOptions.SetActive(true);
             pauseMenu.SetActive(false);
@@ -45,6 +48,7 @@ namespace PauseScreenScripts
         public void ToggleDifficultyButtons()
         {
             pauseOptions.SetActive(false);
+            fakeStage.SetActive(true);
             speedSettingMenu.SetActive(true);
         }
 
@@ -68,6 +72,7 @@ namespace PauseScreenScripts
 
         public void GoBack()
         {
+            fakeStage.SetActive(false);
             pauseOptions.SetActive(true);
             speedSettingMenu.SetActive(false);
         }

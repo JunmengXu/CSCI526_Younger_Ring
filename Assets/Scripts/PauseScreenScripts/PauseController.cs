@@ -10,6 +10,8 @@ namespace PauseScreenScripts
         
         public GameObject speedSettingMenu;
 
+        public GameObject fakeStage;
+
         public bool duringTimeFreeze = false;
 
         // Store the selected difficulty time scale
@@ -55,6 +57,7 @@ namespace PauseScreenScripts
 
         void ResetPauseScreen()
         {
+            fakeStage.SetActive(false);
             speedSettingMenu.SetActive(false);
             pauseOptions.SetActive(true);
             pauseMenu.SetActive(false);
