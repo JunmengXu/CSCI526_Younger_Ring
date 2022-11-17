@@ -12,13 +12,15 @@ namespace PauseScreenScripts.DifficultySettingScripts
         // Gravity will decrease the jumpForce when the player is in air
         [SerializeField] private float gravity;
         // Player's horizontal move speed
-        // [SerializeField] private float moveSpeed;
+        public float moveSpeed;
     
         /// <summary>
         /// Player's Motion Status
         /// </summary>
         [SerializeField] private bool isGrounded = false;
         [SerializeField] private float groundHeight;
+        [SerializeField] private float leftWall;
+        [SerializeField] private float rightWall;
 
         /// <summary>
         /// Player Movement Inputs
@@ -26,7 +28,7 @@ namespace PauseScreenScripts.DifficultySettingScripts
         // Player's vertical velocity
         public float velocity = 0;
         // User's keyboard inputs(Horizontal)
-        // private float horizontal = 0;
+        private float horizontal = 0;
     
         /// <summary>
         /// Player Attributes
@@ -39,13 +41,17 @@ namespace PauseScreenScripts.DifficultySettingScripts
         /// </summary>
         public Color currentColor;
         public Color nextColor;
-
-        public PlayerPreference playerPreference;
         
         private void Start()
         {
+            // Get the position of the fake stage in the current scene
+            // to calculate child position values based on an offset
+            Vector3 fakeStagePosition = transform.parent.position;
+            // Calculate fake wall positions
+            leftWall = fakeStagePosition.x - 6.9f;
+            rightWall = fakeStagePosition.x + 6.9f;
             // Calculate a fake ground height
-            groundHeight = transform.parent.position.y - 2.95f;
+            groundHeight = fakeStagePosition.y - 2.95f;
             // Get player's current color, and set the next color
             currentColor = sprite.color;
             nextColor = Color.black;
@@ -53,34 +59,45 @@ namespace PauseScreenScripts.DifficultySettingScripts
 
         void Update()
         {
+            // Always listen to keyboard inputs
+            horizontal = Input.GetAxisRaw("Horizontal");
+            
             // Get the current velocity
             Vector3 fakePlayerTransform = transform.position;
             
-            // Always listen to keyboard inputs
-            // horizontal = Input.GetAxisRaw("Horizontal");
+            // Stop the player from moving out of the walls
+            if (fakePlayerTransform.x <= leftWall && horizontal < 0)
+            {
+                horizontal = 0;
+            }
+            if (fakePlayerTransform.x >= rightWall && horizontal > 0)
+            {
+                horizontal = 0;
+            }
 
+            // Fake grounding
             if (fakePlayerTransform.y <= groundHeight)
             {
                 GroundSelf();
             }
-        
-            // When the player touches a ground it can land on, jump
             if (isGrounded)
             {
                 velocity = jumpForce;
                 isGrounded = false;
             }
 
-            // Handle horizontal movement, apply a horizontal velocity
-            // playerRigidbodyVelocity.x = moveSpeed * horizontal;
-
-            // Update player velocity, and handle tile collision
+            // Handle horizontal movement
+            fakePlayerTransform.x += 
+                moveSpeed * 
+                horizontal * 
+                Time.unscaledDeltaTime * 
+                (PlayerPrefs.HasKey("HorizontalScale") ? PlayerPrefs.GetFloat("HorizontalScale") : 1f);
+            
+            // Update fake player transform
             if (!isGrounded)
             {
-                // fakePlayerTransform.y += velocity * Time.unscaledDeltaTime * playerPreference.scale;
                 fakePlayerTransform.y += velocity * Time.unscaledDeltaTime * (PlayerPrefs.HasKey("Scale") ? PlayerPrefs.GetFloat("Scale") : 1f);
                 // Decrease velocity by applying gravity
-                // velocity += gravity * Time.unscaledDeltaTime * playerPreference.scale;
                 velocity += gravity * Time.unscaledDeltaTime * (PlayerPrefs.HasKey("Scale") ? PlayerPrefs.GetFloat("Scale") : 1f);
             }
         

@@ -2,27 +2,37 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using PauseScreenScripts;
-using PauseScreenScripts.DifficultySettingScripts;
 
 public class DifficultyController : MonoBehaviour
 {
     public Player player;
     
     public PauseController pauseController;
-
-    public PlayerPreference playerPreference;
+    
     public Slider jumpSpeedSlider;
+    public Slider moveSpeedSlider;
 
     // Use the slider to change time scale
     public void ChangeScale(float sliderValue)
     {
-        // Save the new scale to playerPreference
-        // playerPreference.scale = sliderValue;
+        // Save the new scale
         PlayerPrefs.SetFloat("Scale", sliderValue);
         
         // Apply the time scale change
-        // pauseController.cachedTimeScale = playerPreference.scale;
         pauseController.cachedTimeScale = PlayerPrefs.GetFloat("Scale");
+    }
+
+    public void ChangeHorizontalMoveSpeed(float sliderValue)
+    {
+        PlayerPrefs.SetFloat("HorizontalScale", sliderValue);
+        // Apply the horizontal speed scale change
+        player.ChangeForceGravityAndMoveSpeed(9, -14, 6 * sliderValue);
+    }
+
+    public void ResetSetting()
+    {
+        jumpSpeedSlider.value = 1f;
+        moveSpeedSlider.value = 1f;
     }
 
     // Start is called before the first frame update
@@ -32,10 +42,14 @@ public class DifficultyController : MonoBehaviour
         player.ChangeForceGravityAndMoveSpeed(9, -14, 6);
         
         // Initialize the time scale setting
-        // pauseController.cachedTimeScale = playerPreference.scale;
         pauseController.cachedTimeScale = PlayerPrefs.HasKey("Scale") ? PlayerPrefs.GetFloat("Scale") : 1f;
-        // jumpSpeedSlider.value = playerPreference.scale;
+        player.ChangeForceGravityAndMoveSpeed(
+            9, 
+            -14, 
+            6 * (PlayerPrefs.HasKey("HorizontalScale") ? PlayerPrefs.GetFloat("HorizontalScale") : 1f));
+        // Initialize slider values
         jumpSpeedSlider.value = PlayerPrefs.HasKey("Scale") ? PlayerPrefs.GetFloat("Scale") : 1f;
+        moveSpeedSlider.value = PlayerPrefs.HasKey("HorizontalScale") ? PlayerPrefs.GetFloat("HorizontalScale") : 1f;
     }
 
     private void Update()
