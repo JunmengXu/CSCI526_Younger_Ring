@@ -104,4 +104,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Obstacle3.unity
     guid: ae6be8209fda546eb891685117961eed
+  - enabled: 1
+    path: Assets/Scenes/Endless.unity
+    guid: a6e00891deb48401dab70edac832967b
   m_configObjects: {}

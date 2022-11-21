@@ -55,6 +55,8 @@ public class LevelMenu : MonoBehaviour
 
     public string BrushMix;
 
+    public string Endless;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -213,5 +215,10 @@ public class LevelMenu : MonoBehaviour
     public void StartBrushMix()
     {
         SceneManager.LoadScene(BrushMix);
+    }
+
+    public void StartEndless()
+    {
+        SceneManager.LoadScene(Endless);
     }
 }
