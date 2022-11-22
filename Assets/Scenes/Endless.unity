@@ -140,7 +140,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &65021484
 RectTransform:
   m_ObjectHideFlags: 0
@@ -158,8 +158,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 742.10016, y: 329.9}
-  m_SizeDelta: {x: 431.69, y: 50}
+  m_AnchoredPosition: {x: 758.6, y: 329.9}
+  m_SizeDelta: {x: 463.2, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &65021485
 MonoBehaviour:
@@ -779,6 +779,7 @@ MonoBehaviour:
   - {fileID: 3494750174513181228, guid: 89eda1d89ca6f4da08bb0fd466ea57eb, type: 3}
   - {fileID: 1749615403}
   - {fileID: 1062073804}
+  - {fileID: 0}
   cameraHeight: 5
   platformPool: {fileID: 999700885}
 --- !u!4 &285454945
@@ -3486,7 +3487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1695971458
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3741,6 +3742,9 @@ MonoBehaviour:
   selectLevelButton: {fileID: 1589286169}
   result: {fileID: 102815285}
   score: {fileID: 595651153}
+  playerName: {fileID: 1804447463}
+  confirmNameButton: {fileID: 1905678872}
+  leaderboard: {fileID: 65021485}
 --- !u!1001 &1749615402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4168,7 +4172,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1905678871
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4517,7 +4521,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2095041084
 RectTransform:
   m_ObjectHideFlags: 0
