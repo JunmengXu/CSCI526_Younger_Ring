@@ -1791,7 +1791,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91bf2a1eda21432e9b8f979bf9f275c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 736609462}
 --- !u!20 &850433027
 Camera:
   m_ObjectHideFlags: 0
@@ -3567,23 +3566,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.4
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.4
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.4
+      value: 0.15
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.734
+      value: -2.73
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.733
+      value: -1.71
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalPosition.z
