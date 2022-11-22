@@ -5262,8 +5262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179b985ce8ae4cdf939ae4c4683403b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whiteSprite: {fileID: -2095182456, guid: 27eafacacff09404f80388e3418320d5, type: 3}
-  blackSprite: {fileID: -739226417, guid: 27eafacacff09404f80388e3418320d5, type: 3}
+  whiteSprite: {fileID: 21300000, guid: 38628cdcc0ed34e4f87bca9368ac8627, type: 3}
+  blackSprite: {fileID: 21300000, guid: 7523d9bc1cbb74e6cb7618f6c3297a1d, type: 3}
   noColor: {fileID: 21300000, guid: 648b897ad61f4fd38926a1a5572adb7b, type: 3}
   player: {fileID: 508952529}
   playerColor: {fileID: 508952528}

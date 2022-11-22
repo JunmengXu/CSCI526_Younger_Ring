@@ -2086,11 +2086,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2719906528517839090, guid: 24ae74db15f104de8842f294100b9b6c, type: 3}
       propertyPath: m_Size.x
-      value: 1.5526689
+      value: 1.55
       objectReference: {fileID: 0}
     - target: {fileID: 2719906528517839090, guid: 24ae74db15f104de8842f294100b9b6c, type: 3}
       propertyPath: m_Size.y
-      value: 0.20763731
+      value: 0.16
       objectReference: {fileID: 0}
     - target: {fileID: 4165357478878047284, guid: 24ae74db15f104de8842f294100b9b6c, type: 3}
       propertyPath: m_RootOrder
