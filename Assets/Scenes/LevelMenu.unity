@@ -6106,7 +6106,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_text
-      value: 'Level3
+      value: 'Basic3
 
 '
       objectReference: {fileID: 0}
@@ -8591,9 +8591,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_text
-      value: 'Level2
-
-'
+      value: Basic2
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_fontSize
@@ -8828,7 +8826,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_text
-      value: 'Level1
+      value: 'Basic1
 
 '
       objectReference: {fileID: 0}
@@ -8842,7 +8840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_margin.x
-      value: 0
+      value: -6.546913
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_margin.y
@@ -8850,7 +8848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_margin.z
-      value: -2.44458
+      value: -10.824585
       objectReference: {fileID: 0}
     - target: {fileID: 9013301534604872661, guid: 88ad74b328fdf4b2a9a519646588f258, type: 3}
       propertyPath: m_fontSizeBase
