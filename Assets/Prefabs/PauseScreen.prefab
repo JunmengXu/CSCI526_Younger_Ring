@@ -4948,7 +4948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Obstacles
+  m_text: Magnet
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3bfb20e2d3fd4454eaa1076db6c1a087, type: 2}
   m_sharedMaterial: {fileID: 1906446880365770650, guid: 3bfb20e2d3fd4454eaa1076db6c1a087, type: 2}
