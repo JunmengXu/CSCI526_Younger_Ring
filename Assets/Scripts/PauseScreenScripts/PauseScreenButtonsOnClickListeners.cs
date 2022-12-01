@@ -11,6 +11,8 @@ namespace PauseScreenScripts
         
         public GameObject pauseOptions;
 
+        public GameObject handBookScreen;
+
         public GameObject fakeStage;
         
         public GameObject speedSettingMenu;
@@ -75,6 +77,18 @@ namespace PauseScreenScripts
             fakeStage.SetActive(false);
             pauseOptions.SetActive(true);
             speedSettingMenu.SetActive(false);
+        }
+
+        public void OpenHandBook()
+        {
+            pauseOptions.SetActive(false);
+            handBookScreen.SetActive(true);
+        }
+
+        public void QuitHandBook()
+        {
+            handBookScreen.SetActive(false);
+            pauseOptions.SetActive(true);
         }
     }
 }
