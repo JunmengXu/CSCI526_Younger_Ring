@@ -107,4 +107,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Endless.unity
     guid: a6e00891deb48401dab70edac832967b
+  - enabled: 1
+    path: Assets/Scenes/Mix_Accelerator.unity
+    guid: f651074226ea3461493e9beb6f57f3c4
   m_configObjects: {}

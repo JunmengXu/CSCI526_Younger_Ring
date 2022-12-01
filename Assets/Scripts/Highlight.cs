@@ -17,6 +17,8 @@ public class Highlight : MonoBehaviour
     private string[] magnetMix = {"Level1", "Obstacle1", "Magnetic", "Fragile1", "Wind1"};
 
     private string[] brushMix = { "Level1", "Magnetic", "Catapult1", "Brush1"};
+    
+    private string[] acceleratorMix = { "Level1", "Magnetic", "Obstacle1", "Brush1"};
 
     private String level1 = "Level1";
 
@@ -160,6 +162,24 @@ public class Highlight : MonoBehaviour
     {
         textInfo.SetActive(true);
         foreach (var s in brushMix) 
+        {
+            DeHighLightButton(s);
+        }
+    }
+    
+    public void OnSelectAcceleratorMixMap()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in acceleratorMix) 
+        {
+            HighLightButton(s);
+        }
+    }
+    
+    public void OnDeSelectAcceleratorMixMap()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in acceleratorMix) 
         {
             DeHighLightButton(s);
         }

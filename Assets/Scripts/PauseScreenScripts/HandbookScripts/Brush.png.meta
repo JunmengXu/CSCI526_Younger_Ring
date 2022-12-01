@@ -1,0 +1,3214 @@
+fileFormatVersion: 2
+guid: 1f81c232c4528425fbf0ae72248979a0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Brush_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c7216321f22495aa9a4b296299e496
+      internalID: 51559103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd71768fd3ba44dca4d398974552466
+      internalID: 1785831018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b885a53fe4e46c59d1a18b96984567
+      internalID: -1029519560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a1328a55b234cd5aad532764c119b6
+      internalID: -1452051143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fd1e157ea684ec2acd45a58a6ea461
+      internalID: 495513677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_5
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56eaae9f262bf442b8ee10c3cde268fc
+      internalID: 69944096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_6
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5569c27311af749558daf1b963f17637
+      internalID: -1134750921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_7
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a179953cd10de486bacf452a9547179e
+      internalID: 1421673297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_8
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 10020
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf30a192a4c6c4f6fa5cede6fe551ca9
+      internalID: -2131649111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c461ae5193141d3ac5f2bcb83af2c0
+      internalID: -443269630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0535b9ba04b43be8b069c37fd8b6b8
+      internalID: 1817144042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_11
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16c399af3c8f4d58b31cc22dfda0dad
+      internalID: -90588733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_12
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0935a51df6842e1b7667d420b54e1f
+      internalID: -1658412836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_13
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df73661e8e704c18a77dcb91b638372
+      internalID: 1814138186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_14
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab5ef77f9b4a43979cfdfea607ddfe7
+      internalID: -1488651495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_15
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c21e0dd252e4000ad74f0470a7937c
+      internalID: -1748107567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_16
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749e0d485af0d4955b777aa7ac0bf67e
+      internalID: 1608892093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_17
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 9352
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c4c683379184a44bc7b108708f9495
+      internalID: -968635553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ef2858de2ec43e29a4027962a124b1
+      internalID: -634897985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_19
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf03312b1a8943d1b6c9bc3f703a5e0
+      internalID: 1997420624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5abe8bba6d54221abd739473f30868
+      internalID: 1510362795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_21
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41450085da7d344e5ac6f021abc4533b
+      internalID: -1778724278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_22
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44da114f1076f407a98185ad0bc113e5
+      internalID: 699264735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_23
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9abfe11c4f8e948ca8f571cc036cdf41
+      internalID: 1370789771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_24
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ce9c678428a427993009462d2d807c
+      internalID: -1678713998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_25
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4ef788d38de4991b1e0cafb25cee2c
+      internalID: -183109219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_26
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 8684
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff4ca0b6d1d84a00b44f72bae180674
+      internalID: -1625958363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3b6fd6c2de74904970d8cb53f7d594
+      internalID: 844959347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_28
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59632916fbf1147c2bdf2a36c74348ea
+      internalID: 1359741288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_29
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e55eba0953d249d482c99b541b81f48
+      internalID: -226418636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b920c79c258824a6ca862b041be0c18a
+      internalID: -1914907920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_31
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae410dbb932734606a0abbedf7191ec8
+      internalID: 1399454234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_32
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa69ce1b525945ec9cc5b2dbfe77741
+      internalID: -367079203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_33
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e54ea8101d44538982cc5679fec8f4
+      internalID: 1633977564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_34
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ac3e70a0b0442648bd58e7eb14c44c
+      internalID: 1743077687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_35
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 8016
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bf1d9b0328e4051b320731d0f947f1
+      internalID: 1008341062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96db40b999db8404895456354996ef8b
+      internalID: -1668718880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_37
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bc5882602d541d18c7adbe3e326425
+      internalID: 462774341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_38
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd34405bb81c492081e69ddbfa38b10
+      internalID: -690222307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_39
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2ce3326ccc543099d499bdf36a3ecc
+      internalID: 648683728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_40
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670b4b7230a054ca084e8138049c956a
+      internalID: -552289851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_41
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1e720546cc747adbccc9061ac05046
+      internalID: 296663852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_42
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83404a823f30044b7bce1ebc184eb864
+      internalID: -1952210759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_43
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39034a7ee93c54cca9b3a3ed2e48ad06
+      internalID: -706892959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_44
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 7348
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16fda4522a284b3992e10eb9a2e7e86
+      internalID: 1891922240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1207de802254493fb800c40a008eb6b
+      internalID: 597132792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_46
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77132c4ba9cb402b983f8d7e21998ee
+      internalID: 2019558323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_47
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcaf2311677e44e9a0ca020cce721d9
+      internalID: -1076131516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_48
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5f1f5c1880945e999dcc56f82b19df
+      internalID: -241268272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_49
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70fa049f022347ad8eaaf014b76cf86
+      internalID: -812531335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_50
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3ffb197c5984bdf8ac986943bdc937
+      internalID: -172480653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_51
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5a4adc77bdd4a64bc097d94b502f26
+      internalID: 273163327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_52
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373b41bf6839f498cb3754e4c3887ffe
+      internalID: -1336880495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_53
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 6680
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51055814ce9d40988f58a1bca32d034
+      internalID: 212490161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea961493507514d8692f84b9083c0851
+      internalID: 2102835245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_55
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675eb617515514de79387424e7f4cd82
+      internalID: -1924362522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_56
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604f05967b39f487aa742e534eccbbce
+      internalID: -1109128153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_57
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6d0e9a62ec5489e89041d3547abac0
+      internalID: 1341776604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_58
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fa1272d99444d6790e3de8f57bc11a
+      internalID: 2142280162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_59
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84463ca6f7e640bb8b355999d835f75
+      internalID: -215016561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_60
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d526e6942c61e49bd8d969a031ad159d
+      internalID: 1696713241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_61
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0505781cdb347dba9de48258fb4cee
+      internalID: 1877935312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_62
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 6012
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c13302e007d348be8cd4853529bcfe2
+      internalID: -1537065749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8279c0345ae574087aa221d46f3437d5
+      internalID: -1103951392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_64
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27a3468709c24ebebbdef1a7816352e
+      internalID: 992426159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_65
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b56567c17c0545a6bc08a0e9196e4c4
+      internalID: -77308322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_66
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c9f8dd764ce4206bb5fe5bb1290c3b
+      internalID: -1777654170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_67
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ce32dcff3294aafa1da195d49bd613
+      internalID: 1003469227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_68
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aad9f98c92b4e6db99924a30a46b11
+      internalID: -1121466042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_69
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ecac66f73e74a049932c24b756bb3e
+      internalID: -1173557097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_70
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171551e0357224271b551dad8cb85bba
+      internalID: 725029811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_71
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 5344
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a697a7c005f2945cebb0cc3eefae9972
+      internalID: 132573786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635e875da291c48129972fc0f4a78fd9
+      internalID: 1187002193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_73
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf3a94d62bf849f9b27a0f602264465
+      internalID: 1901739228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_74
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aa8a75188c34284a8dc59062f393ff
+      internalID: 1550530609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_75
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88752268ebdf841ebb8f7e519daef20f
+      internalID: 1371346680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_76
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d1758bd8ce5433aa602ddb1f18df24
+      internalID: 1222653907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_77
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d4da24c554640e1bc4cefe66e7ea45
+      internalID: -95339451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_78
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf07110c47b94cad8e379e085b80a6d
+      internalID: -1350140575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_79
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee36015f25c04c84b0cf07c9b14d224
+      internalID: 638841309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_80
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 4676
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151cbe82d3eeb4a8eb04865b1a99bc25
+      internalID: 733513895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499e69b71e53a4fbdb16eba39d0aa1d9
+      internalID: 1966305717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_82
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28844a307f69348e3bc0f626192b42ff
+      internalID: -350594333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_83
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19af6cfbdace248369cb6bdf5ec759c0
+      internalID: 1109188875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_84
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8400da76b9e4c73948d5dfb69aefe6
+      internalID: -1087304061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_85
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ebb7698ea7148ba865f1b989d40aef
+      internalID: -925404386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_86
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5d6af60dadc4fd8936c7335e449746
+      internalID: 1116389843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_87
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3f3f987591846a7be188509bec332b
+      internalID: -1178707101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_88
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b895de3e261384250ba3d36c53a87cac
+      internalID: 1626388560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_89
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 4008
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc83eabb01c74c39b6911b1612afe14
+      internalID: 526820845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcbe6e9c94884f96b23b2a3a4b2d62e
+      internalID: -317021084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_91
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfe45150ccef48cca9bd20b4aeca4f7
+      internalID: -1350011641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_92
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d9d6d04f9ed49c09c206cc4b3ce409
+      internalID: 462684023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_93
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53b240422906c45ecbec8177d60ab191
+      internalID: 933370322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_94
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a99d59335514211aa8278c07109984
+      internalID: 737745625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_95
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ac8600f4c8544f09eab39523735b7a
+      internalID: 308441207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_96
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05be55a816d9b47079bcd40e3c68b798
+      internalID: 1699525473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_97
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62815bec601984bfd9731b8289c869d8
+      internalID: 1123943497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_98
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 3340
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503977c5ad4aa46769c7e289ce25a0da
+      internalID: 1450729177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69de6f54268ba454da85d3649a38c7cf
+      internalID: 553033412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_100
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fcc08965ad34c88abbf0dace22e02a
+      internalID: 1645973293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_101
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8a8ad5c7fad4089bc08f65df35d8f2
+      internalID: 1653583395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_102
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63c7ef2b04c84375af3fd99cbf2a7b7
+      internalID: 396901264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_103
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eedbaecfe976740feae674cfa3485ca2
+      internalID: 1085479348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_104
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4f5dc8ccb2a496a867da6fa7c31a23
+      internalID: 1804635363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_105
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28df4786ffa614e8b8c1db1cbd0509b1
+      internalID: -1217009159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_106
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b11cde0a3e3143b6bdcacb64f707e6f
+      internalID: 2053447101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_107
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 2672
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a840b35605ae4f9d833403843a5f002
+      internalID: 49068784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5948298b8231248fe87eeb08aa05a9ee
+      internalID: 321664965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_109
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36e8777be9ff4e6e893f626fc4f9188
+      internalID: 1388804478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_110
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4342dbc8efc4c1b85f218606422ba7
+      internalID: 882491567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_111
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d9c825b355a4ec0851d25e2a95e6b4
+      internalID: -554168457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_112
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65156216c30b048368119085ff339f5d
+      internalID: -556883021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_113
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4071fb987072a4dd796aead6219677ce
+      internalID: -45056878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_114
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e31c6d04c97412baa0bf06e8ffdfa9
+      internalID: 1841059347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_115
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75c808fc5ca34ff8bcae9e2abf39527
+      internalID: -119532129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_116
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 2004
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6363f9218308f4813b82c83b34c10a95
+      internalID: -531732070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ba9382c96724ddfa924b06e32e3ad3
+      internalID: -63798802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_118
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82516dd514bd04eeab819ef53e45c09b
+      internalID: 384414240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_119
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0509c52c5b2457aa8526a4f0cf2995
+      internalID: -1508875386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_120
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb7b467c01184d919d4da3330276270
+      internalID: -898175815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_121
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376a902fcc12945e8916506f5e2f5d00
+      internalID: -1046457730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_122
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133e98d4427d343c99a1498d842244d9
+      internalID: -910649308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_123
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be988a487b7e47f185540837a04e86c
+      internalID: -128770588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_124
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e17b7f538eaa47bf9679be06cfd823e
+      internalID: -93094220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_125
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 1336
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b25583683b9a4a4e9da750dad1fa045
+      internalID: -441043895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19ea78d129164e16a192bcc02a4c2fd
+      internalID: 1083300633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_127
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6183ef0e3e7e944e09777d04a107b817
+      internalID: 1370342831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_128
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00d8c9e8069f426b8e398ea38975e9f
+      internalID: -1429226250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_129
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690fa1057cec44ea4b8a268f23158aa8
+      internalID: -735083697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_130
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11c682b829f7b47aaba2e0214248097b
+      internalID: -456905023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_131
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a52b3716c236422cab4625addbe3de2
+      internalID: -801330708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_132
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dcce3e9a43b4d5a95dd596addd9a8a
+      internalID: -863350342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_133
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5fced286e5d4a0f9e0974b8811ca7d
+      internalID: -409487745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_134
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 668
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f55785fdd8744018b8e7510987900d
+      internalID: 154981780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920fa3cf0a871496d8da29ead0c881be
+      internalID: 335658881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_136
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37e10a5847b44dcdafb12f92f4273eb
+      internalID: 1201406839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_137
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05676f5aeac445a83c4a8bc02fb139
+      internalID: -1239471052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_138
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9b8a96f60a74669acabed3d2815bb1
+      internalID: -555658491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Brush_139
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1200
+        height: 668
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562f92267f6b044e0b047c9e7069faf9
+      internalID: -2005838831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Brush_23: 1370789771
+      Brush_32: -367079203
+      Brush_40: -552289851
+      Brush_12: -1658412836
+      Brush_49: -812531335
+      Brush_5: 69944096
+      Brush_10: 1817144042
+      Brush_67: 1003469227
+      Brush_105: -1217009159
+      Brush_69: -1173557097
+      Brush_107: 49068784
+      Brush_112: -556883021
+      Brush_77: -95339451
+      Brush_113: -45056878
+      Brush_27: 844959347
+      Brush_120: -898175815
+      Brush_1: 1785831018
+      Brush_91: -1350011641
+      Brush_26: -1625958363
+      Brush_118: 384414240
+      Brush_114: 1841059347
+      Brush_50: -172480653
+      Brush_90: -317021084
+      Brush_103: 1085479348
+      Brush_126: 1083300633
+      Brush_20: 1510362795
+      Brush_129: -735083697
+      Brush_19: 1997420624
+      Brush_35: 1008341062
+      Brush_59: -215016561
+      Brush_82: -350594333
+      Brush_116: -531732070
+      Brush_43: -706892959
+      Brush_45: 597132792
+      Brush_94: 737745625
+      Brush_131: -801330708
+      Brush_42: -1952210759
+      Brush_72: 1187002193
+      Brush_52: -1336880495
+      Brush_101: 1653583395
+      Brush_89: 526820845
+      Brush_88: 1626388560
+      Brush_104: 1804635363
+      Brush_11: -90588733
+      Brush_57: 1341776604
+      Brush_138: -555658491
+      Brush_64: 992426159
+      Brush_18: -634897985
+      Brush_87: -1178707101
+      Brush_0: 51559103
+      Brush_56: -1109128153
+      Brush_96: 1699525473
+      Brush_6: -1134750921
+      Brush_16: 1608892093
+      Brush_124: -93094220
+      Brush_139: -2005838831
+      Brush_31: 1399454234
+      Brush_111: -554168457
+      Brush_58: 2142280162
+      Brush_24: -1678713998
+      Brush_34: 1743077687
+      Brush_79: 638841309
+      Brush_95: 308441207
+      Brush_121: -1046457730
+      Brush_66: -1777654170
+      Brush_83: 1109188875
+      Brush_30: -1914907920
+      Brush_78: -1350140575
+      Brush_70: 725029811
+      Brush_127: 1370342831
+      Brush_73: 1901739228
+      Brush_123: -128770588
+      Brush_47: -1076131516
+      Brush_122: -910649308
+      Brush_25: -183109219
+      Brush_80: 733513895
+      Brush_2: -1029519560
+      Brush_36: -1668718880
+      Brush_115: -119532129
+      Brush_29: -226418636
+      Brush_41: 296663852
+      Brush_46: 2019558323
+      Brush_14: -1488651495
+      Brush_60: 1696713241
+      Brush_97: 1123943497
+      Brush_48: -241268272
+      Brush_55: -1924362522
+      Brush_106: 2053447101
+      Brush_110: 882491567
+      Brush_28: 1359741288
+      Brush_93: 933370322
+      Brush_84: -1087304061
+      Brush_71: 132573786
+      Brush_63: -1103951392
+      Brush_133: -409487745
+      Brush_15: -1748107567
+      Brush_74: 1550530609
+      Brush_117: -63798802
+      Brush_54: 2102835245
+      Brush_98: 1450729177
+      Brush_100: 1645973293
+      Brush_7: 1421673297
+      Brush_130: -456905023
+      Brush_38: -690222307
+      Brush_136: 1201406839
+      Brush_86: 1116389843
+      Brush_33: 1633977564
+      Brush_81: 1966305717
+      Brush_108: 321664965
+      Brush_134: 154981780
+      Brush_119: -1508875386
+      Brush_61: 1877935312
+      Brush_9: -443269630
+      Brush_44: 1891922240
+      Brush_4: 495513677
+      Brush_39: 648683728
+      Brush_102: 396901264
+      Brush_22: 699264735
+      Brush_53: 212490161
+      Brush_3: -1452051143
+      Brush_17: -968635553
+      Brush_13: 1814138186
+      Brush_92: 462684023
+      Brush_62: -1537065749
+      Brush_37: 462774341
+      Brush_65: -77308322
+      Brush_75: 1371346680
+      Brush_68: -1121466042
+      Brush_137: -1239471052
+      Brush_109: 1388804478
+      Brush_128: -1429226250
+      Brush_132: -863350342
+      Brush_21: -1778724278
+      Brush_135: 335658881
+      Brush_8: -2131649111
+      Brush_76: 1222653907
+      Brush_85: -925404386
+      Brush_51: 273163327
+      Brush_125: -441043895
+      Brush_99: 553033412
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

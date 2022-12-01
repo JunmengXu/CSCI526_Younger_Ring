@@ -1,0 +1,1410 @@
+fileFormatVersion: 2
+guid: 0caa215c8bcbe4e03bc7e15eadd1a30b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Magnet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3616
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a7ce5a1076f42b9b3fab1e0fead5f6
+      internalID: -1433171627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_1
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 3616
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa0472cc62e54f8292cbe1cd1087500
+      internalID: 760709120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_2
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 3616
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec75f465bb054115b9a6bcc234ad31b
+      internalID: 99786525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_3
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3616
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b56cbf406e6b4d949afe061287682ab
+      internalID: -1327572085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_4
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 3616
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e55c4810213a4d99b95dffa1b81d7a0
+      internalID: -1340099423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_5
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 3616
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77318dfdf2fc40988e0205dc4f12286
+      internalID: -536334397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_6
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 3616
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9b0371eb6e5499ca338019475eba04
+      internalID: 296179074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3164
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaa5517f3eb5452e8d74cc1b96d49ce
+      internalID: 1397783393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_8
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 3164
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1680202d5d9e749bda364b3537c0b573
+      internalID: -667900286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_9
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 3164
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501df57607496453ab1b68dea2c63c80
+      internalID: -773281871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_10
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 3164
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5ae0623e42284fbe9948af6afed5997
+      internalID: -1560954047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_11
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 3164
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74fc871c312a4dd1b8fe34faf4ff798
+      internalID: 1303734049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_12
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 3164
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7530595f94b844bfd8084ad8a592db7d
+      internalID: 1106205073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_13
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 3164
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44fc132470df4c1f82b98e424d64dd1
+      internalID: -1503180042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2712
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8277555c35e4e428cac89fd2d550e6
+      internalID: 202313964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_15
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2712
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c8216fa613f43bfac3dd2b88356ffa
+      internalID: 161710047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_16
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 2712
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccdee315643c4353bf9b1f47bdc8856
+      internalID: -556649778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_17
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2712
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16a7ca7342a148efbd483500a9a0a21
+      internalID: 1082214217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_18
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 2712
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84c476eb99aa4b5fb5a34703238f5aa
+      internalID: -355261551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_19
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 2712
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f393cb9c714418e8cbe19e77b9a857
+      internalID: -1662487084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_20
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 2712
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d282b6fed7a1a49bda83d88f037f7aa5
+      internalID: 494350661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2260
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af197a0e18ee4d8f93e7159e63ea0cc
+      internalID: -503801144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_22
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 2260
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e96843198218b4a6bb26569dcbd760ab
+      internalID: -1099060427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_23
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 2260
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6185492690d42ccb0b1724be2acd39
+      internalID: 1430639011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_24
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 2260
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc805db7ad7448dea4c9a25602cd069
+      internalID: -1482181340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_25
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 2260
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67bdfcc8d017413e92aa1b085c77939
+      internalID: -1421699420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_26
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 2260
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54094026c48448c2a3d3af67167ac6b
+      internalID: 1583325292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_27
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 2260
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be39898769ed04293b5efc8c2cba648c
+      internalID: 2060641628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1808
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7813d104998475382fc9f71e43937a
+      internalID: -872462582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_29
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1808
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0560aea0a81844b85aee4e44c3e32171
+      internalID: -2092838473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_30
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1808
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e138af87b0656448f9676b31085133b5
+      internalID: -1808118978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_31
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1808
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858264b64a6b94c12b8a190c9c661198
+      internalID: -1921514801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_32
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1808
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91eaa5357ee345469c2064bbf43878c
+      internalID: 1929621708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_33
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 1808
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1ff212f87cf4661b8485526ad86ce1
+      internalID: -1330302319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_34
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 1808
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563044f1c175a437eae60c12fbe5552d
+      internalID: -1003526028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1356
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9c331af7b6143848098ebebde8a788
+      internalID: -2031457676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_36
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 1356
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7820706cefc3949999047ffed4e6d67b
+      internalID: 807055957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_37
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1356
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf629a7acd8f149648f544448507cb77
+      internalID: -1481520257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_38
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 1356
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3621d2083730f4b328ce02fab96862dd
+      internalID: -478280651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_39
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 1356
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54430fbfe62d84a53bb7225f22a1b086
+      internalID: 1854832498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_40
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 1356
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a852a5737857c412a932ba0f4adf684c
+      internalID: 1718132539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_41
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 1356
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 292929f7757454915bf356c17754e18f
+      internalID: 1526016843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 904
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a6405b05add42bf809cbcfa825a462
+      internalID: -1197960416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_43
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 904
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72495ef1e5604b5d976e8bd9e7d18c1
+      internalID: -583936211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_44
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 904
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8fd1f87c61e420a900ef5fde6475c0
+      internalID: -2060081959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_45
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 904
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da9cd2b0c0b341e1b788f4d24ecaadd
+      internalID: -1355659202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_46
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 904
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f948bdb263d4ddaaf474e4b0c1ede7
+      internalID: -1543228487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_47
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 904
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d428766f7b4114138b89c6654625306d
+      internalID: -2086288254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_48
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 904
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4285850411ee54bce8b3e816c55a9fc8
+      internalID: 1879063839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 452
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4084c714be46346908458bc9c0d08702
+      internalID: 1373343419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_50
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 452
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21881cfe6d2f04d4daf6fa26b96340d8
+      internalID: 568286262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_51
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 452
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140f431d88d8848f781004883cf4d62a
+      internalID: 968524557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_52
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 452
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d500456f7b3d48b1a193f68f8aafdfc
+      internalID: 289064836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_53
+      rect:
+        serializedVersion: 2
+        x: 2624
+        y: 452
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e041132bd839469c9bed1a4e1fdeab0
+      internalID: 255041433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_54
+      rect:
+        serializedVersion: 2
+        x: 3280
+        y: 452
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f79b0326078f4334b76638aee173259
+      internalID: 768772347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_55
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 452
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c2b14bc51fc45cb9809a37d4e0dbbd
+      internalID: -1549038055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebceaa10ed1f4cca96e70b61bb3542c
+      internalID: 441986778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magnet_57
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 0
+        width: 656
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aa796856f90464498f8cb805f03739
+      internalID: 1521629331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Magnet_21: -503801144
+      Magnet_53: 255041433
+      Magnet_44: -2060081959
+      Magnet_20: 494350661
+      Magnet_39: 1854832498
+      Magnet_9: -773281871
+      Magnet_16: -556649778
+      Magnet_1: 760709120
+      Magnet_31: -1921514801
+      Magnet_50: 568286262
+      Magnet_49: 1373343419
+      Magnet_22: -1099060427
+      Magnet_26: 1583325292
+      Magnet_29: -2092838473
+      Magnet_42: -1197960416
+      Magnet_36: 807055957
+      Magnet_10: -1560954047
+      Magnet_17: 1082214217
+      Magnet_0: -1433171627
+      Magnet_11: 1303734049
+      Magnet_5: -536334397
+      Magnet_30: -1808118978
+      Magnet_38: -478280651
+      Magnet_43: -583936211
+      Magnet_8: -667900286
+      Magnet_7: 1397783393
+      Magnet_37: -1481520257
+      Magnet_55: -1549038055
+      Magnet_19: -1662487084
+      Magnet_27: 2060641628
+      Magnet_51: 968524557
+      Magnet_56: 441986778
+      Magnet_24: -1482181340
+      Magnet_28: -872462582
+      Magnet_33: -1330302319
+      Magnet_34: -1003526028
+      Magnet_4: -1340099423
+      Magnet_35: -2031457676
+      Magnet_48: 1879063839
+      Magnet_6: 296179074
+      Magnet_13: -1503180042
+      Magnet_23: 1430639011
+      Magnet_2: 99786525
+      Magnet_3: -1327572085
+      Magnet_46: -1543228487
+      Magnet_32: 1929621708
+      Magnet_18: -355261551
+      Magnet_40: 1718132539
+      Magnet_54: 768772347
+      Magnet_14: 202313964
+      Magnet_15: 161710047
+      Magnet_52: 289064836
+      Magnet_45: -1355659202
+      Magnet_12: 1106205073
+      Magnet_25: -1421699420
+      Magnet_57: 1521629331
+      Magnet_41: 1526016843
+      Magnet_47: -2086288254
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -26,18 +26,19 @@ namespace UIController
             "Wind_2",
             "Wind_3",
             "Wind_4",
-            "ColorAdd_1",
-            "ColorAdd_2",
             "Night_1",
             "Night_2",
+            "ColorAdd_1",
+            "ColorAdd_2",
             "Magnet Tutorial",
             "SuperItem_1",
-            "Level3",
-            "ColorAddWindNew_1",
             "Mix_1",
+            "Mix_Brush_Catapult_Magnet",
             "magnetFramework",
+            "ColorAddWindNew_1",
             "NightColorAdd_1",
-            "Mix_Brush_Catapult_Magnet"
+            "Level3",
+            "Mix_Accelerator"
         };
 
         private string currentSceneName;
