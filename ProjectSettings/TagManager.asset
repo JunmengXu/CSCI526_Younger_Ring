@@ -13,6 +13,7 @@ TagManager:
   - NoColorTile
   - ColorAdd
   - Obstacle
+  - Background
   layers:
   - Default
   - TransparentFX
