@@ -21,7 +21,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"/Users/spider/Desktop/xjm/526/webgl1129/webgl;/Users/spider/Desktop/xjm/526/untitled folder/webgl;/Users/xiaoyuewang/Documents/GitHub/Younger Ring;/Users/ziye/Documents/Academic/526/Unity Project/CSCI526_Younger_Ring/WebGL Builds;/Users/guowenzheng/USC/3rd Semester/CSCI526/jump/CSCI526_Younger_Ring/WebGL Builds;;;;;\"}"
+                "value": "{\"m_Value\":\"/Users/guowenzheng/USC/3rdSemester/CSCI526/jump/CSCI526_Younger_Ring/WebGL Builds;/Users/spider/Desktop/xjm/526/webgl1129/webgl;/Users/spider/Desktop/xjm/526/untitled folder/webgl;/Users/xiaoyuewang/Documents/GitHub/Younger Ring;/Users/ziye/Documents/Academic/526/Unity Project/CSCI526_Younger_Ring/WebGL Builds;/Users/guowenzheng/USC/3rd Semester/CSCI526/jump/CSCI526_Younger_Ring/WebGL Builds;;;;\"}"
             }
         ]
     }

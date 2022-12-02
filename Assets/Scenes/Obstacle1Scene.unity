@@ -2081,11 +2081,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4709476452108513794, guid: 824342c1b243448d8b3f6ab855cc937f, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 4000
+      value: 850
       objectReference: {fileID: 0}
     - target: {fileID: 4709476452108513794, guid: 824342c1b243448d8b3f6ab855cc937f, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 4000
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 4709476452108513794, guid: 824342c1b243448d8b3f6ab855cc937f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 4709476452108513795, guid: 824342c1b243448d8b3f6ab855cc937f, type: 3}
       propertyPath: m_Layer
@@ -2102,6 +2106,10 @@ PrefabInstance:
     - target: {fileID: 4709476453541665376, guid: 824342c1b243448d8b3f6ab855cc937f, type: 3}
       propertyPath: m_SortingOrder
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 4709476453541665377, guid: 824342c1b243448d8b3f6ab855cc937f, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4709476453541665379, guid: 824342c1b243448d8b3f6ab855cc937f, type: 3}
       propertyPath: m_Pivot.x
