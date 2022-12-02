@@ -8,12 +8,16 @@ namespace PauseScreenScripts
 
         public GameObject pauseOptions;
         
-        public GameObject difficultySelectionButtons;
+        public GameObject speedSettingMenu;
+
+        public GameObject fakeStage;
+
+        public GameObject handBookScreen;
 
         public bool duringTimeFreeze = false;
 
         // Store the selected difficulty time scale
-        public float cachedTimeScale = 1;
+        public float cachedTimeScale;
 
         // Update is called once per frame
         void Update()
@@ -55,7 +59,9 @@ namespace PauseScreenScripts
 
         void ResetPauseScreen()
         {
-            difficultySelectionButtons.SetActive(false);
+            fakeStage.SetActive(false);
+            speedSettingMenu.SetActive(false);
+            handBookScreen.SetActive(false);
             pauseOptions.SetActive(true);
             pauseMenu.SetActive(false);
         }
@@ -63,12 +69,6 @@ namespace PauseScreenScripts
         bool IsPaused()
         {
             return pauseMenu.activeSelf;
-        }
-        
-        // Let DifficultyController use this to directly back to game after modifying the difficulties
-        public void backToGame()
-        {
-            ResumeGame();
         }
     }
 }

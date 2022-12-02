@@ -26,6 +26,8 @@ public class LevelMenu : MonoBehaviour
     public string HugeMapLevel;
     
     public string Obstacle1;
+    public string Obstacle2;
+    public string Obstacle3;
     public string Fragile1;
 
     public string Fragile2;
@@ -52,6 +54,10 @@ public class LevelMenu : MonoBehaviour
     public string SuperItem1;
 
     public string BrushMix;
+
+    public string Endless;
+    
+    public string Accelerator;
 
     // Start is called before the first frame update
     void Start()
@@ -128,6 +134,16 @@ public class LevelMenu : MonoBehaviour
         SceneManager.LoadScene(Obstacle1);
     }
 
+    public void StartObstacle2()
+    {
+        SceneManager.LoadScene(Obstacle2);
+    }
+
+    public void StartObstacle3()
+    {
+        SceneManager.LoadScene(Obstacle3);
+    }
+
     public void StartFragile1()
     {
         SceneManager.LoadScene(Fragile1);
@@ -201,5 +217,15 @@ public class LevelMenu : MonoBehaviour
     public void StartBrushMix()
     {
         SceneManager.LoadScene(BrushMix);
+    }
+
+    public void StartEndless()
+    {
+        SceneManager.LoadScene(Endless);
+    }
+
+    public void StartAccelerator()
+    {
+        SceneManager.LoadScene(Accelerator);
     }
 }

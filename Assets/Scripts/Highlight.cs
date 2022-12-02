@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,7 +18,26 @@ public class Highlight : MonoBehaviour
 
     private string[] brushMix = { "Level1", "Magnetic", "Catapult1", "Brush1"};
     
-    
+    private string[] acceleratorMix = { "Level1", "Magnetic", "Obstacle1", "Brush1"};
+
+    private String level1 = "Level1";
+
+    private String catapult1 = "Catapult1";
+
+    private String obstacle1 = "Obstacle1";
+
+    private String fragile1 = "Fragile1";
+
+    private String wind1 = "Wind1";
+
+    private String colorAdd1 = "ColorAdd1";
+
+    private String night = "Night1";
+
+    private String magnetic = "Magnetic";
+
+    private String superItem = "SuperItem";
+
 
     public GameObject textInfo;
     
@@ -28,14 +48,14 @@ public class Highlight : MonoBehaviour
 
     void HighLightButton(string Name)
     {
-        var level = GameObject.Find(Name);
+        var level = transform.Find(Name);
         var button = level.GetComponent<Button>();
         button.OnSelect(null);
     }
 
     void DeHighLightButton(string Name)
     {
-        var level = GameObject.Find(Name);
+        var level = transform.Find(Name);
         var button = level.GetComponent<Button>();
         button.OnDeselect(null);
     }
@@ -147,12 +167,36 @@ public class Highlight : MonoBehaviour
         }
     }
     
+    public void OnSelectAcceleratorMixMap()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in acceleratorMix) 
+        {
+            HighLightButton(s);
+        }
+    }
     
-    
-    
+    public void OnDeSelectAcceleratorMixMap()
+    {
+        textInfo.SetActive(true);
+        foreach (var s in acceleratorMix) 
+        {
+            DeHighLightButton(s);
+        }
+    }
 
-    
-    
+    public void OnSelectButton(String s)
+    {
+        textInfo.SetActive(true);
+        HighLightButton(s);
+    }
+
+    public void OnDeSelectButton(String s)
+    {
+        textInfo.SetActive(false);
+        DeHighLightButton(s);
+    }
+
     // Update is called once per frame
     void Update()
     {

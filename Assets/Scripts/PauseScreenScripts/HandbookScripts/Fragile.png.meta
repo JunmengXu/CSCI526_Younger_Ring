@@ -1,0 +1,2422 @@
+fileFormatVersion: 2
+guid: c28f6c078d8a24c42a798588e6af5ef3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fragile_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4092
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077cda71776694b978921d88b2330628
+      internalID: -382287545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4092
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b99e005655f4befb068926b4af0271
+      internalID: -1614674452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4092
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6a2515bb5d44f589990ce9169f9cdb
+      internalID: 1864297890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4092
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2da155772a047648fe6347844e6b50
+      internalID: -1435449400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4092
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516ca592c427d47349bfeddddd4b89eb
+      internalID: -2140611052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4092
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18afd8d5d0d24c2d9b54f72ff437e6d
+      internalID: 111851272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4092
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4650faabdf18f429c963e8a28f5ae403
+      internalID: -48980403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_7
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4092
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ba17484d44541689dbf02c83a7a48e
+      internalID: -789971189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3751
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91542e3cc2281477598c65e753f70981
+      internalID: -1998471947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3751
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a48639a68da44826969f2840329ce90
+      internalID: -1243459847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3751
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10695c782fcdf467eae848f7eeb477bb
+      internalID: -1114326313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_11
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3751
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2d9201d8793428c9a2944cbbad6afd
+      internalID: 810732064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_12
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3751
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbed984d4fcc4fdd9c35459fb44b2fa
+      internalID: 38352610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_13
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3751
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a8830e36a6a4e2c9bc96b5bf319ac8
+      internalID: -1039491420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_14
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3751
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a4d9cb9f3a74a53952ba97bc69e9c7
+      internalID: -1134518896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_15
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3751
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f11c81dac734b549fd80f322371efd
+      internalID: -1194832123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3410
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872a7e7378eae43888984c498395f5fe
+      internalID: 884928487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3410
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a63b55140ca348b98e6dd6953b9227a
+      internalID: -1262828665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_18
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3410
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e99111f10954576b63c40eda21f4c4
+      internalID: -895612842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_19
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3410
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ea20f16e7d243a9905059f8c6f06b2
+      internalID: 1692266189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_20
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3410
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b7f921ec0e0425396189cdccc0b2d0
+      internalID: -1893291095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_21
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3410
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a1e3dd505924eaaade6f57ee04a3ac
+      internalID: -1973349296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_22
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3410
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65c5c51f83f3499483cd03f4a25d1a7
+      internalID: 1110185491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_23
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3410
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635674d09cee94851bbdc83827250ef2
+      internalID: -1383390080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3069
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64722b99baac64d6dacfafca21e8e278
+      internalID: 171551822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3069
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f5e3c72872e407e92e0fe2c5b58779
+      internalID: -633984756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3069
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab7ad91f67504ff59e97b92ffbd6b05
+      internalID: 2145175714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3069
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d413f58ae0c1f438d850bea82668a243
+      internalID: -1537586212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_28
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3069
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2619bef453f480fb20929db095f0e5
+      internalID: -685614566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3069
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898a79f63ee8a4a53937f774447b6940
+      internalID: 939416920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3069
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67eaddfdaf65547978a96c027142d22f
+      internalID: 1522633600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_31
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3069
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0e1b4042d6e494383059e5b7b61ad0
+      internalID: 1354436148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2728
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9859fde513b47f3b4bb2bcf18f3d7a
+      internalID: 1197163553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2728
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d511311c628474076bf557f58e4c54f6
+      internalID: 971845897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_34
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2728
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a696cd5ba7674b79b88343b0ebe6bb0
+      internalID: -465939362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_35
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2728
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fabfdd0d9b74e25977f5abfa5b3dc6
+      internalID: 580818182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_36
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2728
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84084f13b10674a11b6aa23267838f22
+      internalID: -1672177512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_37
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2728
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415133405edec4811aedf4b133a27c53
+      internalID: -1002377489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_38
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2728
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d93e97b671ac469294d43d50be343b6
+      internalID: -1708927260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_39
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2728
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1a2011b205b48b1b1bfec0500b9d35
+      internalID: -1921767089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2387
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ec9bad682504abaa9c29edf2347cab
+      internalID: -738640591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2387
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd8cd93415e44aa68bb58e896c633b5
+      internalID: -588210986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_42
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2387
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ba4075dba11477587cb3f1d7382771
+      internalID: 2103190965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_43
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2387
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a32270fae6a4d4585b75bcdb66ebd1
+      internalID: 764952760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_44
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2387
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40882843af2ef4d068376d42dab20d9f
+      internalID: -420358243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_45
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2387
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4324c9a64f2de4c90bde35af31d751db
+      internalID: 825810995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_46
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2387
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeae3f56c4c314e668b9549d1061a456
+      internalID: 1185840145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_47
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2387
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93fef379c6cf844e1bf55df9fb3ed056
+      internalID: -584591413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2046
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ab24e0a10b74e66adf67ffc9ab0e15
+      internalID: 1078527973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_49
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2046
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7cea8de50f94ddd854843c01734a76
+      internalID: 269818217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2046
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe4b6b5b27a74128b5c1b73507408ef
+      internalID: 1540619919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2046
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6ad13a8f58d466891c71fdfd21f30f
+      internalID: -314549840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2046
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75380e256f8b442c88718289fba2f7ad
+      internalID: 612924290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2046
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0094125a7fd74839a3cf8149c6e3833
+      internalID: -1918479308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_54
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2046
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccea90d513014a80b38ea20f7164565
+      internalID: -1763328599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_55
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2046
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b5f8beac590414ba92001ef788bc6d
+      internalID: 278929648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1705
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175d0a1b3bb4043d1ada4e75ca9052ef
+      internalID: 2142613895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_57
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1705
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5f5739794e77416ea8579002b7487aa
+      internalID: -851512389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_58
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1705
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e0fd93793814f55854a31bd1b53e27
+      internalID: 20899442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_59
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1705
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9405171df63e84fc68797fc39a7cd975
+      internalID: 2144063149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_60
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1705
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b37ff10dad44ded94f1bc3a17f4faf
+      internalID: -298088397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_61
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1705
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99867d12785ab4995af4baf6212b5ecf
+      internalID: -449484319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_62
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1705
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c127c4e1f738a4498ad1aafda6fb9647
+      internalID: 1950619833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_63
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1705
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a488f84734540c8bb5a2157ab66935
+      internalID: 1896376374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1364
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b74f59dbade4cdf968ffc456868a31
+      internalID: -403307805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_65
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1364
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc66c7cad24c4853a6c031bde68c9aa
+      internalID: -2006875168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_66
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1364
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3c3450358c243068334770440c7ada
+      internalID: -137005725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_67
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1364
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a72c0f14a59467f803bd85184842a8
+      internalID: 150712901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_68
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1364
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb623f309d3540249e174f7df3ab278
+      internalID: 457581386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_69
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1364
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb2dc83747794ab69a6562c0a6e15bc
+      internalID: -17710262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_70
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1364
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c610e1b18f749468e2ac2445af18a6
+      internalID: 1705213351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_71
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1364
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9be7375870145f1a001a7ec0d9ffda
+      internalID: -406253119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1023
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3359273f773cf447c9fd5e02a7fe2aaf
+      internalID: -222717130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_73
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1023
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fcdc16681bb4a5da5b697c52ef4168
+      internalID: 939547913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_74
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1023
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3b522d974d449118bf3136ec9a1d2c
+      internalID: 942611941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_75
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1023
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414b448a939624f568e601062ad872a5
+      internalID: -1673999439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_76
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1023
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e1b1a7522c14a8999a8c3720bc39e3
+      internalID: 63465033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_77
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1023
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6343962162a4444b97b6341650ea11c
+      internalID: -1813779450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_78
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1023
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd92e0ec46f8049dab011051e53cf8e7
+      internalID: -1740659613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_79
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1023
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccadc9fde472d462ca110c73dc1fb3d1
+      internalID: -417159101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 682
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e79cead3a6d374c59a0569d97925aaee
+      internalID: 311192486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_81
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 682
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f33fc93f0a7f49b99c0943f8b94d2af
+      internalID: -796468153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_82
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 682
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1375ff205e174d31a2bc89a48eec1fd
+      internalID: -632611830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_83
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 682
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e3e79a748204635af7b3ef98f4f14d
+      internalID: -1538334340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_84
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 682
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f1515a4102040f896d4e22efc10dce
+      internalID: 1301433983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_85
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 682
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2191b33e46596431db770dfd8f293771
+      internalID: 336616311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_86
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 682
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73e1047b442d4cac9a7015e413d088d
+      internalID: 1455449029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_87
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 682
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55a916b99266402fa295e114f8e8b4f
+      internalID: -435641614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 341
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86af18ed275c146f9bdedb3318aeb6ae
+      internalID: -1161679666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_89
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 341
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2775f7ca3adb84f1eb51aa1e80ec4b18
+      internalID: 927279335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_90
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 341
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8102c3611970f48bcb889c45a90e4502
+      internalID: 480030351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_91
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 341
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e373999c920da41848c46c2f21e1e788
+      internalID: 1671829641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_92
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 341
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b8edbe83f4646e483ffb0bb7ccd2eb
+      internalID: -785004606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_93
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 341
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846a2e9547fd645aea7e319bd5a48971
+      internalID: -795739193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_94
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 341
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a64fa409b9c0477a8fb8abedabaedce
+      internalID: 382381373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_95
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 341
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b287d2747ad084373a8380cfa2f3ab22
+      internalID: 885064421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607b6128c323f4db79059fbe7faadca7
+      internalID: -551162674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_97
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d623e04b68b341cd8e36d767674b7b4
+      internalID: -911489232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_98
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4150a288bbf4ff8a2f93944c7fc5a4
+      internalID: 290764674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_99
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2932b214184446e808d8116c27ab6e
+      internalID: -598383911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_100
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debf3c42aec934ef5b20fc71ce265791
+      internalID: 97982566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_101
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74698a4c3e06d44419fb28a359cad2c6
+      internalID: 1544050784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_102
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e76ae8c4a90f490180458cadb950597
+      internalID: 216111793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fragile_103
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 600
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712686595adc74ecc8b15042e5fc6da1
+      internalID: 556282028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Fragile_7: -789971189
+      Fragile_91: 1671829641
+      Fragile_96: -551162674
+      Fragile_26: 2145175714
+      Fragile_95: 885064421
+      Fragile_87: -435641614
+      Fragile_43: 764952760
+      Fragile_14: -1134518896
+      Fragile_46: 1185840145
+      Fragile_78: -1740659613
+      Fragile_5: 111851272
+      Fragile_11: 810732064
+      Fragile_72: -222717130
+      Fragile_13: -1039491420
+      Fragile_31: 1354436148
+      Fragile_85: 336616311
+      Fragile_25: -633984756
+      Fragile_2: 1864297890
+      Fragile_41: -588210986
+      Fragile_73: 939547913
+      Fragile_81: -796468153
+      Fragile_38: -1708927260
+      Fragile_89: 927279335
+      Fragile_39: -1921767089
+      Fragile_62: 1950619833
+      Fragile_64: -403307805
+      Fragile_67: 150712901
+      Fragile_60: -298088397
+      Fragile_16: 884928487
+      Fragile_37: -1002377489
+      Fragile_101: 1544050784
+      Fragile_77: -1813779450
+      Fragile_97: -911489232
+      Fragile_63: 1896376374
+      Fragile_12: 38352610
+      Fragile_21: -1973349296
+      Fragile_58: 20899442
+      Fragile_48: 1078527973
+      Fragile_28: -685614566
+      Fragile_56: 2142613895
+      Fragile_103: 556282028
+      Fragile_90: 480030351
+      Fragile_93: -795739193
+      Fragile_4: -2140611052
+      Fragile_99: -598383911
+      Fragile_75: -1673999439
+      Fragile_18: -895612842
+      Fragile_33: 971845897
+      Fragile_52: 612924290
+      Fragile_68: 457581386
+      Fragile_29: 939416920
+      Fragile_94: 382381373
+      Fragile_36: -1672177512
+      Fragile_6: -48980403
+      Fragile_44: -420358243
+      Fragile_100: 97982566
+      Fragile_30: 1522633600
+      Fragile_9: -1243459847
+      Fragile_66: -137005725
+      Fragile_69: -17710262
+      Fragile_86: 1455449029
+      Fragile_65: -2006875168
+      Fragile_17: -1262828665
+      Fragile_32: 1197163553
+      Fragile_8: -1998471947
+      Fragile_20: -1893291095
+      Fragile_55: 278929648
+      Fragile_0: -382287545
+      Fragile_42: 2103190965
+      Fragile_51: -314549840
+      Fragile_35: 580818182
+      Fragile_92: -785004606
+      Fragile_82: -632611830
+      Fragile_84: 1301433983
+      Fragile_19: 1692266189
+      Fragile_53: -1918479308
+      Fragile_45: 825810995
+      Fragile_83: -1538334340
+      Fragile_50: 1540619919
+      Fragile_49: 269818217
+      Fragile_76: 63465033
+      Fragile_80: 311192486
+      Fragile_23: -1383390080
+      Fragile_1: -1614674452
+      Fragile_88: -1161679666
+      Fragile_40: -738640591
+      Fragile_24: 171551822
+      Fragile_57: -851512389
+      Fragile_70: 1705213351
+      Fragile_27: -1537586212
+      Fragile_15: -1194832123
+      Fragile_102: 216111793
+      Fragile_22: 1110185491
+      Fragile_34: -465939362
+      Fragile_79: -417159101
+      Fragile_54: -1763328599
+      Fragile_71: -406253119
+      Fragile_74: 942611941
+      Fragile_47: -584591413
+      Fragile_10: -1114326313
+      Fragile_3: -1435449400
+      Fragile_98: 290764674
+      Fragile_61: -449484319
+      Fragile_59: 2144063149
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

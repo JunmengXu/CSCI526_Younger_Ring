@@ -10,8 +10,12 @@ namespace PauseScreenScripts
         public GameObject pauseMenu;
         
         public GameObject pauseOptions;
+
+        public GameObject handBookScreen;
+
+        public GameObject fakeStage;
         
-        public GameObject difficultySelectionButtons;
+        public GameObject speedSettingMenu;
 
         public SendToGoogle sendManger;
 
@@ -36,6 +40,9 @@ namespace PauseScreenScripts
             {
                 Time.timeScale = pauseController.cachedTimeScale;
             }
+            fakeStage.SetActive(false);
+            speedSettingMenu.SetActive(false);
+            pauseOptions.SetActive(true);
             pauseMenu.SetActive(false);
             pauseController.duringTimeFreeze = false;
         }
@@ -43,7 +50,8 @@ namespace PauseScreenScripts
         public void ToggleDifficultyButtons()
         {
             pauseOptions.SetActive(false);
-            difficultySelectionButtons.SetActive(true);
+            fakeStage.SetActive(true);
+            speedSettingMenu.SetActive(true);
         }
 
         public void RetryCurrentLevel()
@@ -66,8 +74,21 @@ namespace PauseScreenScripts
 
         public void GoBack()
         {
+            fakeStage.SetActive(false);
             pauseOptions.SetActive(true);
-            difficultySelectionButtons.SetActive(false);
+            speedSettingMenu.SetActive(false);
+        }
+
+        public void OpenHandBook()
+        {
+            pauseOptions.SetActive(false);
+            handBookScreen.SetActive(true);
+        }
+
+        public void QuitHandBook()
+        {
+            handBookScreen.SetActive(false);
+            pauseOptions.SetActive(true);
         }
     }
 }
