@@ -946,11 +946,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.27596
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.26052
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalScale.z
@@ -958,11 +958,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.25
+      value: -10.008
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 62.2585
+      value: 62.451
       objectReference: {fileID: 0}
     - target: {fileID: 7478471262834619836, guid: 8d0d0255c0fe84788ae8610b85eb5f8b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4641,6 +4641,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WhiteTile (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3854291720049845175, guid: 6166aa644fc4240a69e187355b23c8a6, type: 3}
+      propertyPath: m_Size.x
+      value: 0.5024419
+      objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: 6166aa644fc4240a69e187355b23c8a6, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -4655,7 +4659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: 6166aa644fc4240a69e187355b23c8a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.4361
+      value: -10.1624
       objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: 6166aa644fc4240a69e187355b23c8a6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6219,6 +6223,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackTile (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3854291720049845175, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
+      propertyPath: m_Size.x
+      value: 0.47129133
+      objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
       propertyPath: m_RootOrder
       value: 49
@@ -6233,7 +6241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.486
+      value: -10.2591
       objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6925,6 +6933,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackTile (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3854291720049845175, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
+      propertyPath: m_Size.x
+      value: 0.46334693
+      objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
       propertyPath: m_RootOrder
       value: 50
@@ -6939,7 +6951,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.572
+      value: -10.357
       objectReference: {fileID: 0}
     - target: {fileID: 6991466326917803963, guid: aa32fcf8aaba44db4af8d5cfc44acb95, type: 3}
       propertyPath: m_LocalPosition.y
@@ -8492,8 +8504,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1026, y: -110}
-  m_SizeDelta: {x: 857.451, y: 99}
+  m_AnchoredPosition: {x: 774.7016, y: -85}
+  m_SizeDelta: {x: 976.8542, y: 99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2141849663
 MonoBehaviour:
@@ -8515,7 +8527,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is demo level press "enter" to skip
+  m_text: This is automatic level press "enter" to skip
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
