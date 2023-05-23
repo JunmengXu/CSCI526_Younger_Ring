@@ -1,5 +1,5 @@
 # CSCI526_Younger_Ring
-WebGL Link: https://play.unity.com/mg/other/webgl-builds-244437
+WebGL Link: https://play.unity.com/mg/other/webgl-builds-250123
 
 ###### How to run this project?
 
